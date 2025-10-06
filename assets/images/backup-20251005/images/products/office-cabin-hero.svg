@@ -1,0 +1,43 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky background -->
+  <rect width="1200" height="600" fill="#87CEEB"/>
+
+  <!-- Grass -->
+  <rect x="0" y="400" width="1200" height="200" fill="#228B22"/>
+
+  <!-- Office Cabin -->
+  <rect x="400" y="250" width="400" height="200" fill="#8B4513" stroke="#654321" stroke-width="4"/>
+
+  <!-- Roof -->
+  <polygon points="350,250 600,150 850,250" fill="#A0522D" stroke="#654321" stroke-width="4"/>
+
+  <!-- Door -->
+  <rect x="550" y="350" width="100" height="100" fill="#654321"/>
+  <circle cx="630" cy="400" r="5" fill="#FFD700"/>
+
+  <!-- Large Office Window -->
+  <rect x="430" y="280" width="340" height="120" fill="#87CEEB" stroke="#654321" stroke-width="2"/>
+  <line x1="600" y1="280" x2="600" y2="400" stroke="#654321" stroke-width="2"/>
+  <line x1="430" y1="340" x2="770" y2="340" stroke="#654321" stroke-width="2"/>
+
+  <!-- Office desk inside (visible through window) -->
+  <rect x="480" y="360" width="240" height="30" fill="#654321" opacity="0.7"/>
+  <rect x="520" y="320" width="60" height="40" fill="#4682B4" opacity="0.7"/>
+  <rect x="620" y="320" width="60" height="40" fill="#4682B4" opacity="0.7"/>
+
+  <!-- Path -->
+  <rect x="580" y="450" width="40" height="150" fill="#D2691E"/>
+
+  <!-- Trees -->
+  <circle cx="200" cy="350" r="80" fill="#228B22"/>
+  <rect x="185" y="430" width="30" height="120" fill="#8B4513"/>
+
+  <circle cx="1000" cy="350" r="80" fill="#228B22"/>
+  <rect x="985" y="430" width="30" height="120" fill="#8B4513"/>
+
+  <!-- Sun -->
+  <circle cx="100" cy="100" r="50" fill="#FFD700"/>
+
+  <!-- Text -->
+  <text x="600" y="550" font-family="Arial, sans-serif" font-size="36" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Office Cabin Hero</text>
+</svg>

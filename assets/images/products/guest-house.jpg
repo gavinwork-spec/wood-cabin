@@ -1,0 +1,64 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky background -->
+  <rect width="600" height="400" fill="#87CEEB"/>
+
+  <!-- Grass -->
+  <rect x="0" y="280" width="600" height="120" fill="#228B22"/>
+
+  <!-- Guest House Cabin -->
+  <rect x="150" y="180" width="300" height="120" fill="#8B4513" stroke="#654321" stroke-width="3"/>
+
+  <!-- Roof -->
+  <polygon points="130,180 300,100 470,180" fill="#A0522D" stroke="#654321" stroke-width="3"/>
+
+  <!-- Door -->
+  <rect x="260" y="240" width="80" height="60" fill="#654321"/>
+  <circle cx="325" cy="270" r="3" fill="#FFD700"/>
+
+  <!-- Guest Room Windows -->
+  <rect x="170" y="210" width="60" height="70" fill="#87CEEB" stroke="#654321" stroke-width="2"/>
+  <line x1="200" y1="210" x2="200" y2="280" stroke="#654321" stroke-width="2"/>
+  <line x1="170" y1="245" x2="230" y2="245" stroke="#654321" stroke-width="2"/>
+
+  <rect x="330" y="210" width="60" height="70" fill="#87CEEB" stroke="#654321" stroke-width="2"/>
+  <line x1="360" y1="210" x2="360" y2="280" stroke="#654321" stroke-width="2"/>
+  <line x1="330" y1="245" x2="390" y2="245" stroke="#654321" stroke-width="2"/>
+
+  <!-- Bed visible through left window -->
+  <rect x="185" y="250" width="30" height="30" fill="#8B4513" opacity="0.7"/>
+  <rect x="185" y="235" width="30" height="15" fill="#FFFFFF" opacity="0.7"/>
+
+  <!-- Welcome mat -->
+  <rect x="270" y="300" width="60" height="10" fill="#8B4513"/>
+
+  <!-- Path -->
+  <rect x="290" y="310" width="20" height="70" fill="#D2691E"/>
+
+  <!-- Main house in background -->
+  <rect x="450" y="200" width="100" height="100" fill="#D2691E" opacity="0.6"/>
+  <polygon points="430,200 500,150 570,200" fill="#A0522D" opacity="0.6"/>
+
+  <!-- Guests with luggage -->
+  <circle cx="250" cy="330" r="8" fill="#FFB6C1"/>
+  <rect x="245" y="338" width="10" height="20" fill="#4169E1"/>
+  <rect x="235" y="358" width="4" height="15" fill="#000000"/>
+  <rect x="261" y="358" width="4" height="15" fill="#000000"/>
+  <!-- Luggage -->
+  <rect x="230" y="355" width="15" height="10" fill="#8B4513"/>
+  <rect x="260" y="355" width="15" height="10" fill="#A0522D"/>
+
+  <!-- Trees -->
+  <circle cx="80" cy="250" r="40" fill="#228B22"/>
+  <rect x="70" y="290" width="20" height="50" fill="#8B4513"/>
+
+  <!-- Flowers -->
+  <circle cx="120" cy="320" r="8" fill="#FFB6C1"/>
+  <circle cx="140" cy="330" r="8" fill="#FFD700"/>
+  <circle cx="160" cy="325" r="8" fill="#FF69B4"/>
+
+  <!-- Sun -->
+  <circle cx="80" cy="60" r="30" fill="#FFD700"/>
+
+  <!-- Text -->
+  <text x="300" y="370" font-family="Arial, sans-serif" font-size="24" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Guest House Use Case</text>
+</svg>

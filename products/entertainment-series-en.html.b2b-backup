@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>Entertainment Series | Wooden Cabin Homes - Recreation & Hobby Spaces</title>
+    <meta name="description" content="Wooden entertainment cabin series designed for recreation, hobbies, and leisure activities. Perfect for game rooms, home theaters, art studios, music rooms, and entertainment spaces with premium amenities.">
+    <meta name="keywords" content="entertainment cabin, game room cabin, home theater cabin, music studio cabin, art studio cabin, hobby room, recreation space, leisure cabin, entertainment room, wooden game room">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://woodencabin.com/products/entertainment-series-en.html">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Entertainment Series | Wooden Cabin Homes - Recreation & Hobby Spaces">
+    <meta property="og:description" content="Wooden entertainment cabin series designed for recreation, hobbies, and leisure activities. Perfect for game rooms, home theaters, and art studios.">
+    <meta property="og:url" content="https://woodencabin.com/products/entertainment-series-en.html">
+    <meta property="og:image" content="assets/images/entertainment-series-hero.jpg">
+    <meta property="og:site_name" content="Wooden Cabin Homes">
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Entertainment Series | Wooden Cabin Homes - Recreation & Hobby Spaces">
+    <meta name="twitter:description" content="Wooden entertainment cabin series designed for recreation, hobbies, and leisure activities.">
+    <meta name="twitter:image" content="assets/images/entertainment-series-hero.jpg">
+
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Icon Libraries -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Design Tokens & Components -->
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    
+    
+    
+    <!-- Visual Enhancement System -->
+    <link rel="stylesheet" href="../assets/css/products.css">
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://woodencabin.com/#website",
+          "name": "Wooden Cabin Export",
+          "url": "https://woodencabin.com",
+          "description": "Professional wooden cabin manufacturer in China specializing in B2B export of custom wooden cabins, garden houses, and prefabricated structures",
+          "inLanguage": "en-US",
+          "isAccessibleForFree": true
+        },
+        {
+          "@type": "CollectionPage",
+          "@id": "https://woodencabin.com/products/entertainment-series-en.html",
+          "name": "Wooden Entertainment Cabin Series",
+          "description": "Wooden entertainment cabin series designed for recreation, hobbies, and leisure activities including game rooms, home theaters, and art studios",
+          "url": "https://woodencabin.com/products/entertainment-series-en.html",
+          "mainEntity": {
+            "@type": "ItemList",
+            "numberOfItems": 2,
+            "itemListElement": [
+              {
+                "@type": "Product",
+                "name": "Backyard Studio Large",
+                "url": "https://woodencabin.com/products/backyard-studio-large-en.html"
+              },
+              {
+                "@type": "Product",
+                "name": "Rooftop Luxury Villa",
+                "url": "https://woodencabin.com/products/rooftop-luxury-en.html"
+              }
+            ]
+          }
+        }
+      ]
+    }
+    </script>
+</head>
+<body class="wood-texture">
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header Navigation -->
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="../index.html" class="logo">
+                    <i class="fas fa-home"></i>
+                    Premium Wooden Cabins
+                </a>
+                <ul class="nav-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../products.html">Products</a></li>
+                    <li><a href="../projects.html">Projects</a></li>
+                    <li><a href="../ai-3d-design.html">AI 3D Design</a></li>
+                    <li><a href="../blog.html">Blog</a></li>
+                    <li><a href="../about.html">About Us</a></li>
+                    <li><a href="../contact.html">Contact Us</a></li>
+                </ul>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Breadcrumb Navigation -->
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+        <div class="container">
+            <ol class="breadcrumb__list">
+                <li class="breadcrumb__item">
+                    <a href="../index.html" class="breadcrumb__link">
+                        <i class="fas fa-home"></i>
+                        Home
+                    </a>
+                </li>
+                <li class="breadcrumb__separator" aria-hidden="true">›</li>
+                <li class="breadcrumb__item">
+                    <a href="../products.html" class="breadcrumb__link">Products</a>
+                </li>
+                <li class="breadcrumb__separator" aria-hidden="true">›</li>
+                <li class="breadcrumb__item">
+                    <span class="breadcrumb__current">Entertainment Series</span>
+                </li>
+            </ol>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero hero--small">
+            <div class="hero__background">
+                <div class="hero__overlay"></div>
+                <img src="../assets/images/entertainment-series-hero.jpg" alt="Wooden entertainment cabin with game room and leisure activities" class="hero__image" loading="eager">
+            </div>
+            <div class="container">
+                <div class="hero__content">
+                    <h1 class="hero__title">Entertainment Series</h1>
+                    <p class="hero__subtitle">Recreational wooden spaces designed for hobbies, entertainment, and leisure activities - from game rooms to art studios</p>
+                    <div class="hero__actions">
+                        <a href="#product-showcase" class="btn btn-primary btn-large">View Entertainment Solutions</a>
+                        <a href="contact.html" class="btn btn-outline btn-large">Get Recreation Consultation</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Series Overview -->
+        <section class="section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Leisure Elevated in Wood</h2>
+                    <p class="section-subtitle">Our Entertainment Series creates dedicated spaces for fun, creativity, and relaxation</p>
+                </div>
+
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-volume-up"></i>
+                        </div>
+                        <h3 class="feature-title">Sound Insulation</h3>
+                        <p class="feature-description">Enhanced acoustic treatment for music rooms, theaters, and gaming without disturbing others.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h3 class="feature-title">Creative Environments</h3>
+                        <p class="feature-description">Natural lighting and inspiring spaces perfect for artistic pursuits and creative hobbies.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3 class="feature-title">Social Spaces</h3>
+                        <p class="feature-description">Designed for entertaining friends, family gatherings, and social activities.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <h3 class="feature-title">Versatile Layouts</h3>
+                        <p class="feature-description">Flexible designs that can accommodate various entertainment and hobby activities.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Showcase -->
+        <section class="section section--bg-secondary" id="product-showcase">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Entertainment Series Solutions</h2>
+                    <p class="section-subtitle">Specialized recreational models for different leisure activities</p>
+                </div>
+
+                <div class="products-showcase">
+                    <!-- Backyard Studio Large -->
+                    <article class="product-showcase-item">
+                        <div class="product-showcase-image">
+                            <img src="../assets/images/backyard-studio-large-hero.jpg" alt="Spacious backyard studio for creative activities" loading="lazy">
+                            <div class="product-overlay">
+                                <span class="product-badge">Creative Space</span>
+                            </div>
+                        </div>
+                        <div class="product-showcase-content">
+                            <h3 class="product-title">Backyard Studio Large</h3>
+                            <p class="product-description">
+                                Versatile large studio space perfect for art, music, yoga, or creative pursuits. Features abundant natural light, sound insulation, and flexible layouts for various activities.
+                            </p>
+                            <div class="product-highlights">
+                                <div class="highlight-item">
+                                    <i class="fas fa-expand"></i>
+                                    <span>50-80m²</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <i class="fas fa-users"></i>
+                                    <span>5-10 People</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <i class="fas fa-sun"></i>
+                                    <span>Natural Light</span>
+                                </div>
+                            </div>
+                            <ul class="product-features">
+                                <li>Abundant natural lighting with large windows</li>
+                                <li>Sound-insulated walls and ceiling</li>
+                                <li>Flexible open floor plan</li>
+                                <li>Climate control for year-round comfort</li>
+                            </ul>
+                            <div class="product-actions">
+                                <a href="backyard-studio-large-en.html" class="btn btn-primary">View Details</a>
+                                <a href="contact.html" class="btn btn-outline">Get Quote</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Rooftop Luxury -->
+                    <article class="product-showcase-item">
+                        <div class="product-showcase-image">
+                            <img src="../assets/images/rooftop-luxury-hero.jpg" alt="Luxury rooftop entertainment space" loading="lazy">
+                            <div class="product-overlay">
+                                <span class="product-badge">Premium</span>
+                            </div>
+                        </div>
+                        <div class="product-showcase-content">
+                            <h3 class="product-title">Rooftop Luxury Villa</h3>
+                            <p class="product-description">
+                                Premium entertainment space designed for rooftop installations, featuring panoramic views, luxury finishes, and sophisticated amenities for high-end entertaining.
+                            </p>
+                            <div class="product-highlights">
+                                <div class="highlight-item">
+                                    <i class="fas fa-expand"></i>
+                                    <span>80-150m²</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <i class="fas fa-users"></i>
+                                    <span>10-20 People</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <i class="fas fa-star"></i>
+                                    <span>Luxury Grade</span>
+                                </div>
+                            </div>
+                            <ul class="product-features">
+                                <li>Panoramic windows and rooftop terrace</li>
+                                <li>High-end entertainment systems</li>
+                                <li>Wet bar and refreshment area</li>
+                                <li>Luxury finishes and furnishings</li>
+                            </ul>
+                            <div class="product-actions">
+                                <a href="rooftop-luxury-en.html" class="btn btn-primary">View Details</a>
+                                <a href="contact.html" class="btn btn-outline">Get Quote</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Entertainment Series Features -->
+                    <div class="series-features-showcase">
+                        <h3 class="series-features-title">Entertainment Series Specializations</h3>
+                        <div class="series-features-grid">
+                            <div class="series-feature-item">
+                                <div class="feature-icon-large">
+                                    <i class="fas fa-film"></i>
+                                </div>
+                                <h4 class="feature-item-title">Home Theater</h4>
+                                <p class="feature-item-description">Sound-proofed spaces with optimized lighting and acoustics for movie nights</p>
+                            </div>
+                            <div class="series-feature-item">
+                                <div class="feature-icon-large">
+                                    <i class="fas fa-music"></i>
+                                </div>
+                                <h4 class="feature-item-title">Music Studio</h4>
+                                <p class="feature-item-description">Acoustic treatment and sound isolation for recording and practice spaces</p>
+                            </div>
+                            <div class="series-feature-item">
+                                <div class="feature-icon-large">
+                                    <i class="fas fa-gamepad"></i>
+                                </div>
+                                <h4 class="feature-item-title">Game Room</h4>
+                                <p class="feature-item-description">Spacious layouts with electrical capacity for gaming systems and equipment</p>
+                            </div>
+                            <div class="series-feature-item">
+                                <div class="feature-icon-large">
+                                    <i class="fas fa-paint-brush"></i>
+                                </div>
+                                <h4 class="feature-item-title">Art Studio</h4>
+                                <p class="feature-item-description">Bright, well-ventilated spaces with storage for art supplies and works</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Entertainment Applications -->
+        <section class="section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Endless Entertainment Possibilities</h2>
+                    <p class="section-subtitle">Discover how our entertainment spaces serve different leisure activities</p>
+                </div>
+
+                <div class="applications-grid">
+                    <div class="application-card">
+                        <div class="application-icon">
+                            <i class="fas fa-film"></i>
+                        </div>
+                        <h3 class="application-title">Home Cinema</h3>
+                        <p class="application-description">Dedicated movie theater space with perfect acoustics and lighting for film enthusiasts.</p>
+                    </div>
+
+                    <div class="application-card">
+                        <div class="application-icon">
+                            <i class="fas fa-dice"></i>
+                        </div>
+                        <h3 class="application-title">Game Room</h3>
+                        <p class="application-description">Ultimate gaming space for board games, video games, and social gaming activities.</p>
+                    </div>
+
+                    <div class="application-card">
+                        <div class="application-icon">
+                            <i class="fas fa-music"></i>
+                        </div>
+                        <h3 class="application-title">Music & Recording</h3>
+                        <p class="application-description">Sound-treated spaces for practicing instruments, recording, or band practice.</p>
+                    </div>
+
+                    <div class="application-card">
+                        <div class="application-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h3 class="application-title">Art & Creative Studio</h3>
+                        <p class="application-description">Inspiring spaces for painting, sculpting, photography, and other creative pursuits.</p>
+                    </div>
+
+                    <div class="application-card">
+                        <div class="application-icon">
+                            <i class="fas fa-spa"></i>
+                        </div>
+                        <h3 class="application-title">Yoga & Meditation</h3>
+                        <p class="application-description">Peaceful retreat spaces for yoga, meditation, and wellness activities.</p>
+                    </div>
+
+                    <div class="application-card">
+                        <div class="application-icon">
+                            <i class="fas fa-glass-cheers"></i>
+                        </div>
+                        <h3 class="application-title">Social Entertainment</h3>
+                        <p class="application-description">Perfect for parties, gatherings, and entertaining friends and family.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Features -->
+        <section class="section section--bg-accent">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Entertainment-Grade Features</h2>
+                    <p class="section-subtitle">Professional specifications for superior entertainment experiences</p>
+                </div>
+
+                <div class="specifications-grid">
+                    <div class="spec-category">
+                        <h3 class="spec-category-title">Acoustic Excellence</h3>
+                        <div class="spec-items">
+                            <div class="spec-item">
+                                <h4>Sound Insulation</h4>
+                                <p>R-30 acoustic insulation with sound-deadening materials</p>
+                            </div>
+                            <div class="spec-item">
+                                <h4>Acoustic Treatment</h4>
+                                <p>Wall panels and ceiling treatment for optimal sound quality</p>
+                            </div>
+                            <div class="spec-item">
+                                <h4>Isolation Construction</h4>
+                                <p>Decoupled wall construction to prevent sound transfer</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="spec-category">
+                        <h3 class="spec-category-title">Entertainment Systems</h3>
+                        <div class="spec-items">
+                            <div class="spec-item">
+                                <h4>Electrical Capacity</h4>
+                                <p>Heavy-duty electrical systems for entertainment equipment</p>
+                            </div>
+                            <div class="spec-item">
+                                <h4>Lighting Control</h4>
+                                <p>Dimmable LED systems with scene control options</p>
+                            </div>
+                            <div class="spec-item">
+                                <h4>Cooling Systems</h4>
+                                <p>Enhanced HVAC for heat-generating entertainment equipment</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="spec-category">
+                        <h3 class="spec-category-title">Flexible Design</h3>
+                        <div class="spec-items">
+                            <div class="spec-item">
+                                <h4>Open Layouts</h4>
+                                <p>Clear span construction for maximum interior flexibility</p>
+                            </div>
+                            <div class="spec-item">
+                                <h4>Natural Lighting</h4>
+                                <p>Large windows and skylights for bright, inviting spaces</p>
+                            </div>
+                            <div class="spec-item">
+                                <h4>Storage Solutions</h4>
+                                <p>Integrated storage for equipment, supplies, and accessories</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Size Configurations -->
+        <section class="section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Entertainment Size Options</h2>
+                    <p class="section-subtitle">Choose the perfect space for your entertainment needs</p>
+                </div>
+
+                <div class="size-configurations">
+                    <div class="size-config">
+                        <div class="config-header">
+                            <h3 class="config-title">Compact Entertainment</h3>
+                            <span class="config-range">30-40m²</span>
+                        </div>
+                        <p class="config-description">Perfect for intimate home theaters, music practice rooms, or small creative studios.</p>
+                        <div class="config-ideal">
+                            <strong>Ideal for:</strong> Home theaters, music rooms, small art studios
+                        </div>
+                    </div>
+
+                    <div class="size-config">
+                        <div class="config-header">
+                            <h3 class="config-title">Medium Entertainment</h3>
+                            <span class="config-range">50-80m²</span>
+                        </div>
+                        <p class="config-description">Versatile spaces for game rooms, larger art studios, or combination entertainment areas.</p>
+                        <div class="config-ideal">
+                            <strong>Ideal for:</strong> Game rooms, art studios, yoga studios, small social spaces
+                        </div>
+                    </div>
+
+                    <div class="size-config">
+                        <div class="config-header">
+                            <h3 class="config-title">Large Entertainment</h3>
+                            <span class="config-range">100-150m²</span>
+                        </div>
+                        <p class="config-description">Premium spaces for large social gatherings, multiple activity zones, or luxury entertainment suites.</p>
+                        <div class="config-ideal">
+                            <strong>Ideal for:</strong> Party venues, entertainment complexes, social clubs, luxury entertainment
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Related Series -->
+        <section class="section section--bg-secondary">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Explore Other Series</h2>
+                    <p class="section-subtitle">Discover specialized solutions for different needs</p>
+                </div>
+
+                <div class="related-series">
+                    <a href="middle-east-series-en.html" class="related-series-card">
+                        <div class="series-icon">
+                            <i class="fas fa-mosque"></i>
+                        </div>
+                        <h3 class="series-title">Middle East Series</h3>
+                        <p class="series-description">Climate-adapted desert solutions</p>
+                        <span class="series-link">Explore Series →</span>
+                    </a>
+
+                    <a href="office-series-en.html" class="related-series-card">
+                        <div class="series-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <h3 class="series-title">Office Series</h3>
+                        <p class="series-description">Professional workspace solutions</p>
+                        <span class="series-link">Explore Series →</span>
+                    </a>
+
+                    <a href="guest-series-en.html" class="related-series-card">
+                        <div class="series-icon">
+                            <i class="fas fa-bed"></i>
+                        </div>
+                        <h3 class="series-title">Guest Series</h3>
+                        <p class="series-description">Comfortable accommodation solutions</p>
+                        <span class="series-link">Explore Series →</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-section__content">
+                    <h2 class="cta-section__title">Design Your Entertainment Space</h2>
+                    <p class="cta-section__description">Transform your property with a custom wooden entertainment space that brings your favorite activities to life in style.</p>
+                    <div class="cta-section__actions">
+                        <a href="contact.html" class="btn btn-primary btn-large">
+                            <i class="fab fa-whatsapp"></i>
+                            Schedule Entertainment Consultation
+                        </a>
+                        <a href="tel:+86-199-3241-1993" class="btn btn-outline btn-large">
+                            <i class="fas fa-mobile-alt"></i>
+                            Speak with Entertainment Specialist
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3 class="footer__heading">Product Series</h3>
+                    <nav class="footer__nav">
+                        <a href="middle-east-series-en.html" class="footer__link">Middle East Series</a>
+                        <a href="office-series-en.html" class="footer__link">Office Series</a>
+                        <a href="guest-series-en.html" class="footer__link">Guest Series</a>
+                        <a href="entertainment-series-en.html" class="footer__link">Entertainment Series</a>
+                    </nav>
+                </div>
+                <div class="footer__section">
+                    <h3 class="footer__heading">Products</h3>
+                    <nav class="footer__nav">
+                        <a href="backyard-cabins-en.html" class="footer__link">Backyard Cabins</a>
+                        <a href="resort-cabins-en.html" class="footer__link">Resort Projects</a>
+                        <a href="residential-cabins-en.html" class="footer__link">Residential Projects</a>
+                    </nav>
+                </div>
+                <div class="footer__section">
+                    <h3 class="footer__heading">Resources</h3>
+                    <nav class="footer__nav">
+                        <a href="cases-en.html" class="footer__link">Success Stories</a>
+                        <a href="process.html" class="footer__link">Our Process</a>
+                        <a href="blog.html" class="footer__link">Blog</a>
+                    </nav>
+                </div>
+                <div class="footer__section">
+                    <h3 class="footer__heading">Contact Info</h3>
+                    <div class="footer__contact">
+                        <div class="footer__contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Linhai, Zhejiang, China</span>
+                        </div>
+                        <div class="footer__contact-item">
+                            <i class="fab fa-whatsapp"></i>
+                            +86-199-3241-1993+86-199-3241-1993</a>
+                        </div>
+                        <div class="footer__contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:info@woodencabin.com">info@woodencabin.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__copyright">
+                    <p>&copy; 2024 Wooden Cabin Export. All rights reserved.</p>
+                </div>
+                <div class="footer__links">
+                    <a href="privacy.html" class="footer__link">Privacy Policy</a>
+                    <a href="terms.html" class="footer__link">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating CTA Button -->
+    <button class="floating-cta" onclick="window.location.href='/contact.html'" aria-label="Contact for quote">
+        <i class="fas fa-comment-dots"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="../assets/js/visual-enhancement-controller.js"></script>    <script src="../assets/js/navigation.js"></script>
+    <script src="../assets/js/cta-tracking.js"></script>
+    <script src="../assets/js/accessibility.js"></script>
+
+    <!-- Analytics (if needed) -->
+    <script>
+        // V8 Website - Version Tracking
+        console.log('Wooden Cabin Homes Website - V8 Architecture');
+        document.documentElement.setAttribute('data-version', 'v8-unified');
+    </script>
+    <!-- V9 Wooden Cabin Website JavaScript Modules -->
+    <script src="../assets/js/core/navigation.js"></script>
+    <script src="../assets/js/core/accessibility.js"></script>
+    <script src="../assets/js/core/form-handler.js"></script>
+    <script src="../assets/js/core/seo-manager.js"></script>
+    <script src="../assets/js/components/gallery.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>

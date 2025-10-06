@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#98D8E8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B0E0E6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="mountainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A7C59;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#2E5A3E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1A3A24;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="woodGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#B8956A;stop-opacity:1" />
+      <stop offset="25%" style="stop-color:#C19A6B;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#D4A574;stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#C19A6B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B8956A;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="roofGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A7C59;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E5A3E;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sky Background -->
+  <rect width="1200" height="600" fill="url(#skyGradient)"/>
+
+  <!-- Sun -->
+  <circle cx="1000" cy="120" r="60" fill="#FFD700" opacity="0.8"/>
+  <circle cx="1000" cy="120" r="70" fill="#FFD700" opacity="0.3"/>
+
+  <!-- Mountains -->
+  <polygon points="0,600 0,300 300,150 600,300 900,200 1200,350 1200,600" fill="url(#mountainGradient)" opacity="0.8"/>
+  <polygon points="200,600 200,400 500,250 800,350 1200,300 1200,600" fill="url(#mountainGradient)" opacity="0.6"/>
+
+  <!-- Trees -->
+  <g id="tree">
+    <rect x="48" y="320" width="4" height="80" fill="#8B4513"/>
+    <polygon points="30,320 50,280 70,320" fill="#228B22"/>
+    <polygon points="35,300 50,270 65,300" fill="#32CD32"/>
+  </g>
+
+  <use href="#tree" transform="translate(100, 50)"/>
+  <use href="#tree" transform="translate(200, 30)"/>
+  <use href="#tree" transform="translate(950, 80)"/>
+  <use href="#tree" transform="translate(1050, 60)"/>
+
+  <!-- Main Cabin -->
+  <g id="cabin" transform="translate(450, 250)">
+    <!-- Foundation -->
+    <rect x="0" y="200" width="300" height="150" fill="#8B6F47"/>
+
+    <!-- Main Walls -->
+    <rect x="0" y="100" width="300" height="100" fill="url(#woodGradient)"/>
+
+    <!-- Roof -->
+    <polygon points="-20,100 150,20 320,100" fill="url(#roofGradient)"/>
+
+    <!-- Door -->
+    <rect x="130" y="150" width="40" height="150" fill="#654321" rx="2"/>
+    <circle cx="165" cy="225" r="2" fill="#D4A574"/>
+
+    <!-- Windows -->
+    <rect x="30" y="130" width="60" height="50" fill="#87CEEB" rx="2"/>
+    <rect x="210" y="130" width="60" height="50" fill="#87CEEB" rx="2"/>
+
+    <!-- Window Crosses -->
+    <line x1="60" y1="130" x2="60" y2="180" stroke="#654321" stroke-width="2"/>
+    <line x1="30" y1="155" x2="90" y2="155" stroke="#654321" stroke-width="2"/>
+    <line x1="240" y1="130" x2="240" y2="180" stroke="#654321" stroke-width="2"/>
+    <line x1="210" y1="155" x2="270" y2="155" stroke="#654321" stroke-width="2"/>
+
+    <!-- Porch -->
+    <rect x="-20" y="200" width="340" height="20" fill="#654321"/>
+
+    <!-- Porch Posts -->
+    <rect x="-10" y="180" width="8" height="40" fill="#654321"/>
+    <rect x="302" y="180" width="8" height="40" fill="#654321"/>
+    <rect x="120" y="180" width="8" height="40" fill="#654321"/>
+    <rect x="172" y="180" width="8" height="40" fill="#654321"/>
+
+    <!-- Chimney -->
+    <rect x="220" y="40" width="30" height="80" fill="#8B6F47"/>
+
+    <!-- Window Lights -->
+    <rect x="35" y="135" width="50" height="40" fill="#FFFF99" opacity="0.8" rx="1"/>
+    <rect x="215" y="135" width="50" height="40" fill="#FFFF99" opacity="0.8" rx="1"/>
+  </g>
+
+  <!-- Deck -->
+  <rect x="400" y="450" width="400" height="150" fill="#D2B48C" opacity="0.9"/>
+
+  <!-- Deck Railing -->
+  <rect x="400" y="440" width="400" height="10" fill="#8B6F47"/>
+
+  <!-- Deck Posts -->
+  <rect x="410" y="400" width="8" height="50" fill="#654321"/>
+  <rect x="480" y="400" width="8" height="50" fill="#654321"/>
+  <rect x="550" y="400" width="8" height="50" fill="#654321"/>
+  <rect x="620" y="400" width="8" height="50" fill="#654321"/>
+  <rect x="690" y="400" width="8" height="50" fill="#654321"/>
+  <rect x="760" y="400" width="8" height="50" fill="#654321"/>
+
+  <!-- Path to Cabin -->
+  <path d="M600 600 Q650 550 600 450" fill="none" stroke="#D2B48C" stroke-width="20"/>
+
+  <!-- Smoke from Chimney -->
+  <g opacity="0.6">
+    <circle cx="700" cy="340" r="8" fill="#E0E0E0"/>
+    <circle cx="705" cy="330" r="10" fill="#E0E0E0"/>
+    <circle cx="710" cy="315" r="12" fill="#E0E0E0"/>
+    <circle cx="715" cy="295" r="15" fill="#E0E0E0"/>
+  </g>
+
+  <!-- Foreground Trees -->
+  <g id="foreTree">
+    <rect x="46" y="320" width="6" height="100" fill="#8B4513"/>
+    <polygon points="20,320 50,260 80,320" fill="#228B22"/>
+    <polygon points="25,300 50,250 75,300" fill="#32CD32"/>
+  </g>
+
+  <use href="#foreTree" transform="translate(50, 200)"/>
+  <use href="#foreTree" transform="translate(900, 180)"/>
+
+  <!-- Ground -->
+  <rect x="0" y="580" width="1200" height="20" fill="#4A7C59"/>
+</svg>
