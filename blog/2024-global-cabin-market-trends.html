@@ -28,7 +28,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/css/aos.css">
     <link rel="stylesheet" href="../assets/css/main.css">
     <link rel="stylesheet" href="../assets/css/responsive.css">
@@ -162,28 +161,26 @@
     </style>
 </head>
 <body>
-    <header class="header">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container">
-                <a class="navbar-brand" href="../index.html">
+    <header>
+        <div class="container">
+            <nav aria-label="Main navigation">
+                <a href="../index.html" class="logo" aria-label="Wooden Cabin Architecture home">
                     <i class="fas fa-tree"></i>
                     Wooden Cabin Architecture
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                    <span class="navbar-toggler-icon"></span>
+                <button class="mobile-menu-btn" aria-label="Toggle mobile menu" aria-expanded="false">
+                    <i class="fas fa-bars" aria-hidden="true"></i>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="../about.html">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="../products.html">Products</a></li>
-                        <li class="nav-item"><a class="nav-link" href="../projects.html">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link" href="../blog.html">Blog</a></li>
-                        <li class="nav-item"><a class="nav-link" href="../contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+                <ul class="nav-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../about.html">About</a></li>
+                    <li><a href="../products.html">Products</a></li>
+                    <li><a href="../projects.html">Projects</a></li>
+                    <li><a href="../blog.html" class="active">Blog</a></li>
+                    <li><a href="../contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
@@ -415,11 +412,11 @@
                                 <div class="card-body">
                                     <h5 class="card-title"><i class="fas fa-share-alt"></i> Share Article</h5>
                                     <div class="d-flex gap-2">
-                                        <a href="#" class="btn btn-outline-primary btn-sm"><i class="fab fa-facebook"></i></a>
-                                        <a href="#" class="btn btn-outline-info btn-sm"><i class="fab fa-twitter"></i></a>
-                                        <a href="#" class="btn btn-outline-success btn-sm"><i class="fab fa-whatsapp"></i></a>
-                                        <a href="#" class="btn btn-outline-danger btn-sm"><i class="fab fa-pinterest"></i></a>
-                                        <a href="#" class="btn btn-outline-secondary btn-sm"><i class="fas fa-link"></i></a>
+                                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://premiumwoodencabins.com/blog/2024-global-cabin-market-trends.html" class="btn btn-outline-primary btn-sm" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a>
+                                        <a href="https://twitter.com/intent/tweet?url=https://premiumwoodencabins.com/blog/2024-global-cabin-market-trends.html&text=Global%20Cabin%20Market%20Trends" class="btn btn-outline-info btn-sm" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+                                        <a href="https://wa.me/?text=https://premiumwoodencabins.com/blog/2024-global-cabin-market-trends.html" class="btn btn-outline-success btn-sm" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i></a>
+                                        <a href="https://pinterest.com/pin/create/button/?url=https://premiumwoodencabins.com/blog/2024-global-cabin-market-trends.html&description=Global%20Cabin%20Market%20Trends" class="btn btn-outline-danger btn-sm" target="_blank" rel="noopener"><i class="fab fa-pinterest"></i></a>
+                                        <a href="https://premiumwoodencabins.com/blog/2024-global-cabin-market-trends.html" class="btn btn-outline-secondary btn-sm" onclick="navigator.clipboard.writeText(window.location.href); return false;"><i class="fas fa-link"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -525,10 +522,10 @@
                 <div class="col-lg-2">
                     <h4>Services</h4>
                     <ul>
-                        <li><a href="#">Design</a></li>
-                        <li><a href="#">Construction</a></li>
-                        <li><a href="#">Consulting</a></li>
-                        <li><a href="#">Export</a></li>
+                        <li><a href="../products.html">Design</a></li>
+                        <li><a href="../projects.html">Construction</a></li>
+                        <li><a href="../about.html">Consulting</a></li>
+                        <li><a href="../contact.html">Export</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-4">
@@ -536,10 +533,9 @@
                     <p><i class="fas fa-envelope"></i> info@woodencabin.com</p>
                     <p><i class="fas fa-phone"></i> +86 123 4567 8900</p>
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://wa.me/8619932411993" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://linkedin.com/company/premium-wooden-cabins" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://instagram.com/premiumwoodencabins" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
@@ -549,7 +545,6 @@
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init({

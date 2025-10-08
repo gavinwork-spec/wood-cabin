@@ -800,7 +800,7 @@
                     </div>
 
                     <div class="joinery-visual">
-                        <div class="joinery-image-placeholder">
+                        <div class="joinery-image">
                             <img src="assets/images/process/traditional_joinery.jpg" alt="Precision wood joinery detail showing mortise and tenon connection - traditional wood craftsmanship with modern CNC precision" loading="lazy" width="800" height="600"
                                      srcset="assets/images/process/traditional-joinery-medium.png 800w,
                                              assets/images/process/traditional-joinery-large.png 1600w"
@@ -907,13 +907,13 @@
                     <p><i class="fas fa-envelope" aria-hidden="true"></i> info@woodencabin.com</p>
                     <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Linhai Economic Development Zone, Taizhou, Zhejiang, China</p>
                     <div class="flex gap-sm" style="margin-top: 1rem;">
-                        <a href="#" class="social-link" aria-label="WhatsApp">
+                        <a href="https://wa.me/8619932411993" class="social-link" aria-label="WhatsApp" target="_blank" rel="noopener">
                             <i class="fab fa-whatsapp" aria-hidden="true"></i>
                         </a>
-                        <a href="#" class="social-link" aria-label="LinkedIn">
+                        <a href="https://linkedin.com/company/premium-wooden-cabins" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener">
                             <i class="fab fa-linkedin-in" aria-hidden="true"></i>
                         </a>
-                        <a href="#" class="social-link" aria-label="Instagram">
+                        <a href="https://instagram.com/premiumwoodencabins" class="social-link" aria-label="Instagram" target="_blank" rel="noopener">
                             <i class="fab fa-instagram" aria-hidden="true"></i>
                         </a>
                     </div>
@@ -1427,12 +1427,7 @@
 
         // Error handling for missing images
         document.addEventListener('DOMContentLoaded', () => {
-            document.querySelectorAll('img').forEach(img => {
-                img.addEventListener('error', function() {
-                    this.src = 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300"><rect fill="%23F5F5F0" width="400" height="300"/><text fill="%232E5A3E" font-size="18" text-anchor="middle" x="200" y="150">Image Not Available</text></svg>';
-                    this.alt = 'Image placeholder';
-                });
-            });
+            // Images are loaded normally - no placeholder fallbacks needed
         });
     </script>
 
