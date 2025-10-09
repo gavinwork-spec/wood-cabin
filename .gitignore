@@ -50,3 +50,6 @@ build/
 admin/backup/
 admin/logs/
 admin/reports/
+
+# GitHub cleanup backups
+V9.5-GitHub-Cleanup-*/
