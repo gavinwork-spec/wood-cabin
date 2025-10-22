@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Performance Test - Wooden Cabin Website</title>
+
+    <!-- Critical CSS for testing -->
+    <style>
+        :root {
+            --primary-green: #2c5e2e;
+            --accent-green: #4CAF50;
+            --light-gray: #f8f9fa;
+        }
+
+        body {
+            font-family: 'Quicksand', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: var(--light-gray);
+        }
+
+        .test-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .test-section {
+            margin: 30px 0;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+
+        .status {
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+            display: inline-block;
+        }
+
+        .status.pass {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .status.fail {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        .status.warning {
+            background: #fff3cd;
+            color: #856404;
+            border: 1px solid #ffeaa7;
+        }
+
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .metric-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .metric-value {
+            font-size: 2em;
+            font-weight: bold;
+            color: var(--primary-green);
+        }
+
+        .metric-label {
+            color: #666;
+            margin-top: 5px;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 50px;
+            color: #666;
+        }
+
+        .test-button {
+            background: var(--primary-green);
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 10px;
+            transition: background 0.3s;
+        }
+
+        .test-button:hover {
+            background: var(--accent-green);
+        }
+
+        #testResults {
+            margin-top: 30px;
+        }
+
+        .recommendations {
+            background: #e3f2fd;
+            border-left: 4px solid #2196F3;
+            padding: 15px;
+            margin: 20px 0;
+        }
+
+        .recommendation-item {
+            margin: 10px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .recommendation-item:before {
+            content: "💡";
+            position: absolute;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <div class="header">
+            <h1>🚀 Wooden Cabin Website Performance Test</h1>
+            <p>测试网站性能优化效果和Core Web Vitals指标</p>
+        </div>
+
+        <div class="test-section">
+            <h2>📊 性能测试控制面板</h2>
+            <button class="test-button" onclick="runPerformanceTest()">运行性能测试</button>
+            <button class="test-button" onclick="testPageSpeed()">测试PageSpeed</button>
+            <button class="test-button" onclick="testSEO()">检查SEO优化</button>
+            <button class="test-button" onclick="clearResults()">清除结果</button>
+        </div>
+
+        <div id="loadingIndicator" class="loading" style="display: none;">
+            <div>⏳ 正在运行性能测试...</div>
+            <div>请稍候，这可能需要几秒钟...</div>
+        </div>
+
+        <div id="testResults"></div>
+    </div>
+
+    <!-- Performance Test Script -->
+    <script src="performance_test.js"></script>
+    <script>
+        // 页面测试功能
+        function showLoading(show) {
+            document.getElementById('loadingIndicator').style.display = show ? 'block' : 'none';
+        }
+
+        function runPerformanceTest() {
+            showLoading(true);
+            document.getElementById('testResults').innerHTML = '';
+
+            setTimeout(() => {
+                // 手动触发性能测试
+                const test = new PerformanceTest();
+
+                // 等待测试完成
+                setTimeout(() => {
+                    displayTestResults();
+                    showLoading(false);
+                }, 3000);
+            }, 1000);
+        }
+
+        function testPageSpeed() {
+            showLoading(true);
+
+            // 模拟PageSpeed测试
+            setTimeout(() => {
+                const mockResults = {
+                    performance: 92,
+                    accessibility: 95,
+                    bestPractices: 88,
+                    seo: 100,
+                    metrics: {
+                        firstContentfulPaint: 1.2,
+                        largestContentfulPaint: 2.1,
+                        cumulativeLayoutShift: 0.05,
+                        totalBlockingTime: 50
+                    }
+                };
+
+                displayPageSpeedResults(mockResults);
+                showLoading(false);
+            }, 2000);
+        }
+
+        function testSEO() {
+            showLoading(true);
+
+            setTimeout(() => {
+                const seoResults = checkSEOElements();
+                displaySEOResults(seoResults);
+                showLoading(false);
+            }, 1500);
+        }
+
+        function checkSEOElements() {
+            const results = {
+                title: document.title.length <= 60 ? 'pass' : 'fail',
+                description: document.querySelector('meta[name="description"]') ? 'pass' : 'fail',
+                h1: document.querySelector('h1') ? 'pass' : 'fail',
+                altText: 'warning', // 需要计算百分比
+                schema: document.querySelector('[data-schema]') ? 'pass' : 'warning',
+                lang: document.documentElement.lang ? 'pass' : 'fail',
+                viewport: document.querySelector('meta[name="viewport"]') ? 'pass' : 'fail'
+            };
+
+            // 检查alt文本
+            const images = document.querySelectorAll('img');
+            const imagesWithAlt = Array.from(images).filter(img => img.alt);
+            const altPercent = images.length > 0 ? (imagesWithAlt.length / images.length) * 100 : 100;
+            results.altText = altPercent >= 90 ? 'pass' : (altPercent >= 70 ? 'warning' : 'fail');
+
+            return results;
+        }
+
+        function displayTestResults() {
+            const results = JSON.parse(localStorage.getItem('performance_test_report') || '{}');
+
+            if (!results.results) {
+                document.getElementById('testResults').innerHTML = '<p>暂无测试结果</p>';
+                return;
+            }
+
+            let html = `
+                <div class="test-section">
+                    <h2>📈 性能测试结果</h2>
+                    <div class="metrics-grid">
+                        <div class="metric-card">
+                            <div class="metric-value">${results.score}/100</div>
+                            <div class="metric-label">总体评分</div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-value">${results.results.pageLoadTime?.value || 'N/A'}ms</div>
+                            <div class="metric-label">页面加载时间</div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-value">${results.results.resources?.total || 0}</div>
+                            <div class="metric-label">资源总数</div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-value">${results.results.cssPerformance?.optimized ? '✅' : '❌'}</div>
+                            <div class="metric-label">CSS优化</div>
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            // 添加详细结果
+            if (results.results.imageOptimization) {
+                html += `
+                    <div class="test-section">
+                        <h3>🖼️ 图片优化</h3>
+                        <div class="status ${results.results.imageOptimization.altPercent === '100.0' ? 'pass' : 'warning'}">
+                            Alt属性覆盖率: ${results.results.imageOptimization.altPercent}%
+                        </div>
+                        <div class="status ${results.results.imageOptimization.loadingOptimized ? 'pass' : 'fail'}">
+                            延迟加载: ${results.results.imageOptimization.lazyLoaded}/${results.results.imageOptimization.total} 张图片
+                        </div>
+                    </div>
+                `;
+            }
+
+            document.getElementById('testResults').innerHTML = html;
+        }
+
+        function displayPageSpeedResults(results) {
+            let html = `
+                <div class="test-section">
+                    <h2>🏁 PageSpeed 模拟测试结果</h2>
+                    <div class="metrics-grid">
+                        <div class="metric-card">
+                            <div class="metric-value">${results.performance}</div>
+                            <div class="metric-label">Performance</div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-value">${results.accessibility}</div>
+                            <div class="metric-label">Accessibility</div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-value">${results.bestPractices}</div>
+                            <div class="metric-label">Best Practices</div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-value">${results.seo}</div>
+                            <div class="metric-label">SEO</div>
+                        </div>
+                    </div>
+
+                    <h3>Core Web Vitals</h3>
+                    <div class="status ${results.metrics.firstContentfulPaint < 1.8 ? 'pass' : 'warning'}">
+                        FCP: ${results.metrics.firstContentfulPaint}s
+                    </div>
+                    <div class="status ${results.metrics.largestContentfulPaint < 2.5 ? 'pass' : 'warning'}">
+                        LCP: ${results.metrics.largestContentfulPaint}s
+                    </div>
+                    <div class="status ${results.metrics.cumulativeLayoutShift < 0.1 ? 'pass' : 'warning'}">
+                        CLS: ${results.metrics.cumulativeLayoutShift}
+                    </div>
+                    <div class="status ${results.metrics.totalBlockingTime < 200 ? 'pass' : 'warning'}">
+                        TBT: ${results.metrics.totalBlockingTime}ms
+                    </div>
+                </div>
+            `;
+
+            document.getElementById('testResults').innerHTML = html;
+        }
+
+        function displaySEOResults(results) {
+            let html = `
+                <div class="test-section">
+                    <h2>🔍 SEO 检查结果</h2>
+            `;
+
+            Object.entries(results).forEach(([key, status]) => {
+                const labels = {
+                    title: '页面标题 (≤60字符)',
+                    description: 'Meta描述',
+                    h1: 'H1标签',
+                    altText: '图片Alt属性',
+                    schema: '结构化数据',
+                    lang: '语言属性',
+                    viewport: 'Viewport标签'
+                };
+
+                html += `
+                    <div class="status ${status}">
+                        ${labels[key] || key}: ${status === 'pass' ? '✅ 通过' : status === 'warning' ? '⚠️ 警告' : '❌ 失败'}
+                    </div>
+                `;
+            });
+
+            html += '</div>';
+            document.getElementById('testResults').innerHTML = html;
+        }
+
+        function clearResults() {
+            localStorage.removeItem('performance_test_report');
+            document.getElementById('testResults').innerHTML = '<p>测试结果已清除</p>';
+        }
+
+        // 页面加载时自动显示之前的结果
+        window.addEventListener('load', () => {
+            const savedResults = localStorage.getItem('performance_test_report');
+            if (savedResults) {
+                displayTestResults();
+            }
+        });
+    </script>
+</body>
+</html>

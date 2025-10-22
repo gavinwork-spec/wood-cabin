@@ -1,0 +1,330 @@
+/* Information Density Optimization - 提高页面信息密度 */
+
+/* 减少各个板块的内边距，提高信息密度 */
+.section {
+    padding: 2rem 0 !important;
+}
+
+.hero {
+    padding: 3rem 0 !important;
+}
+
+.features {
+    padding: 2rem 0 !important;
+}
+
+.products-showcase {
+    padding: 2rem 0 !important;
+}
+
+.about-section {
+    padding: 2rem 0 !important;
+}
+
+.testimonials {
+    padding: 2rem 0 !important;
+}
+
+.contact-section {
+    padding: 2rem 0 !important;
+}
+
+/* 减少各个卡片和容器的内边距 */
+.container {
+    padding: 0 15px !important;
+}
+
+.feature-card, .product-card, .testimonial-card {
+    padding: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.btn {
+    padding: 0.75rem 1.5rem !important;
+    font-size: 0.9rem !important;
+}
+
+/* 恢复原始字体大小 - 保持可读性 */
+h1 {
+    font-size: 3.5rem !important;
+    line-height: 1.2 !important;
+}
+
+h2 {
+    font-size: 2.5rem !important;
+    line-height: 1.3 !important;
+    margin-bottom: 1rem !important;
+}
+
+h3 {
+    font-size: 2rem !important;
+    line-height: 1.3 !important;
+    margin-bottom: 0.8rem !important;
+}
+
+h4 {
+    font-size: 1.5rem !important;
+    line-height: 1.4 !important;
+    margin-bottom: 0.6rem !important;
+}
+
+h5 {
+    font-size: 1.25rem !important;
+    line-height: 1.4 !important;
+    margin-bottom: 0.5rem !important;
+}
+
+h6 {
+    font-size: 1.1rem !important;
+    line-height: 1.5 !important;
+    margin-bottom: 0.5rem !important;
+}
+
+/* 恢复段落文本大小 */
+p {
+    font-size: 1.1rem !important;
+    line-height: 1.6 !important;
+    margin-bottom: 1rem !important;
+}
+
+/* 减少导航栏高度 */
+header {
+    padding: 0.5rem 0 !important;
+}
+
+.nav-links a {
+    font-size: 0.9rem !important;
+    padding: 0.5rem 1rem !important;
+}
+
+/* 恢复Hero区域字体大小 */
+.hero-content h1 {
+    font-size: 4rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.hero-content p {
+    font-size: 1.3rem !important;
+    margin-bottom: 2rem !important;
+}
+
+/* 优化功能区域 */
+.features-grid {
+    grid-gap: 1.5rem !important;
+}
+
+.feature-icon {
+    font-size: 2.5rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.feature-card h3 {
+    font-size: 1.5rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.feature-card p {
+    font-size: 1rem !important;
+}
+
+/* 优化产品展示 */
+.products-grid {
+    grid-gap: 1.5rem !important;
+}
+
+.product-card {
+    padding: 1rem !important;
+}
+
+.product-card h3 {
+    font-size: 1.2rem !important;
+}
+
+.product-card p {
+    font-size: 0.85rem !important;
+}
+
+/* 优化客户评价 */
+.testimonial-card {
+    padding: 1.5rem !important;
+}
+
+.testimonial-text {
+    font-size: 0.95rem !important;
+    line-height: 1.5 !important;
+}
+
+.testimonial-author {
+    font-size: 0.9rem !important;
+}
+
+/* 优化联系表单 */
+.form-group {
+    margin-bottom: 1rem !important;
+}
+
+.form-control {
+    padding: 0.75rem !important;
+    font-size: 0.95rem !important;
+}
+
+/* 优化页脚 */
+footer {
+    padding: 2rem 0 !important;
+}
+
+.footer-content {
+    font-size: 0.9rem !important;
+}
+
+/* 减少不必要的边距 */
+.mt-5 { margin-top: 2rem !important; }
+.mb-5 { margin-bottom: 2rem !important; }
+.mt-4 { margin-top: 1.5rem !important; }
+.mb-4 { margin-bottom: 1.5rem !important; }
+.mt-3 { margin-top: 1rem !important; }
+.mb-3 { margin-bottom: 1rem !important; }
+
+/* 恢复移动端字体大小 */
+@media (max-width: 768px) {
+    .section {
+        padding: 1.5rem 0 !important;
+    }
+
+    h1 { font-size: 2.5rem !important; }
+    h2 { font-size: 2rem !important; }
+    h3 { font-size: 1.5rem !important; }
+
+    .hero {
+        padding: 2rem 0 !important;
+    }
+
+    .feature-card, .product-card {
+        padding: 1rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .container {
+        padding: 0 10px !important;
+    }
+}
+
+/* 提高卡片布局密度 */
+.card-deck {
+    gap: 1rem !important;
+}
+
+.row {
+    margin-bottom: 1rem !important;
+}
+
+.col-md-4, .col-md-6, .col-md-8 {
+    padding: 0.5rem !important;
+}
+
+/* 优化列表项密度 */
+ul li, ol li {
+    margin-bottom: 0.5rem !important;
+    font-size: 0.95rem !important;
+}
+
+/* 优化间距工具类 */
+.space-sm { margin: 0.5rem 0 !important; }
+.space-md { margin: 1rem 0 !important; }
+.space-lg { margin: 1.5rem 0 !important; }
+
+/* 提高表格信息密度 */
+.table {
+    font-size: 0.9rem !important;
+}
+
+.table th, .table td {
+    padding: 0.5rem !important;
+}
+
+/* 优化按钮密度 */
+.btn-sm {
+    padding: 0.5rem 1rem !important;
+    font-size: 0.85rem !important;
+}
+
+.btn-lg {
+    padding: 1rem 2rem !important;
+    font-size: 1rem !important;
+}
+
+/* 优化面包屑导航 */
+.breadcrumb {
+    font-size: 0.85rem !important;
+    margin-bottom: 1rem !important;
+}
+
+/* 提高分隔线效率 */
+hr {
+    margin: 1.5rem 0 !important;
+}
+
+/* 优化区块引用 */
+blockquote {
+    font-size: 0.95rem !important;
+    margin: 1rem 0 !important;
+    padding: 1rem !important;
+}
+
+/* 优化代码块 */
+code {
+    font-size: 0.9rem !important;
+}
+
+pre {
+    font-size: 0.85rem !important;
+    padding: 1rem !important;
+    margin: 1rem 0 !important;
+}
+
+/* 减少hero标题的字体大小，但保持视觉层次 */
+.hero h1 {
+    font-size: 3rem !important;
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.2rem !important;
+    }
+}
+
+/* 优化导航信息密度 */
+.navbar {
+    padding: 0.5rem 1rem !important;
+}
+
+.navbar-brand {
+    font-size: 1.2rem !important;
+}
+
+/* 优化标签和徽章 */
+.badge {
+    font-size: 0.75rem !important;
+    padding: 0.3rem 0.6rem !important;
+}
+
+/* 优化进度条 */
+.progress {
+    height: 0.5rem !important;
+    margin: 0.5rem 0 !important;
+}
+
+/* 优化卡片头部 */
+.card-header {
+    padding: 0.75rem 1rem !important;
+    font-size: 1rem !important;
+}
+
+/* 优化模态框密度 */
+.modal-header, .modal-footer {
+    padding: 1rem !important;
+}
+
+.modal-body {
+    padding: 1rem !important;
+}

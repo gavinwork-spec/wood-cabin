@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Display Test - Wooden Cabin Website</title>
+
+    <!-- Fonts - Same as main site -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Quicksand', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f8f9fa;
+            line-height: 1.6;
+        }
+
+        .test-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+            color: #2c5e2e;
+            margin-top: 0;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            border-bottom: 3px solid #4CAF50;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+
+        h3 {
+            font-size: 2rem;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .font-section {
+            margin: 40px 0;
+            padding: 30px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background: #fafafa;
+        }
+
+        .font-sample {
+            margin: 20px 0;
+            padding: 15px;
+            background: white;
+            border-radius: 5px;
+            border-left: 4px solid #2c5e2e;
+        }
+
+        .quicksand-sample {
+            font-family: 'Quicksand', sans-serif;
+        }
+
+        .playfair-sample {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .fallback-test {
+            font-family: sans-serif; /* System fallback */
+        }
+
+        .font-info {
+            background: #e3f2fd;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+            font-size: 0.9rem;
+        }
+
+        .weight-test {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .weight-sample {
+            padding: 20px;
+            background: white;
+            border-radius: 5px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        .loading-indicator {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-style: italic;
+        }
+
+        .status-check {
+            background: #d4edda;
+            border: 1px solid #c3e6cb;
+            color: #155724;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+
+        .status-warning {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            color: #856404;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+
+        button {
+            background: #2c5e2e;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 10px;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background: #4CAF50;
+        }
+
+        #fontStatus {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <h1>🔤 Font Display Test</h1>
+        <p style="text-align: center; font-size: 1.2rem; color: #666;">
+            Testing Google Fonts loading and display for Wooden Cabin Website
+        </p>
+
+        <button onclick="checkFonts()">Check Font Loading Status</button>
+        <button onclick="testWebFonts()">Test Web Font Performance</button>
+        <button onclick="toggleFallbackMode()">Toggle Fallback Mode</button>
+
+        <div id="fontStatus"></div>
+
+        <div class="font-section">
+            <h2>Playfair Display - Headings Font</h2>
+            <div class="font-info">
+                <strong>Font Family:</strong> Playfair Display (serif)<br>
+                <strong>Usage:</strong> Headings (h1-h6)<br>
+                <strong>Weights:</strong> 400, 500, 600, 700
+            </div>
+
+            <div class="weight-test">
+                <div class="weight-sample">
+                    <div class="playfair-sample" style="font-weight: 400;">Playfair Display 400</div>
+                    <small>Regular Weight</small>
+                </div>
+                <div class="weight-sample">
+                    <div class="playfair-sample" style="font-weight: 500;">Playfair Display 500</div>
+                    <small>Medium Weight</small>
+                </div>
+                <div class="weight-sample">
+                    <div class="playfair-sample" style="font-weight: 600;">Playfair Display 600</div>
+                    <small>Semi Bold</small>
+                </div>
+                <div class="weight-sample">
+                    <div class="playfair-sample" style="font-weight: 700;">Playfair Display 700</div>
+                    <small>Bold</small>
+                </div>
+            </div>
+
+            <div class="font-sample">
+                <h3 class="playfair-sample">This is a heading in Playfair Display</h3>
+                <p class="quicksand-sample">This paragraph is in Quicksand for comparison. Notice the elegant contrast between the serif heading and sans-serif body text.</p>
+            </div>
+        </div>
+
+        <div class="font-section">
+            <h2>Quicksand - Body Font</h2>
+            <div class="font-info">
+                <strong>Font Family:</strong> Quicksand (sans-serif)<br>
+                <strong>Usage:</strong> Body text, paragraphs, UI elements<br>
+                <strong>Weights:</strong> 300, 400, 500, 600, 700
+            </div>
+
+            <div class="weight-test">
+                <div class="weight-sample">
+                    <div class="quicksand-sample" style="font-weight: 300;">Quicksand 300</div>
+                    <small>Light</small>
+                </div>
+                <div class="weight-sample">
+                    <div class="quicksand-sample" style="font-weight: 400;">Quicksand 400</div>
+                    <small>Regular</small>
+                </div>
+                <div class="weight-sample">
+                    <div class="quicksand-sample" style="font-weight: 500;">Quicksand 500</div>
+                    <small>Medium</small>
+                </div>
+                <div class="weight-sample">
+                    <div class="quicksand-sample" style="font-weight: 600;">Quicksand 600</div>
+                    <small>Semi Bold</small>
+                </div>
+                <div class="weight-sample">
+                    <div class="quicksand-sample" style="font-weight: 700;">Quicksand 700</div>
+                    <small>Bold</small>
+                </div>
+            </div>
+
+            <div class="font-sample">
+                <p class="quicksand-sample">This is body text in Quicksand. It's clean, modern, and highly readable for longer content. The rounded characters give it a friendly, approachable feel that's perfect for a wooden cabin business website.</p>
+                <p class="quicksand-sample" style="font-weight: 300;">Light weight text for subtle elements and captions.</p>
+                <p class="quicksand-sample" style="font-weight: 600;">Semi bold text for emphasis and important information.</p>
+            </div>
+        </div>
+
+        <div class="font-section">
+            <h2>Fallback Font Testing</h2>
+            <div class="font-info">
+                Testing system fallback fonts when Google Fonts fail to load.
+            </div>
+
+            <div class="font-sample">
+                <h3 style="font-family: Georgia, serif;">Fallback Heading: Georgia</h3>
+                <p style="font-family: Arial, sans-serif;">Fallback Body: Arial</p>
+            </div>
+
+            <div class="font-sample">
+                <h3 style="font-family: 'Times New Roman', serif;">Fallback Heading: Times New Roman</h3>
+                <p style="font-family: 'Helvetica Neue', sans-serif;">Fallback Body: Helvetica Neue</p>
+            </div>
+        </div>
+
+        <div class="font-section">
+            <h2>Typography Samples</h2>
+            <div class="font-sample">
+                <h1 class="playfair-sample">Main Heading (H1) - Premium Wooden Cabins</h1>
+                <h2 class="playfair-sample">Section Heading (H2) - Our Features</h2>
+                <h3 class="playfair-sample">Subsection Heading (H3) - Quality Materials</h3>
+                <p class="quicksand-sample">Body text: Our wooden cabins are crafted with the finest materials and attention to detail. Each cabin is designed to provide comfort, durability, and style for your perfect getaway.</p>
+                <a href="#" class="quicksand-sample">Link Text Example</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let fallbackMode = false;
+
+        function checkFonts() {
+            const statusDiv = document.getElementById('fontStatus');
+            let statusHTML = '<h2>Font Loading Status</h2>';
+
+            // Check Playfair Display
+            const playfairLoaded = document.fonts && document.fonts.check('14px Playfair Display');
+            const quicksandLoaded = document.fonts && document.fonts.check('14px Quicksand');
+
+            if (playfairLoaded) {
+                statusHTML += '<div class="status-check">✅ Playfair Display loaded successfully</div>';
+            } else {
+                statusHTML += '<div class="status-warning">⚠️ Playfair Display not loaded or still loading</div>';
+            }
+
+            if (quicksandLoaded) {
+                statusHTML += '<div class="status-check">✅ Quicksand loaded successfully</div>';
+            } else {
+                statusHTML += '<div class="status-warning">⚠️ Quicksand not loaded or still loading</div>';
+            }
+
+            // Performance timing
+            if (window.performance && window.performance.timing) {
+                const loadTime = performance.timing.domContentLoadedEventEnd - performance.timing.navigationStart;
+                statusHTML += `<div class="font-info">Page Load Time: ${loadTime}ms</div>`;
+            }
+
+            // Font loading details
+            if (document.fonts) {
+                const fontCount = document.fonts.size;
+                statusHTML += `<div class="font-info">Total fonts loaded: ${fontCount}</div>`;
+
+                document.fonts.forEach(font => {
+                    statusHTML += `<div class="font-info">Font: ${font.family} (${font.weight}) - Status: ${font.status}</div>`;
+                });
+            }
+
+            statusDiv.innerHTML = statusHTML;
+        }
+
+        function testWebFonts() {
+            const testString = "The quick brown fox jumps over the lazy dog";
+            const statusDiv = document.getElementById('fontStatus');
+
+            let testHTML = '<h2>Web Font Performance Test</h2>';
+
+            // Create test elements
+            const fonts = [
+                { name: 'Playfair Display', weight: '400' },
+                { name: 'Playfair Display', weight: '700' },
+                { name: 'Quicksand', weight: '400' },
+                { name: 'Quicksand', weight: '600' }
+            ];
+
+            fonts.forEach(font => {
+                const testElement = document.createElement('div');
+                testElement.style.fontFamily = `'${font.name}', sans-serif`;
+                testElement.style.fontWeight = font.weight;
+                testElement.textContent = testString;
+                testElement.style.padding = '10px';
+                testElement.style.margin = '5px 0';
+                testElement.style.border = '1px solid #ddd';
+                testElement.style.borderRadius = '3px';
+
+                testHTML += `<div class="font-sample"><strong>${font.name} ${font.weight}:</strong> ${testString}</div>`;
+            });
+
+            statusDiv.innerHTML = testHTML;
+        }
+
+        function toggleFallbackMode() {
+            fallbackMode = !fallbackMode;
+            const body = document.body;
+            const headings = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
+
+            if (fallbackMode) {
+                body.style.fontFamily = 'Arial, sans-serif';
+                headings.forEach(h => {
+                    h.style.fontFamily = 'Georgia, serif';
+                });
+                document.body.style.backgroundColor = '#fff3cd';
+            } else {
+                body.style.fontFamily = "'Quicksand', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif";
+                headings.forEach(h => {
+                    h.style.fontFamily = "'Playfair Display', Georgia, 'Times New Roman', serif";
+                });
+                document.body.style.backgroundColor = '#f8f9fa';
+            }
+        }
+
+        // Auto-check fonts on page load
+        window.addEventListener('load', () => {
+            setTimeout(checkFonts, 1000);
+        });
+
+        // Monitor font loading
+        if (document.fonts) {
+            document.fonts.addEventListener('loadingdone', () => {
+                console.log('All fonts have loaded');
+                setTimeout(checkFonts, 500);
+            });
+        }
+    </script>
+</body>
+</html>

@@ -90,17 +90,33 @@
     }
     </script>
 
-    <!-- Fonts -->
+    <!-- Fonts - Optimized Loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Font fallback while Google Fonts load */
+        body {
+            font-family: 'Quicksand', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif !important;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Playfair Display', Georgia, 'Times New Roman', serif !important;
+        }
+    </style>
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/visual-optimization.css">
-    <link rel="stylesheet" href="assets/css/image-text-optimization.css">
-    <link rel="stylesheet" href="assets/css/compact-layout.css"></head>
+    <!-- Performance Optimized CSS -->
+    <link rel="stylesheet" href="assets/css/critical.css" media="all">
+    <link rel="preload" href="assets/css/woodencabin-combined.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="assets/css/information-density.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="assets/css/woodencabin-combined.css">
+        <link rel="stylesheet" href="assets/css/information-density.css">
+    </noscript>
+
+</head>
 <body>
     <!-- Skip to main content for accessibility -->
     <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -1553,5 +1569,9 @@
             updateCarousel();
         });
     </script>
+
+    <!-- Performance Optimization Scripts -->
+    <script src="lazy_loading_optimizer.js" defer></script>
+    <script src="performance_monitor.js" defer></script>
 </body>
 </html>
