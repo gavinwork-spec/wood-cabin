@@ -3,17 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Premium Wooden Cabins | B2B Modular Manufacturer China</title>
-    <meta name="description" content="Leading B2B wooden cabin manufacturer in China. Premium modular cabins with custom designs, wholesale pricing & worldwide shipping. ISO certified for resorts & commercial projects.">
-      <meta name="author" content="Premium Wooden Cabins">
+    <title>Modular Wooden Cabin Manufacturer | B2B Prefab Cabin Factory China | Premium Wooden Cabins</title>
+    <meta name="description" content="Professional modular wooden cabin manufacturer in China specializing in B2B partnerships with importers and distributors. Prefab cabin factory offering wholesale pricing, custom designs, and worldwide shipping. ISO certified wooden cabin solutions for resorts, residential, and commercial projects.">
+    <meta name="keywords" content="modular wooden cabin manufacturer, prefab cabin factory China, B2B wooden cabin supplier, wholesale wooden cabins, custom cabin design, wooden cabin exporter, wooden cabin importer, modular cabin factory, prefabricated wooden cabins, custom wooden homes, cabin manufacturer China, wooden cabin wholesale, B2B cabin partnerships, wooden cabin distributor">
+    <meta name="author" content="Premium Wooden Cabins">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://woodencabin.com/">
-
-    <!-- Hreflang for International SEO -->
-    <link rel="alternate" hreflang="en" href="https://woodencabin.com/">
-    <link rel="alternate" hreflang="zh" href="https://woodencabin.com/zh/">
-    <link rel="alternate" hreflang="ar" href="https://woodencabin.com/ar/">
-    <link rel="alternate" hreflang="x-default" href="https://woodencabin.com/">
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -22,8 +17,8 @@
     <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://woodencabin.com/">
-    <meta property="og:title" content="Premium Wooden Cabins | B2B Modular Manufacturer China">
-    <meta property="og:description" content="Leading B2B wooden cabin manufacturer in China. Premium modular cabins with custom designs, wholesale pricing & worldwide shipping.">
+    <meta property="og:title" content="Modular Wooden Cabin Manufacturer | B2B Prefab Cabin Factory China">
+    <meta property="og:description" content="Professional modular wooden cabin manufacturer in China specializing in B2B partnerships. Prefab cabin factory offering wholesale pricing, custom designs, and worldwide shipping.">
     <meta property="og:image" content="https://woodencabin.com/assets/images/hero/hero-main-banner-large.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -39,8 +34,7 @@
 
     <!-- Preload critical resources -->
     <link rel="preload" as="image" href="assets/images/hero/hero-main-banner-large.png" imagesrcset="assets/images/hero/hero-main-banner-large.png 1920w" imagesizes="100vw">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="font" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap" crossorigin>
 
     <!-- Structured Data -->
     <script type="application/ld+json">
@@ -50,15 +44,12 @@
         "name": "Premium Wooden Cabins",
         "description": "Professional modular wooden cabin manufacturer in China specializing in B2B partnerships with importers and distributors worldwide",
         "url": "https://woodencabin.com",
-        "telephone": "+86 19932411993",
+        "telephone": "+86-123-4567-8900",
         "email": "info@woodencabin.com",
         "address": {
             "@type": "PostalAddress",
             "addressCountry": "CN",
-            "addressLocality": "Taizhou",
-            "addressRegion": "Zhejiang",
-            "postalCode": "317000",
-            "streetAddress": "Linhai Economic Development Zone"
+            "addressRegion": "Zhejiang"
         },
         "areaServed": "Worldwide",
         "hasOfferCatalog": {
@@ -100,7 +91,7 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/visual-optimization.css">
     <link rel="stylesheet" href="assets/css/image-text-optimization.css">
-    <link rel="stylesheet" href="assets/css/compact-layout.css"></head>
+    <link rel="stylesheet" href="../assets/css/compact-layout.css"></head>
 <body>
     <!-- Skip to main content for accessibility -->
     <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -238,8 +229,8 @@
                         <!-- Guest Series -->
                         <div class="product-card visual-primary__card shadow-hover-lift" data-category="residential commercial">
                             <div class="visual-primary__image">
-                                <img loading="lazy" src="assets/images/products/backyard_guest_house.png"
-                                     alt="Luxury Guest Series Wooden Cabin with hotel-quality amenities and premium finishes for guest accommodation" width="800" height="600">
+                                <img loading="lazy" loading="lazy" src="assets/images/products/backyard_guest_house.png"
+                                     alt="Luxury Guest Series Wooden Cabin with hotel-quality amenities and premium finishes for guest accommodation" loading="lazy" width="800" height="600">
                                 <span class="product-badge visual-primary__badge">Best Seller</span>
                                 <div class="product-features-overlay">
                                     <span class="feature-tag">Hotel Quality</span>
@@ -268,8 +259,8 @@
                         <!-- Office Series -->
                         <div class="product-card visual-primary__card shadow-hover-lift" data-category="commercial backyard">
                             <div class="visual-primary__image">
-                                <img loading="lazy" src="assets/images/products/office-series-medium.png"
-                                     alt="Office Series Wooden Cabin - professional workspace with modern design and integrated technology">
+                                <img loading="lazy" loading="lazy" src="assets/images/products/office-series-medium.png"
+                                     alt="Office Series Wooden Cabin - professional workspace with modern design and integrated technology" loading="lazy">
                                 <span class="product-badge visual-primary__badge">Professional</span>
                             </div>
                             <div class="product-content visual-primary__content">
@@ -290,8 +281,8 @@
                         <!-- Entertainment Series -->
                         <div class="product-card visual-primary__card shadow-hover-lift" data-category="residential luxury">
                             <div class="visual-primary__image">
-                                <img loading="lazy" src="assets/images/products/backyard-entertainment-series.jpg"
-                                     alt="Entertainment Series Wooden Cabin - luxury space for recreation and social gatherings with premium amenities">
+                                <img loading="lazy" loading="lazy" src="assets/images/products/backyard-entertainment-series.jpg"
+                                     alt="Entertainment Series Wooden Cabin - luxury space for recreation and social gatherings with premium amenities" loading="lazy">
                                 <span class="product-badge premium">Premium</span>
                             </div>
                             <div class="product-content visual-primary__content">
@@ -312,8 +303,8 @@
                         <!-- Middle East Series -->
                         <div class="product-card visual-primary__card shadow-hover-lift" data-category="luxury residential">
                             <div class="visual-primary__image">
-                                <img loading="lazy" src="assets/images/products/majlis_lounge_deluxe.png"
-                                     alt="Middle East Series Wooden Cabin - culturally-inspired luxury majlis lounge design for prestigious residences">
+                                <img loading="lazy" loading="lazy" src="assets/images/products/majlis_lounge_deluxe.png"
+                                     alt="Middle East Series Wooden Cabin - culturally-inspired luxury majlis lounge design for prestigious residences" loading="lazy">
                                 <span class="product-badge luxury">Luxury</span>
                             </div>
                             <div class="product-content visual-primary__content">
@@ -334,8 +325,8 @@
                         <!-- Backyard Studio Large -->
                         <div class="product-card visual-primary__card shadow-hover-lift" data-category="backyard residential">
                             <div class="visual-primary__image">
-                                <img loading="lazy" src="assets/images/products/garden-studio-large.png"
-                                     alt="Backyard Studio Large Wooden Cabin - spacious creative workspace with natural lighting and modern design">
+                                <img loading="lazy" loading="lazy" src="assets/images/products/garden-studio-large.png"
+                                     alt="Backyard Studio Large Wooden Cabin - spacious creative workspace with natural lighting and modern design" loading="lazy">
                             </div>
                             <div class="product-content visual-primary__content">
                                 <div class="product-category">Backyard</div>
@@ -355,8 +346,8 @@
                         <!-- Poolside Villa -->
                         <div class="product-card visual-primary__card shadow-hover-lift" data-category="luxury residential">
                             <div class="visual-primary__image">
-                                <img loading="lazy" src="assets/images/products/luxury-poolside-cabin-large.png"
-                                     alt="Poolside Villa Wooden Cabin - elegant luxury design perfect for upscale residential and resort properties">
+                                <img loading="lazy" loading="lazy" src="assets/images/products/luxury-poolside-cabin-large.png"
+                                     alt="Poolside Villa Wooden Cabin - elegant luxury design perfect for upscale residential and resort properties" loading="lazy">
                                 <span class="product-badge luxury">Luxury</span>
                             </div>
                             <div class="product-content visual-primary__content">
@@ -377,8 +368,8 @@
                         <!-- Backyard Guest Medium -->
                         <div class="product-card visual-primary__card shadow-hover-lift" data-category="residential backyard">
                             <div class="visual-primary__image">
-                                <img loading="lazy" src="assets/images/products/backyard-guest-house-medium.png"
-                                     alt="Backyard Guest Medium Wooden Cabin - compact guest accommodation with essential amenities">
+                                <img loading="lazy" loading="lazy" src="assets/images/products/backyard-guest-house-medium.png"
+                                     alt="Backyard Guest Medium Wooden Cabin - compact guest accommodation with essential amenities" loading="lazy">
                                 <span class="product-badge visual-primary__badge">Popular</span>
                             </div>
                             <div class="product-content visual-primary__content">
@@ -399,8 +390,8 @@
                         <!-- Backyard Office Small -->
                         <div class="product-card visual-primary__card shadow-hover-lift" data-category="commercial backyard">
                             <div class="visual-primary__image">
-                                <img loading="lazy" src="assets/images/products/backyard-office-small.png"
-                                     alt="Backyard Office Small Wooden Cabin - compact professional workspace for home office">
+                                <img loading="lazy" loading="lazy" src="assets/images/products/backyard-office-small.png"
+                                     alt="Backyard Office Small Wooden Cabin - compact professional workspace for home office" loading="lazy">
                                 <span class="product-badge visual-primary__badge">Compact</span>
                             </div>
                             <div class="product-content visual-primary__content">
@@ -421,8 +412,8 @@
                         <!-- Desert Proof -->
                         <div class="product-card visual-primary__card shadow-hover-lift" data-category="luxury residential">
                             <div class="visual-primary__image">
-                                <img loading="lazy" src="assets/images/products/desert-proof-cabin-large.png"
-                                     alt="Desert Proof Wooden Cabin - extreme weather resistant design for harsh climates">
+                                <img loading="lazy" loading="lazy" src="assets/images/products/desert-proof-cabin-large.png"
+                                     alt="Desert Proof Wooden Cabin - extreme weather resistant design for harsh climates" loading="lazy">
                                 <span class="product-badge luxury">Specialized</span>
                             </div>
                             <div class="product-content visual-primary__content">
@@ -443,8 +434,8 @@
                         <!-- Majlis Lounge -->
                         <div class="product-card visual-primary__card shadow-hover-lift" data-category="luxury residential">
                             <div class="visual-primary__image">
-                                <img loading="lazy" src="assets/images/products/majlis_lounge_deluxe.png"
-                                     alt="Majlis Lounge Wooden Cabin - traditional Middle Eastern seating and social space">
+                                <img loading="lazy" loading="lazy" src="assets/images/products/majlis_lounge_deluxe.png"
+                                     alt="Majlis Lounge Wooden Cabin - traditional Middle Eastern seating and social space" loading="lazy">
                                 <span class="product-badge luxury">Cultural</span>
                             </div>
                             <div class="product-content visual-primary__content">
@@ -465,8 +456,8 @@
                         <!-- Rooftop Luxury -->
                         <div class="product-card visual-primary__card shadow-hover-lift" data-category="luxury residential">
                             <div class="visual-primary__image">
-                                <img loading="lazy" src="assets/images/products/luxury-rooftop-cabin-large.png"
-                                     alt="Rooftop Luxury Wooden Cabin - premium rooftop living solution with panoramic views">
+                                <img loading="lazy" loading="lazy" src="assets/images/products/luxury-rooftop-cabin-large.png"
+                                     alt="Rooftop Luxury Wooden Cabin - premium rooftop living solution with panoramic views" loading="lazy">
                                 <span class="product-badge luxury">Premium</span>
                             </div>
                             <div class="product-content visual-primary__content">
@@ -486,10 +477,10 @@
                     </div>
 
                     <!-- Carousel Navigation -->
-                    <button class="carousel-control-prev" type="button" id="b2bCarouselPrev" aria-label="Previous slide" aria-controls="b2bCarousel">
+                    <button class="carousel-control-prev" type="button" id="b2bCarouselPrev">
                         <i class="fas fa-chevron-left"></i>
                     </button>
-                    <button class="carousel-control-next" type="button" id="b2bCarouselNext" aria-label="Next slide" aria-controls="b2bCarousel">
+                    <button class="carousel-control-next" type="button" id="b2bCarouselNext">
                         <i class="fas fa-chevron-right"></i>
                     </button>
 
@@ -585,7 +576,7 @@
                 <div class="products-grid visual-primary">
                     <article class="product-card visual-primary__card shadow-hover-lift" data-category="resort">
                         <div class="visual-primary__image">
-                            <img loading="lazy" src="assets/images/products/resort-luxury-eco-premium-01.png" alt="Luxury eco resort cabin with premium sustainable materials and modern design for international hospitality markets" width="800" height="600" class="visual-primary__image">
+                            <img loading="lazy" loading="lazy" src="assets/images/products/resort-luxury-eco-premium-01.png" alt="Luxury eco resort cabin with premium sustainable materials and modern design for international hospitality markets" loading="lazy" width="800" height="600" class="visual-primary__image">
                             <div class="product-badge visual-primary__badge">Premium</div>
                         </div>
                         <div class="product-content visual-primary__content">
@@ -613,7 +604,7 @@
 
                     <article class="product-card visual-primary__card shadow-hover-lift" data-category="residence">
                         <div class="visual-primary__image">
-                            <img loading="lazy" src="assets/images/products/residential-modern-cabin-family-01.png" alt="Modern luxury wooden residence with spacious family layout and contemporary glass wall design" width="800" height="600">
+                            <img loading="lazy" loading="lazy" src="assets/images/products/residential-modern-cabin-family-01.png" alt="Modern luxury wooden residence with spacious family layout and contemporary glass wall design" loading="lazy" width="800" height="600">
                             <div class="product-badge visual-primary__badge">Popular</div>
                         </div>
                         <div class="product-content visual-primary__content">
@@ -641,7 +632,7 @@
 
                     <article class="product-card visual-primary__card shadow-hover-lift" data-category="commercial">
                         <div class="visual-primary__image">
-                            <img loading="lazy" src="assets/images/products/commercial-cabin-modern-design-01.png" alt="Commercial wooden building with modern architecture and sustainable design for business applications" width="800" height="600">
+                            <img loading="lazy" loading="lazy" src="assets/images/products/commercial-cabin-modern-design-01.png" alt="Commercial wooden building with modern architecture and sustainable design for business applications" loading="lazy" width="800" height="600">
                             <div class="product-badge visual-primary__badge">Versatile</div>
                         </div>
                         <div class="product-content visual-primary__content">
@@ -669,7 +660,7 @@
 
                     <article class="product-card visual-primary__card shadow-hover-lift" data-category="garden">
                         <div class="visual-primary__image">
-                            <img loading="lazy" src="assets/images/products/garden-studio.jpg" alt="Garden studio cabin in natural setting - perfect compact workspace or creative retreat" width="800" height="600">
+                            <img loading="lazy" loading="lazy" src="assets/images/products/garden-studio.jpg" alt="Garden studio cabin in natural setting - perfect compact workspace or creative retreat" loading="lazy" width="800" height="600">
                             <div class="product-badge visual-primary__badge">Compact</div>
                         </div>
                         <div class="product-content visual-primary__content">
@@ -697,7 +688,7 @@
 
                     <article class="product-card visual-primary__card shadow-hover-lift" data-category="compact">
                         <div class="visual-primary__image">
-                            <img loading="lazy" src="assets/images/products/backyard_office_compact.png" alt="Compact living cabin with efficient design - perfect small home office or guest accommodation" width="800" height="600">
+                            <img loading="lazy" loading="lazy" src="assets/images/products/backyard_office_compact.png" alt="Compact living cabin with efficient design - perfect small home office or guest accommodation" loading="lazy" width="800" height="600">
                             <div class="product-badge visual-primary__badge">Efficient</div>
                         </div>
                         <div class="product-content visual-primary__content">
@@ -725,7 +716,7 @@
 
                     <article class="product-card visual-primary__card shadow-hover-lift" data-category="luxury">
                         <div class="visual-primary__image">
-                            <img loading="lazy" src="assets/images/products/luxury-modern-cabin-minimalist-01.png" alt="Luxury living space with premium finishes and minimalist contemporary design" width="800" height="600">
+                            <img loading="lazy" loading="lazy" src="assets/images/products/luxury-modern-cabin-minimalist-01.png" alt="Luxury living space with premium finishes and minimalist contemporary design" loading="lazy" width="800" height="600">
                             <div class="product-badge visual-primary__badge">Premium</div>
                         </div>
                         <div class="product-content visual-primary__content">
@@ -832,7 +823,7 @@
 
                     <div class="joinery-visual">
                         <div class="joinery-image">
-                            <img loading="lazy" src="assets/images/process/traditional_joinery.jpg" alt="Precision wood joinery detail showing mortise and tenon connection - traditional wood craftsmanship with modern precision" width="800" height="600"
+                            <img loading="lazy" loading="lazy" src="assets/images/process/traditional_joinery.jpg" alt="Precision wood joinery detail showing mortise and tenon connection - traditional wood craftsmanship with modern precision" loading="lazy" width="800" height="600"
                                      srcset="assets/images/process/traditional-joinery-medium.png 800w,
                                              assets/images/process/traditional-joinery-large.png 1600w"
                                      sizes="(max-width: 768px) 100vw, 800px">
@@ -951,7 +942,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Premium Wooden Cabins. All rights reserved. | <a href="privacy.html" style="color: rgba(255,255,255,0.8);">Privacy Policy</a> | <a href="terms.html" style="color: rgba(255,255,255,0.8);">Terms of Service</a></p>
+                <p>&copy; 2024 Premium Wooden Cabins. All rights reserved. | <a href="privacy.html" style="color: rgba(255,255,255,0.8);">Privacy Policy</a> | <a href="terms.html" style="color: rgba(255,255,255,0.8);">Terms of Service</a></p>
             </div>
         </div>
     </footer>
