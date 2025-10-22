@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="wood" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B6F47;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#A0826D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B6F47;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0F6FF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="glass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E3F2FD;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#BBDEFB;stop-opacity:0.9" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sky background -->
+  <rect width="1200" height="400" fill="url(#sky)"/>
+
+  <!-- Garden/Lawn -->
+  <rect y="400" width="1200" height="400" fill="#7CB342"/>
+
+  <!-- Garden path -->
+  <rect x="500" y="400" width="200" height="400" fill="#8D6E63" opacity="0.8"/>
+
+  <!-- Main backyard office cabin -->
+  <g transform="translate(350, 180)">
+    <!-- Base platform -->
+    <rect x="-20" y="270" width="540" height="20" fill="#6D4C41"/>
+
+    <!-- Main cabin structure -->
+    <rect x="0" y="120" width="500" height="150" fill="url(#wood)" stroke="#654321" stroke-width="3"/>
+
+    <!-- Modern flat roof -->
+    <rect x="-20" y="100" width="540" height="20" fill="#5D4037" stroke="#654321" stroke-width="2"/>
+
+    <!-- Large glass window -->
+    <rect x="30" y="140" width="150" height="100" fill="url(#glass)" stroke="#8B6F47" stroke-width="3"/>
+    <line x1="105" y1="140" x2="105" y2="240" stroke="#8B6F47" stroke-width="2"/>
+    <line x1="30" y1="190" x2="180" y2="190" stroke="#8B6F47" stroke-width="2"/>
+
+    <!-- Glass door -->
+    <rect x="320" y="160" width="60" height="110" fill="url(#glass)" stroke="#8B6F47" stroke-width="3"/>
+    <rect x="340" y="160" width="20" height="110" fill="#8B6F47" opacity="0.3"/>
+
+    <!-- Side window -->
+    <rect x="200" y="140" width="80" height="60" fill="url(#glass)" stroke="#8B6F47" stroke-width="2"/>
+
+    <!-- Deck/Porch -->
+    <rect x="-30" y="270" width="560" height="15" fill="#A0522D"/>
+    <!-- Deck railing -->
+    <rect x="-30" y="255" width="560" height="3" fill="#8B4513"/>
+    <rect x="0" y="255" width="3" height="30" fill="#8B4513"/>
+    <rect x="120" y="255" width="3" height="30" fill="#8B4513"/>
+    <rect x="240" y="255" width="3" height="30" fill="#8B4513"/>
+    <rect x="360" y="255" width="3" height="30" fill="#8B4513"/>
+    <rect x="480" y="255" width="3" height="30" fill="#8B4513"/>
+
+    <!-- Modern outdoor light -->
+    <circle cx="150" cy="250" r="8" fill="#FFA726" stroke="#F57C00" stroke-width="2"/>
+    <circle cx="350" cy="250" r="8" fill="#FFA726" stroke="#F57C00" stroke-width="2"/>
+  </g>
+
+  <!-- Landscaping elements -->
+  <!-- Trees -->
+  <g id="tree">
+    <rect x="148" y="320" width="4" height="80" fill="#8B4513"/>
+    <circle cx="150" cy="310" r="25" fill="#228B22" opacity="0.9"/>
+    <circle cx="140" cy="320" r="20" fill="#32CD32" opacity="0.8"/>
+    <circle cx="160" cy="320" r="20" fill="#32CD32" opacity="0.8"/>
+  </g>
+
+  <use href="#tree" x="50" y="0"/>
+  <use href="#tree" x="900" y="0"/>
+  <use href="#tree" x="950" y="20"/>
+
+  <!-- Garden plants -->
+  <ellipse cx="250" cy="450" rx="15" ry="8" fill="#FF6B6B" opacity="0.8"/>
+  <ellipse cx="280" cy="460" rx="12" ry="6" fill="#4ECDC4" opacity="0.8"/>
+  <ellipse cx="220" cy="455" rx="14" ry="7" fill="#45B7D1" opacity="0.8"/>
+
+  <!-- Title text -->
+  <text x="600" y="650" font-family="Arial, sans-serif" font-size="42" font-weight="bold" text-anchor="middle" fill="#2C3E50">
+    Modern Backyard Office
+  </text>
+  <text x="600" y="700" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#7F8C8D">
+    Premium Wooden Home Office Design
+  </text>
+  <text x="600" y="730" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#95A5A6">
+    Perfect for Remote Work & Professional Space
+  </text>
+</svg>

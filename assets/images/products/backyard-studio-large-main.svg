@@ -1,0 +1,58 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky background -->
+  <rect width="800" height="600" fill="#87CEEB"/>
+
+  <!-- Grass -->
+  <rect x="0" y="400" width="800" height="200" fill="#228B22"/>
+
+  <!-- Large Studio Cabin - Main view -->
+  <rect x="120" y="230" width="560" height="220" fill="#8B4513" stroke="#654321" stroke-width="3"/>
+
+  <!-- Roof -->
+  <polygon points="90,230 400,100 710,230" fill="#A0522D" stroke="#654321" stroke-width="3"/>
+
+  <!-- Double Doors -->
+  <rect x="360" y="370" width="80" height="80" fill="#654321"/>
+  <line x1="400" y1="370" x2="400" y2="450" stroke="#4A3018" stroke-width="2"/>
+  <circle cx="385" cy="410" r="4" fill="#FFD700"/>
+  <circle cx="415" cy="410" r="4" fill="#FFD700"/>
+
+  <!-- Expansive Windows -->
+  <rect x="150" y="270" width="160" height="110" fill="#87CEEB" stroke="#654321" stroke-width="2"/>
+  <line x1="230" y1="270" x2="230" y2="380" stroke="#654321" stroke-width="2"/>
+  <line x1="150" y1="325" x2="310" y2="325" stroke="#654321" stroke-width="2"/>
+
+  <rect x="490" y="270" width="160" height="110" fill="#87CEEB" stroke="#654321" stroke-width="2"/>
+  <line x1="570" y1="270" x2="570" y2="380" stroke="#654321" stroke-width="2"/>
+  <line x1="490" y1="325" x2="650" y2="325" stroke="#654321" stroke-width="2"/>
+
+  <!-- Studio interior visible -->
+  <rect x="170" y="350" width="120" height="30" fill="#654321" opacity="0.7"/>
+  <!-- Multiple easels -->
+  <rect x="190" y="280" width="3" height="70" fill="#8B4513" opacity="0.7"/>
+  <rect x="210" y="280" width="3" height="70" fill="#8B4513" opacity="0.7"/>
+  <rect x="250" y="280" width="3" height="70" fill="#8B4513" opacity="0.7"/>
+  <rect x="270" y="280" width="3" height="70" fill="#8B4513" opacity="0.7"/>
+
+  <rect x="510" y="350" width="120" height="30" fill="#654321" opacity="0.7"/>
+  <rect x="530" y="280" width="3" height="70" fill="#8B4513" opacity="0.7"/>
+  <rect x="550" y="280" width="3" height="70" fill="#8B4513" opacity="0.7"/>
+  <rect x="590" y="280" width="3" height="70" fill="#8B4513" opacity="0.7"/>
+  <rect x="610" y="280" width="3" height="70" fill="#8B4513" opacity="0.7"/>
+
+  <!-- Wide path -->
+  <rect x="380" y="450" width="40" height="100" fill="#D2691E"/>
+
+  <!-- Mature trees -->
+  <circle cx="60" cy="360" r="70" fill="#228B22"/>
+  <rect x="35" y="430" width="50" height="70" fill="#8B4513"/>
+
+  <circle cx="740" cy="360" r="70" fill="#228B22"/>
+  <rect x="715" y="430" width="50" height="70" fill="#8B4513"/>
+
+  <!-- Sun -->
+  <circle cx="100" cy="80" r="40" fill="#FFD700"/>
+
+  <!-- Text -->
+  <text x="400" y="550" font-family="Arial, sans-serif" font-size="28" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Studio Cabin - Main View</text>
+</svg>

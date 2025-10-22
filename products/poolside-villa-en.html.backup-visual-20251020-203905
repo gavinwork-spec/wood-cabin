@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poolside Villa | Middle East Series | Chinese Modular Wooden Cabin Manufacturer</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Chinese modular wooden cabin manufacturer specializing in poolside villas, specially designed for high-end residences in Middle East regions, moisture-proof and corrosion-resistant, luxury finishing, perfect integration with pools, creating vacation paradise.">
+    <meta name="keywords" content="poolside villa, pool wooden cabin, Middle East wooden cabin, UAE wooden cabin, Saudi wooden cabin, modular wooden cabin manufacturer, vacation cabin, moisture-proof wooden cabin">
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://woodencabin.com/products/poolside-villa-en.html">
+
+    <!-- Design Tokens -->
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    
+    
+    
+    <!-- Visual Enhancement System -->
+    <link rel="stylesheet" href="../assets/css/products.css">    <!-- Open Graph Tags -->
+    <meta property="og:type" content="product">
+    <meta property="og:title" content="Poolside Villa - Middle East Series">
+    <meta property="og:description" content="Poolside villa specially designed for high-end residences in Middle East regions, moisture-proof and corrosion-resistant, luxury finishing, perfect integration with pools.">
+    <meta property="og:url" content="https://woodencabin.com/products/poolside-villa-en.html">
+    <meta property="og:image" content="../assets/images/products/luxury-poolside-cabin-large.png">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Poolside Villa",
+      "description": "Poolside villa specially designed for high-end residences in Middle East regions, moisture-proof and corrosion-resistant, luxury finishing, perfect integration with pools",
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Wooden Cabin Homes",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "CN",
+          "addressRegion": "Zhejiang"
+        }
+      },
+      "category": "Middle East Series",
+      "material": "Moisture-proof wood + Anti-corrosion treatment",
+      "url": "https://woodencabin.com/products/poolside-villa-en.html"
+    }
+    </script>
+</head>
+<body class="wood-texture">
+    <!-- Skip Links for Accessibility -->
+    <nav class="skip-links" role="navigation" aria-label="Skip navigation links">
+        <a href="#main-content" class="skip-link">Skip to main content</a>
+        <a href="#product-specifications" class="skip-link">Skip to product specifications</a>
+        <a href="#contact-section" class="skip-link">Skip to contact section</a>
+    </div>
+
+    <!-- Navigation -->
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="../index.html" class="logo">
+                    <i class="fas fa-home"></i>
+                    Premium Wooden Cabins
+                </a>
+                <ul class="nav-links">
+                    <li class="breadcrumb__item"><a href="../products.html" class="breadcrumb__link">Products</a></li>
+                    <li class="breadcrumb__item"><a href="../products.html" class="breadcrumb__link">Products</a></li>
+                    <li class="breadcrumb__item"><a href="../products.html" class="breadcrumb__link">Products</a></li>
+                    <li class="breadcrumb__item"><a href="../products.html" class="breadcrumb__link">Products</a></li>
+                    <li class="breadcrumb__item"><a href="../products.html" class="breadcrumb__link">Products</a></li>
+                    <li class="breadcrumb__item"><a href="../products.html" class="breadcrumb__link">Products</a></li>
+                    <li class="breadcrumb__item"><a href="../products.html" class="breadcrumb__link">Products</a></li>
+                </ul>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content" role="main">
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <div class="container">
+                <div class="container">
+                    <ol class="breadcrumb__list">
+                        <li class="breadcrumb__item"><a href="../index.html" class="breadcrumb__link"><i class="fas fa-home"></i> Home</a></li>
+                        <li class="breadcrumb__item"><a href="../products.html" class="breadcrumb__link">Products</a></li>
+                        <li class="breadcrumb__item"><a href="../products.html" class="breadcrumb__link">Products</a></li>
+                        <li class="breadcrumb__separator" aria-hidden="true">›</li><li class="breadcrumb__item"><span class="breadcrumb__current">Poolside Villa</span></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product Hero Section -->
+        <section class="hero-section" data-hero-type="poolside">
+            <div class="hero-content">
+                <div class="product-badges">
+                    <span class="badge badge-luxury">Luxury Series</span>
+                    <span class="badge badge-waterproof">Waterproof & Moisture-Proof</span>
+                    <span class="badge badge-factory">Factory Direct</span>
+                </div>
+                <h1 class="hero-title">
+                    Poolside Villa<br>
+                    <span class="text-accent">Vacation Paradise by the Pool</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Specially designed poolside wooden cabin villa for high-end residences in Middle East regions, featuring special moisture-proof and corrosion-resistant technology, perfectly integrated with pool landscape. Luxury finishing configuration, privacy design, creating exclusive vacation space, enjoying seaside vacation-like luxury experience.
+                </p>
+                <div class="hero-features">
+                    <div class="feature-item">
+                        <div class="feature-icon">💧</div>
+                        <div class="feature-text">
+                            <strong>Waterproof & Moisture-Proof</strong>
+                            <span>Special anti-corrosion treatment</span>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">🏊</div>
+                        <div class="feature-text">
+                            <strong>Pool Integration</strong>
+                            <span>Landscape integrated design</span>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">🛋️</div>
+                        <div class="feature-text">
+                            <strong>Luxury Finishing</strong>
+                            <span>Resort-standard configuration</span>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">⏱️</div>
+                        <div class="feature-text">
+                            <strong>25-30 Days</strong>
+                            <span>Rapid construction</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-cta">
+                    <a href="#contact-section" class="btn btn-primary btn-large">Customize Now</a>
+                    <a href="mailto:sales@woodencabin.com?subject=Product Inquiry - Wooden Cabin&body=I am interested in your wooden cabin products. Please provide more information and a quote." class="btn btn-secondary btn-large">
+                        <i class="fas fa-envelope"></i> Email Sales Team
+                    </a>
+                </div>
+            </div>
+            <div class="hero-background">
+                <img src="../assets/images/products/luxury-poolside-cabin-large.png" alt="Poolside villa view" class="hero-bg-image" loading="eager">
+            </div>
+        </div>
+
+        <!-- Product Gallery -->
+        <section class="section section-light">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Product Gallery</h2>
+                    <p class="section-subtitle">360° view of poolside villa exquisite details</p>
+                </div>
+
+                <div class="product-gallery">
+                    <div class="gallery-main">
+                        <img src="../assets/images/products/luxury-poolside-cabin-medium.png" alt="Poolside villa front view" id="main-gallery-image" loading="lazy">
+                    </div>
+                    <div class="gallery-thumbnails">
+                        <div class="thumbnail active" data-image="luxury-poolside-cabin-medium.png">
+                            <img src="../assets/images/products/luxury-poolside-cabin-small.png" alt="Front view" loading="lazy">
+                        </div>
+                        <div class="thumbnail" data-image="../assets/images/products/poolside-villa-interior.jpg">
+                            <img src="../assets/images/products/luxury-poolside-cabin-small.png" alt="Interior decoration" loading="lazy">
+                        </div>
+                        <div class="thumbnail" data-image="../assets/images/products/poolside-villa-pool.jpg">
+                            <img src="../assets/images/products/luxury-poolside-cabin-small.png" alt="Pool landscape" loading="lazy">
+                        </div>
+                        <div class="thumbnail" data-image="../assets/images/products/poolside-villa-sunset.jpg">
+                            <img src="../assets/images/products/luxury-poolside-cabin-small.png" alt="Sunset view" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Technical Specifications -->
+        <section class="section" id="product-specifications">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Technical Specifications</h2>
+                    <p class="section-subtitle">Specially designed for pool environments</p>
+                </div>
+
+                <div class="product-specs">
+                    <div class="spec-category">
+                        <h3 class="spec-title">Basic Specifications</h3>
+                        <div class="spec-grid">
+                            <div class="spec-item">
+                                <span class="spec-label">Size Options</span>
+                                <span class="spec-value">8m×10m / 10m×12m / 12m×15m</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Interior Space</span>
+                                <span class="spec-value">80-180m²</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Room Configuration</span>
+                                <span class="spec-value">2-4 bedroom design</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Construction Period</span>
+                                <span class="spec-value">25-30 days</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="spec-category">
+                        <h3 class="spec-title">Waterproof & Moisture-Proof</h3>
+                        <div class="spec-grid">
+                            <div class="spec-item">
+                                <span class="spec-label">Waterproof Grade</span>
+                                <span class="spec-value">IP68 waterproof standard</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Anti-corrosion Treatment</span>
+                                <span class="spec-value">Three-layer anti-corrosion coating</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Moisture-Proof Materials</span>
+                                <span class="spec-value">Special moisture-proof panels</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Salt Mist Resistance</span>
+                                <span class="spec-value">Marine-grade protection</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="spec-category">
+                        <h3 class="spec-title">Luxury Configuration</h3>
+                        <div class="spec-grid">
+                            <div class="spec-item">
+                                <span class="spec-label">Flooring Material</span>
+                                <span class="spec-value">Anti-slip tiles + solid wood</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Wall Decoration</span>
+                                <span class="spec-value">Waterproof wood paneling</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Bathroom Fixtures</span>
+                                <span class="spec-value">Imported brand fixtures</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Smart Home</span>
+                                <span class="spec-value">Full home smart system</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Related Products -->
+        <section class="section section-light">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Related Products</h2>
+                    <p class="section-subtitle">More Middle East wooden cabin choices</p>
+                </div>
+
+                <div class="related-products">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../assets/images/majlis-lounge.jpg" alt="Majlis lounge" loading="lazy">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">Majlis Lounge</h3>
+                            <p class="product-description">Lounge cabin blending tradition and modernity</p>
+                            <a href="majlis-lounge-en.html" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../assets/images/desert-proof-cabin.jpg" alt="Desert-proof cabin" loading="lazy">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">Desert-Proof Cabin</h3>
+                            <p class="product-description">Living cabin specially designed for desert environments</p>
+                            <a href="desert-proof-en.html" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../assets/images/rooftop-luxury-suite.jpg" alt="Rooftop luxury suite" loading="lazy">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">Rooftop Luxury Suite</h3>
+                            <p class="product-description">Luxury living space on urban rooftops</p>
+                            <a href="rooftop-luxury-en.html" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../assets/images/middle-east-series.jpg" alt="Middle East series" loading="lazy">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">View All Series</h3>
+                            <p class="product-description">More Middle East specialty products</p>
+                            <a href="middle-east-series-en.html" class="btn btn-secondary">Back to Series</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CTA Section -->
+        <section class="section section-primary" id="contact-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2 class="cta-title">Customize Your Poolside Villa</h2>
+                    <p class="cta-subtitle">
+                        Professional designer team provides one-on-one consultation services, designing exclusive vacation space according to your pool environment and personal preferences
+                    </p>
+                    <div class="cta-features">
+                        <div class="cta-feature">
+                            <span class="feature-icon">🆓</span>
+                            <span>Free On-site Assessment</span>
+                        </div>
+                        <div class="cta-feature">
+                            <span class="feature-icon">🎨</span>
+                            <span>Personalized Design</span>
+                        </div>
+                        <div class="cta-feature">
+                            <span class="feature-icon">⏱️</span>
+                            <span>Fast Delivery</span>
+                        </div>
+                        <div class="cta-feature">
+                            <span class="feature-icon">🌍</span>
+                            <span>Global Service</span>
+                        </div>
+                    </div>
+                    <div class="cta-buttons">
+                        <a href="mailto:sales@woodencabin.com?subject=B2B Inquiry - Poolside Villa&body=Dear%20Sales%20Team,%0A%0AI%20am%20interested%20in%20the%20Poolside%20Villa%20wooden%20cabin%20solution%20for%20our%20business.%20Could%20you%20please%20provide:%0A%0A•%20Detailed%20product%20specifications%0A•%20Pricing%20information%0A•%20Installation%20timeline%0A•%20Customization%20options%0A•%20Shipping%20details%20to%20our%20location%0A%0AThank%20you%20for%20your%20professional%20assistance.%0A%0ABest%20regards" class="btn btn-secondary btn-large">
+                            <i class="fas fa-envelope"></i> Email Sales Team
+                        </a>
+                        <a href="https://wa.me/+8619932411993?text=Hello Wooden Cabin Team,%0A%0AI am interested in your Poolside Villa wooden cabin for our business needs. Could you please provide a professional consultation and quote?%0A%0AThank you!" class="btn btn-primary btn-large" target="_blank">
+                            <i class="icon-email"></i> Online Inquiry
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Business Consultation</h3>
+                    <p>Phone: +86-199-3241-1993</p>
+                    <p>Email: info@woodencabin.com</p>
+                    <p>Address: Hangzhou, Zhejiang Province, China</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Product Series</h3>
+                    <ul>
+                        <li class="breadcrumb__item"><a href="../products.html" class="breadcrumb__link">Products</a></li>
+                        <li class="breadcrumb__item"><a href="../products.html" class="breadcrumb__link">Products</a></li>
+                        <li class="breadcrumb__item"><a href="../products.html" class="breadcrumb__link">Products</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <p>Professional Chinese modular wooden cabin manufacturer with 15 years of industry experience, exporting to 25+ countries.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Wooden Cabin Homes. Chinese Modular Wooden Cabin Manufacturer - B2B Professional Customization Services</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../assets/js/components.js"></script>
+    <script src="../assets/js/accessibility-enhancer.js"></script>
+    <script src="../assets/js/technical-seo-manager.js"></script>
+    <script src="../assets/js/ux-interaction-manager.js"></script>
+    <script src="../assets/js/mobile-ux-optimizer.js"></script>
+    <script src="../assets/js/smart-form-interactions.js"></script>
+    <script src="../assets/js/user-guidance-system.js"></script>
+    <script src="../assets/js/content-optimizer.js"></script>
+    <script src="../assets/js/custom-design-showcase.js"></script>
+    <script src="../assets/js/deep-content-system.js"></script>
+    <script src="../assets/js/visual-conversion-optimizer.js"></script>
+
+    <!-- Product Gallery Script -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const thumbnails = document.querySelectorAll('.thumbnail');
+        const mainImage = document.getElementById('main-gallery-image');
+
+        thumbnails.forEach(thumbnail => {
+            thumbnail.addEventListener('click', function() {
+                // Remove active class from all thumbnails
+                thumbnails.forEach(t => t.classList.remove('active'));
+
+                // Add active class to clicked thumbnail
+                this.classList.add('active');
+
+                // Update main image
+                const imageName = this.dataset.image; const newImage = "../assets/images/products/" + imageName;
+                mainImage.src = newImage;
+                mainImage.alt = this.querySelector('img').alt;
+            });
+        });
+    });
+    </script>
+    <!-- V9 Wooden Cabin Website JavaScript Modules -->
+    <script src="../assets/js/core/navigation.js"></script>
+    <script src="../assets/js/core/accessibility.js"></script>
+    <script src="../assets/js/core/form-handler.js"></script>
+    <script src="../assets/js/core/seo-manager.js"></script>
+    <script src="../assets/js/components/gallery.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>

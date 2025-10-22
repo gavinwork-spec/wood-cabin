@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="resortSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0F6FF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="resortWood" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4A574;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#C19A6B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B8956A;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="resortRoof" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2E5A3E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1A3A24;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="600" fill="url(#resortSky)"/>
+
+  <!-- Background Trees -->
+  <g id="bgTree" opacity="0.6">
+    <rect x="48" y="280" width="4" height="80" fill="#8B4513"/>
+    <polygon points="30,280 50,240 70,280" fill="#228B22"/>
+  </g>
+
+  <use href="#bgTree" transform="translate(100, 20)"/>
+  <use href="#bgTree" transform="translate(200, 40)"/>
+  <use href="#bgTree" transform="translate(600, 30)"/>
+  <use href="#bgTree" transform="translate(700, 50)"/>
+
+  <!-- Main Resort Cabin -->
+  <g transform="translate(200, 150)">
+    <!-- Foundation -->
+    <rect x="0" y="250" width="400" height="150" fill="#8B6F47"/>
+
+    <!-- Main Structure -->
+    <rect x="0" y="150" width="400" height="100" fill="url(#resortWood)"/>
+
+    <!-- Main Roof -->
+    <polygon points="-30,150 200,50 430,150" fill="url(#resortRoof)"/>
+
+    <!-- Deck Extension -->
+    <rect x="-50" y="250" width="500" height="100" fill="#D2B48C"/>
+
+    <!-- Large Windows -->
+    <rect x="50" y="170" width="100" height="60" fill="#87CEEB" rx="2"/>
+    <rect x="250" y="170" width="100" height="60" fill="#87CEEB" rx="2"/>
+
+    <!-- Window Panes -->
+    <line x1="100" y1="170" x2="100" y2="230" stroke="#654321" stroke-width="2"/>
+    <line x1="50" y1="200" x2="150" y2="200" stroke="#654321" stroke-width="2"/>
+    <line x1="300" y1="170" x2="300" y2="230" stroke="#654321" stroke-width="2"/>
+    <line x1="250" y1="200" x2="350" y2="200" stroke="#654321" stroke-width="2"/>
+
+    <!-- Glass Doors -->
+    <rect x="170" y="180" width="60" height="120" fill="#87CEEB" opacity="0.8" rx="1"/>
+    <line x1="200" y1="180" x2="200" y2="300" stroke="#654321" stroke-width="2"/>
+
+    <!-- Deck Railing -->
+    <rect x="-50" y="240" width="500" height="10" fill="#654321"/>
+
+    <!-- Deck Posts -->
+    <rect x="-40" y="200" width="8" height="40" fill="#654321"/>
+    <rect x="40" y="200" width="8" height="40" fill="#654321"/>
+    <rect x="120" y="200" width="8" height="40" fill="#654321"/>
+    <rect x="200" y="200" width="8" height="40" fill="#654321"/>
+    <rect x="280" y="200" width="8" height="40" fill="#654321"/>
+    <rect x="360" y="200" width="8" height="40" fill="#654321"/>
+    <rect x="440" y="200" width="8" height="40" fill="#654321"/>
+
+    <!-- Hot Tub -->
+    <ellipse cx="100" cy="280" rx="60" ry="40" fill="#4682B4" opacity="0.8"/>
+    <ellipse cx="100" cy="275" rx="55" ry="35" fill="#87CEEB" opacity="0.6"/>
+
+    <!-- Outdoor Furniture -->
+    <rect x="300" y="260" width="40" height="30" fill="#8B4513" rx="2"/>
+    <rect x="350" y="260" width="40" height="30" fill="#8B4513" rx="2"/>
+    <rect x="320" y="250" width="50" height="10" fill="#654321" rx="1"/>
+    <rect x="370" y="250" width="50" height="10" fill="#654321" rx="1"/>
+
+    <!-- Lighting -->
+    <circle cx="100" cy="200" r="5" fill="#FFFF99"/>
+    <circle cx="300" cy="200" r="5" fill="#FFFF99"/>
+  </g>
+
+  <!-- Path -->
+  <path d="M400 600 Q450 500 400 350" fill="none" stroke="#D2B48C" stroke-width="15"/>
+
+  <!-- Resort Sign -->
+  <g transform="translate(50, 50)">
+    <rect x="0" y="0" width="120" height="60" fill="#8B6F47" rx="5"/>
+    <rect x="10" y="10" width="100" height="40" fill="#F5F5DC"/>
+    <text x="60" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2E5A3E">RESORT</text>
+  </g>
+
+  <!-- Ground -->
+  <rect x="0" y="580" width="800" height="20" fill="#4A7C59"/>
+
+  <!-- Clouds -->
+  <g opacity="0.7">
+    <ellipse cx="150" cy="80" rx="40" ry="20" fill="#FFFFFF"/>
+    <ellipse cx="180" cy="80" rx="50" ry="25" fill="#FFFFFF"/>
+    <ellipse cx="210" cy="80" rx="40" ry="20" fill="#FFFFFF"/>
+  </g>
+
+  <g opacity="0.7">
+    <ellipse cx="550" cy="100" rx="35" ry="18" fill="#FFFFFF"/>
+    <ellipse cx="575" cy="100" rx="45" ry="22" fill="#FFFFFF"/>
+    <ellipse cx="600" cy="100" rx="35" ry="18" fill="#FFFFFF"/>
+  </g>
+</svg>

@@ -1,0 +1,273 @@
+/* ===========================================
+   COMPACT LAYOUT OPTIMIZATION
+   紧凑布局优化 - 提升屏幕利用率
+   =========================================== */
+
+/* Section Padding Reduction */
+.section {
+    padding: 2rem 0 !important;
+}
+
+.section-light {
+    padding: 2rem 0 !important;
+}
+
+.section-cream {
+    padding: 2rem 0 !important;
+}
+
+/* Section Header Spacing */
+.section-header {
+    margin-bottom: 1.5rem !important;
+}
+
+.section-subtitle {
+    margin-bottom: 1rem !important;
+}
+
+/* Product Grid Spacing */
+.products-grid {
+    gap: 1.5rem !important;
+}
+
+.product-grid {
+    gap: 1.5rem !important;
+}
+
+/* Product Card Internal Spacing */
+.product-card {
+    margin-bottom: 0 !important;
+}
+
+.product-content {
+    padding: 1.5rem !important;
+}
+
+.product-title {
+    margin-bottom: 0.75rem !important;
+}
+
+.product-description {
+    margin-bottom: 1rem !important;
+    line-height: 1.4 !important;
+}
+
+.product-specs {
+    margin-bottom: 1rem !important;
+    gap: 0.5rem !important;
+}
+
+.product-actions {
+    margin-top: 1rem !important;
+}
+
+/* Feature Cards Spacing */
+.feature-card {
+    margin-bottom: 1.5rem !important;
+}
+
+.feature-content {
+    padding: 1.5rem !important;
+}
+
+/* Tech Cards Spacing */
+.tech-card {
+    margin-bottom: 1.5rem !important;
+}
+
+/* Gallery Spacing */
+.gallery-main {
+    margin-bottom: 1.5rem !important;
+}
+
+/* CTA Section Spacing */
+.cta-section {
+    padding: 2.5rem 0 !important;
+}
+
+/* Breadcrumb Spacing */
+.breadcrumb-nav {
+    margin-bottom: 1.5rem !important;
+}
+
+/* Mobile Optimization */
+@media (max-width: 768px) {
+    .section {
+        padding: 1.5rem 0 !important;
+    }
+
+    .section-header {
+        margin-bottom: 1rem !important;
+    }
+
+    .products-grid {
+        gap: 1rem !important;
+    }
+
+    .product-content {
+        padding: 1rem !important;
+    }
+
+    .product-title {
+        margin-bottom: 0.5rem !important;
+        font-size: 1.25rem !important;
+    }
+
+    .product-description {
+        margin-bottom: 0.75rem !important;
+        font-size: 0.9rem !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .section {
+        padding: 1rem 0 !important;
+    }
+
+    .products-grid {
+        gap: 0.75rem !important;
+    }
+}
+
+/* Container Margin Reduction */
+.container {
+    max-width: 1200px !important;
+}
+
+.text-center.mt-xl {
+    margin-top: 2rem !important;
+}
+
+.mt-lg {
+    margin-top: 1.5rem !important;
+}
+
+.mt-md {
+    margin-top: 1rem !important;
+}
+
+.mt-sm {
+    margin-top: 0.75rem !important;
+}
+
+/* Button Spacing */
+.btn {
+    margin: 0.25rem !important;
+}
+
+.btn-small {
+    padding: 0.5rem 1rem !important;
+    font-size: 0.875rem !important;
+}
+
+/* Card Hover Effects - Reduced Movement */
+.shadow-hover-lift:hover {
+    transform: translateY(-2px) !important;
+}
+
+/* Tab Content Spacing */
+.tab-content {
+    padding: 1.5rem !important;
+}
+
+/* Comparison Matrix Spacing */
+.comparison-matrix {
+    padding: 2rem 0 !important;
+}
+
+.comparison-matrix__container {
+    margin-bottom: 1.5rem !important;
+}
+
+/* Feature Showcase Spacing */
+.feature-showcase-interactive {
+    padding: 2rem 0 !important;
+}
+
+.feature-showcase-interactive__container {
+    margin-bottom: 1.5rem !important;
+}
+
+/* Tech Visualization Spacing */
+.tech-visualization {
+    padding: 2rem 0 !important;
+}
+
+.tech-visualization__container {
+    margin-bottom: 1.5rem !important;
+}
+
+/* Hero Section Optimization */
+.product-hero-advanced {
+    min-height: 80vh !important;
+}
+
+.product-hero-advanced__content {
+    padding: 3rem 2rem !important;
+}
+
+.product-hero-advanced__key-points {
+    gap: 1rem !important;
+    margin-bottom: 2rem !important;
+}
+
+.product-hero-advanced__key-point {
+    padding: 0.75rem !important;
+}
+
+/* List Spacing */
+ul, ol {
+    margin-bottom: 1rem !important;
+}
+
+li {
+    margin-bottom: 0.25rem !important;
+}
+
+/* Table Spacing */
+table {
+    margin-bottom: 1rem !important;
+}
+
+th, td {
+    padding: 0.5rem !important;
+}
+
+/* Form Spacing */
+.form-group {
+    margin-bottom: 1rem !important;
+}
+
+/* Testimonial Spacing */
+.testimonial-card {
+    margin-bottom: 1rem !important;
+    padding: 1.5rem !important;
+}
+
+/* Application Scenarios Spacing */
+.application-scenarios {
+    gap: 1.5rem !important;
+}
+
+.scenario-card {
+    margin-bottom: 0 !important;
+}
+
+.scenario-content {
+    padding: 1.5rem !important;
+}
+
+/* Related Products Spacing */
+.related-products {
+    gap: 1.5rem !important;
+}
+
+/* B2B Information Spacing */
+.b2b-info-grid {
+    gap: 1.5rem !important;
+}
+
+.b2b-info-card {
+    padding: 1.5rem !important;
+    margin-bottom: 0 !important;
+}

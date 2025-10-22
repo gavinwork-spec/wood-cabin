@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="cozy-wood" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#CD853F;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#DEB887;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#CD853F;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="warm-sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFE4B5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFDEAD;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cozy-glass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF8DC;stop-opacity:0.85" />
+      <stop offset="100%" style="stop-color:#FFE4B5;stop-opacity:0.9" />
+    </linearGradient>
+  </defs>
+
+  <!-- Warm sky background -->
+  <rect width="1200" height="400" fill="url(#warm-sky)"/>
+
+  <!-- Sun -->
+  <circle cx="950" cy="100" r="50" fill="#FFD700" opacity="0.8"/>
+
+  <!-- Main garden area -->
+  <rect y="400" width="1200" height="400" fill="#8FBC8F"/>
+
+  <!-- Stone pathway to guest house -->
+  <path d="M 450 800 L 430 400 L 520 400 L 500 800 Z" fill="#C0C0C0"/>
+  <ellipse cx="475" cy="450" rx="20" ry="6" fill="#D3D3D3"/>
+  <ellipse cx="475" cy="550" rx="20" ry="6" fill="#D3D3D3"/>
+  <ellipse cx="475" cy="650" rx="20" ry="6" fill="#D3D3D3"/>
+
+  <!-- Cozy guest house cabin -->
+  <g transform="translate(320, 220)">
+    <!-- Foundation -->
+    <rect x="-20" y="200" width="340" height="15" fill="#8B4513"/>
+
+    <!-- Main cabin structure -->
+    <rect x="0" y="80" width="300" height="120" fill="url(#cozy-wood)" stroke="#A0522D" stroke-width="3"/>
+
+    <!-- Cozy pitched roof -->
+    <polygon points="-30,80 150,20 330,80" fill="#8B4513" stroke="#654321" stroke-width="2"/>
+
+    <!-- Chimney -->
+    <rect x="220" y="40" width="30" height="60" fill="#8B4513" stroke="#654321" stroke-width="2"/>
+    <rect x="215" y="35" width="40" height="10" fill="#654321"/>
+
+    <!-- Large bay window -->
+    <path d="M 20 100 L 20 180 L 80 180 L 100 160 L 100 100 Z" fill="url(#cozy-glass)" stroke="#CD853F" stroke-width="3"/>
+    <line x1="60" y1="100" x2="60" y2="180" stroke="#CD853F" stroke-width="2"/>
+    <line x1="20" y1="140" x2="100" y2="140" stroke="#CD853F" stroke-width="2"/>
+
+    <!-- Cozy front door with window -->
+    <rect x="180" y="120" width="50" height="80" fill="#8B4513" stroke="#654321" stroke-width="2"/>
+    <rect x="190" y="130" width="30" height="25" fill="url(#cozy-glass)" stroke="#8B4513" stroke-width="1"/>
+    <circle cx="220" cy="160" r="3" fill="#FFD700"/>
+
+    <!-- Side windows -->
+    <rect x="120" y="100" width="40" height="40" fill="url(#cozy-glass)" stroke="#CD853F" stroke-width="2"/>
+    <rect x="120" y="100" width="40" height="40" fill="url(#cozy-glass)" stroke="#CD853F" stroke-width="2"/>
+
+    <!-- Window boxes with flowers -->
+    <rect x="15" y="185" width="90" height="8" fill="#8B4513"/>
+    <g transform="translate(20, 178)">
+      <circle cx="15" cy="0" r="4" fill="#FF69B4" opacity="0.8"/>
+      <circle cx="30" cy="-2" r="3" fill="#FFB6C1" opacity="0.8"/>
+      <circle cx="45" cy="0" r="4" fill="#FF1493" opacity="0.8"/>
+      <circle cx="60" cy="-1" r="3" fill="#FFC0CB" opacity="0.8"/>
+      <circle cx="75" cy="0" r="4" fill="#FF69B4" opacity="0.8"/>
+    </g>
+
+    <!-- Welcome mat -->
+    <rect x="185" y="200" width="40" height="6" fill="#8B4513" opacity="0.8"/>
+    <text x="205" y="205" font-family="Arial, sans-serif" font-size="4" text-anchor="middle" fill="#FFFFFF">Welcome</text>
+
+    <!-- Porch light -->
+    <circle cx="160" cy="110" r="6" fill="#FFA500" stroke="#FF8C00" stroke-width="1"/>
+    <circle cx="160" cy="110" r="3" fill="#FFFFE0"/>
+
+    <!-- Cozy details -->
+    <!-- Outdoor seating -->
+    <rect x="250" y="190" width="40" height="25" fill="#8B4513"/>
+    <rect x="248" y="188" width="44" height="3" fill="#A0522D"/>
+    <rect x="10" y="190" width="40" height="25" fill="#8B4513"/>
+    <rect x="8" y="188" width="44" height="3" fill="#A0522D"/>
+
+    <!-- Potted plants -->
+    <g transform="translate(50, 175)">
+      <rect x="0" y="15" width="12" height="10" fill="#8B4513"/>
+      <circle cx="6" cy="12" r="8" fill="#228B22" opacity="0.9"/>
+      <circle cx="3" cy="15" r="5" fill="#32CD32" opacity="0.8"/>
+      <circle cx="9" cy="15" r="5" fill="#32CD32" opacity="0.8"/>
+    </g>
+
+    <g transform="translate(280, 175)">
+      <rect x="0" y="15" width="12" height="10" fill="#8B4513"/>
+      <circle cx="6" cy="12" r="8" fill="#228B22" opacity="0.9"/>
+      <circle cx="3" cy="15" r="5" fill="#32CD32" opacity="0.8"/>
+      <circle cx="9" cy="15" r="5" fill="#32CD32" opacity="0.8"/>
+    </g>
+
+    <!-- Smoke from chimney -->
+    <circle cx="235" cy="25" r="8" fill="#D3D3D3" opacity="0.6"/>
+    <circle cx="240" cy="15" r="10" fill="#D3D3D3" opacity="0.5"/>
+    <circle cx="238" cy="5" r="12" fill="#D3D3D3" opacity="0.4"/>
+  </g>
+
+  <!-- Landscaping elements -->
+  <!-- Decorative trees -->
+  <g id="cozy-tree">
+    <rect x="148" y="360" width="4" height="40" fill="#8B4513"/>
+    <circle cx="150" cy="350" r="18" fill="#228B22" opacity="0.9"/>
+    <circle cx="143" cy="355" r="12" fill="#32CD32" opacity="0.8"/>
+    <circle cx="157" cy="355" r="12" fill="#32CD32" opacity="0.8"/>
+  </g>
+
+  <use href="#cozy-tree" x="100" y="0"/>
+  <use href="#cozy-tree" x="800" y="0"/>
+  <use href="#cozy-tree" x="850" y="30"/>
+
+  <!-- Garden flowers -->
+  <g transform="translate(100, 450)">
+    <circle cx="15" cy="8" r="6" fill="#FF69B4" opacity="0.8"/>
+    <circle cx="30" cy="5" r="5" fill="#FFB6C1" opacity="0.8"/>
+    <circle cx="45" cy="10" r="7" fill="#FF1493" opacity="0.8"/>
+    <circle cx="60" cy="6" r="4" fill="#FFC0CB" opacity="0.8"/>
+  </g>
+
+  <g transform="translate(900, 450)">
+    <circle cx="15" cy="8" r="6" fill="#FF69B4" opacity="0.8"/>
+    <circle cx="30" cy="5" r="5" fill="#FFB6C1" opacity="0.8"/>
+    <circle cx="45" cy="10" r="7" fill="#FF1493" opacity="0.8"/>
+    <circle cx="60" cy="6" r="4" fill="#FFC0CB" opacity="0.8"/>
+  </g>
+
+  <!-- Title text -->
+  <text x="600" y="650" font-family="Arial, sans-serif" font-size="42" font-weight="bold" text-anchor="middle" fill="#2C3E50">
+    Cozy Guest House
+  </text>
+  <text x="600" y="700" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#7F8C8D">
+    Warm & Welcoming Private Space
+  </text>
+  <text x="600" y="730" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#95A5A6">
+    Perfect for Family & Friends - Complete with Private Entrance
+  </text>
+</svg>

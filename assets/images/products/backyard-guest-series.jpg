@@ -1,0 +1,46 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky background -->
+  <rect width="800" height="600" fill="#87CEEB"/>
+
+  <!-- Grass -->
+  <rect x="0" y="400" width="800" height="200" fill="#228B22"/>
+
+  <!-- Medium Guest Cabin -->
+  <rect x="200" y="280" width="400" height="170" fill="#8B4513" stroke="#654321" stroke-width="3"/>
+
+  <!-- Roof -->
+  <polygon points="170,280 400,170 630,280" fill="#A0522D" stroke="#654321" stroke-width="3"/>
+
+  <!-- Door -->
+  <rect x="360" y="370" width="80" height="80" fill="#654321"/>
+  <circle cx="425" cy="410" r="4" fill="#FFD700"/>
+
+  <!-- Guest Room Windows -->
+  <rect x="230" y="320" width="90" height="70" fill="#87CEEB" stroke="#654321" stroke-width="2"/>
+  <line x1="275" y1="320" x2="275" y2="390" stroke="#654321" stroke-width="2"/>
+  <line x1="230" y1="355" x2="320" y2="355" stroke="#654321" stroke-width="2"/>
+
+  <rect x="480" y="320" width="90" height="70" fill="#87CEEB" stroke="#654321" stroke-width="2"/>
+  <line x1="525" y1="320" x2="525" y2="390" stroke="#654321" stroke-width="2"/>
+  <line x1="480" y1="355" x2="570" y2="355" stroke="#654321" stroke-width="2"/>
+
+  <!-- Bed visible through left window -->
+  <rect x="250" y="360" width="50" height="30" fill="#8B4513" opacity="0.7"/>
+  <rect x="250" y="345" width="50" height="15" fill="#FFFFFF" opacity="0.7"/>
+
+  <!-- Path -->
+  <rect x="390" y="450" width="20" height="100" fill="#D2691E"/>
+
+  <!-- Trees -->
+  <circle cx="100" cy="380" r="50" fill="#228B22"/>
+  <rect x="85" y="430" width="30" height="70" fill="#8B4513"/>
+
+  <circle cx="700" cy="380" r="50" fill="#228B22"/>
+  <rect x="685" y="430" width="30" height="70" fill="#8B4513"/>
+
+  <!-- Sun -->
+  <circle cx="100" cy="80" r="40" fill="#FFD700"/>
+
+  <!-- Text -->
+  <text x="400" y="550" font-family="Arial, sans-serif" font-size="28" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Medium Guest Cabin</text>
+</svg>

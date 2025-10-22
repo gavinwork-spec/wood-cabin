@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wooden Cabin Blog - Expert Insights & Industry News | Cabin Design & Construction Guide</title>
+    <meta name="description" content="Professional wooden cabin blog featuring expert design insights, technical guides, sustainability trends, and industry news. Authoritative resources for B2B professionals and construction enthusiasts.">
+    <meta name="keywords" content="wooden cabin blog, cabin design, cabin construction, sustainable architecture, modular cabins, cabin technical guides, cabin industry news, cabin expertise, cabin building trends, eco cabins">
+    <meta name="author" content="Premium Wooden Cabins">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://woodencabin.com/blog">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Wooden Cabin Blog - Expert Insights & Industry News | Cabin Design & Construction Guide">
+    <meta property="og:description" content="Professional wooden cabin blog featuring expert design insights, technical guides, sustainability trends, and industry news for B2B professionals.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://woodencabin.com/blog">
+    <meta property="og:image" content="https://woodencabin.com/assets/images/hero/hero-main-banner-large.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Wooden Cabin Blog - Expert Insights & Industry News">
+    <meta name="twitter:description" content="Professional wooden cabin blog featuring expert design insights, technical guides, and industry news.">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Blog",
+        "name": "Wooden Cabin Blog - Expert Insights & Industry News",
+        "description": "Professional wooden cabin blog featuring expert design insights, technical guides, sustainability trends, and industry news for B2B professionals and construction enthusiasts.",
+        "url": "https://woodencabin.com/blog",
+        "inLanguage": "en",
+        "isPartOf": {
+            "@type": "WebSite",
+            "name": "Premium Wooden Cabins",
+            "url": "https://woodencabin.com"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Premium Wooden Cabins",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://woodencabin.com/assets/images/logo.svg"
+            }
+        }
+    }
+    </script>
+
+    <style>
+        :root {
+            --primary-green: #2E5A3E;
+            --primary-brown: #C19A6B;
+            --primary-cream: #F5F5F0;
+            --secondary-green: #1A3A24;
+            --secondary-brown: #8B6F47;
+            --accent-gold: #D4A574;
+            --text-dark: #2C2C2C;
+            --text-light: #666;
+            --text-lighter: #999;
+            --border-light: #E8E4E0;
+            --shadow-light: 0 2px 10px rgba(0,0,0,0.08);
+            --shadow-medium: 0 4px 20px rgba(0,0,0,0.12);
+            --shadow-strong: 0 8px 30px rgba(0,0,0,0.15);
+            --radius-sm: 8px;
+            --radius-md: 12px;
+            --radius-lg: 16px;
+            --radius-xl: 24px;
+        }
+
+        /* Blog Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--primary-green) 0%, var(--secondary-green) 100%);
+            color: white;
+            margin-top: 60px;
+            padding: 6rem 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .blog-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1920&h=600&fit=crop&q=80') center/cover;
+            opacity: 0.15;
+            mix-blend-mode: overlay;
+        }
+
+        .blog-hero-content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+        }
+
+        .blog-hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2.5rem, 5vw, 3.5rem);
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .blog-hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto;
+            opacity: 0.9;
+        }
+
+        /* Blog Categories */
+        .blog-categories {
+            padding: 4rem 0;
+            background: white;
+        }
+
+        .categories-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 1.5rem;
+            margin-top: 3rem;
+        }
+
+        .category-card {
+            background: var(--primary-cream);
+            border-radius: var(--radius-lg);
+            padding: 2rem 1.5rem;
+            text-align: center;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            border: 2px solid transparent;
+        }
+
+        .category-card:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-medium);
+        }
+
+        /* Blog Card Link Styling */
+        .blog-card-link {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            transition: all 0.3s ease;
+        }
+
+        .blog-card-link:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-strong);
+        }
+
+        .blog-card-link:hover .blog-title {
+            color: var(--primary-green);
+        }
+
+        .blog-card-link:hover .blog-image {
+            transform: scale(1.05);
+        }
+            border-color: var(--accent-gold);
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .category-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, var(--primary-green), var(--primary-brown));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1rem;
+            color: white;
+            font-size: 1.5rem;
+        }
+
+        .category-card h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--primary-green);
+            margin-bottom: 0.5rem;
+        }
+
+        .category-card p {
+            color: var(--text-light);
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .category-count {
+            color: var(--primary-brown);
+            font-weight: 600;
+            font-size: 0.8rem;
+        }
+
+        /* Blog Posts Grid */
+        .blog-posts {
+            padding: 4rem 0;
+            background: var(--primary-cream);
+        }
+
+        .posts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .blog-card {
+            background: white;
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow-light);
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .blog-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-strong);
+        }
+
+        .blog-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .blog-card:hover .blog-image {
+            transform: scale(1.05);
+        }
+
+        .blog-content {
+            padding: 1.5rem;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .blog-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+            font-size: 0.85rem;
+            color: var(--text-lighter);
+        }
+
+        .blog-category {
+            background: var(--accent-gold);
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+
+        .blog-date {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .blog-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: var(--primary-green);
+            margin-bottom: 1rem;
+            line-height: 1.4;
+        }
+
+        .blog-excerpt {
+            color: var(--text-light);
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+            flex: 1;
+        }
+
+        .blog-author {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border-light);
+        }
+
+        .author-avatar {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--primary-green), var(--primary-brown));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+        .author-info {
+            flex: 1;
+        }
+
+        .author-name {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--text-dark);
+        }
+
+        .read-time {
+            font-size: 0.8rem;
+            color: var(--text-lighter);
+        }
+
+        .read-more {
+            color: var(--primary-green);
+            text-decoration: none;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: gap 0.3s ease;
+        }
+
+        .read-more:hover {
+            gap: 0.75rem;
+            text-decoration: none;
+        }
+
+        /* Featured Post */
+        .featured-post {
+            background: linear-gradient(135deg, var(--primary-green), var(--secondary-green));
+            color: white;
+            border-radius: var(--radius-xl);
+            padding: 3rem;
+            margin-bottom: 3rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .featured-post::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?w=1920&h=600&fit=crop&q=80') center/cover;
+            opacity: 0.1;
+            mix-blend-mode: overlay;
+        }
+
+        .featured-content {
+            position: relative;
+            z-index: 2;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+        }
+
+        .featured-badge {
+            background: var(--accent-gold);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            display: inline-block;
+            margin-bottom: 1rem;
+        }
+
+        .featured-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            line-height: 1.3;
+        }
+
+        .featured-excerpt {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+
+        .featured-meta {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            font-size: 0.9rem;
+        }
+
+        .featured-image {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: var(--radius-lg);
+        }
+
+        /* Newsletter Section */
+        .newsletter-section {
+            background: var(--primary-green);
+            color: white;
+            padding: 4rem 0;
+            text-align: center;
+        }
+
+        .newsletter-content h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .newsletter-content p {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+
+        .newsletter-form {
+            display: flex;
+            gap: 1rem;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .newsletter-input {
+            flex: 1;
+            padding: 1rem 1.5rem;
+            border: none;
+            border-radius: var(--radius-md);
+            font-size: 1rem;
+        }
+
+        .newsletter-button {
+            background: var(--accent-gold);
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: var(--radius-md);
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .newsletter-button:hover {
+            background: #C19A6B;
+            transform: translateY(-2px);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .blog-hero {
+                padding: 4rem 0;
+            }
+
+            .featured-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .featured-title {
+                font-size: 1.5rem;
+            }
+
+            .posts-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .categories-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .newsletter-form {
+                flex-direction: column;
+            }
+
+            .newsletter-button {
+                width: 100%;
+            }
+        }
+
+        /* Loading Animation */
+        .loading-skeleton {
+            background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+            background-size: 200% 100%;
+            animation: loading 1.5s infinite;
+        }
+
+        @keyframes loading {
+            0% { background-position: 200% 0; }
+            100% { background-position: -200% 0; }
+        }
+
+        /* Blog page specific styles */
+        .hero {
+            background: linear-gradient(135deg, var(--primary-green) 0%, var(--secondary-green) 100%);
+            color: white;
+            margin-top: 60px;
+            padding: var(--space-2xl) 0;
+            text-align: center;
+        }
+
+        .blog-hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: var(--text-4xl);
+            margin-bottom: var(--space-md);
+        }
+
+        .blog-hero p {
+            font-size: var(--text-lg);
+            max-width: 600px;
+            margin: 0 auto;
+            opacity: 0.9;
+        }
+
+        /* Mobile responsive for blog */
+        @media (max-width: 768px) {
+            .categories-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Skip Links for Accessibility -->
+    <nav class="skip-links" role="navigation" aria-label="Skip navigation links">
+        <a href="#main-content" class="skip-link">Skip to main content</a>
+        <a href="#blog-categories" class="skip-link">Skip to categories</a>
+        <a href="#latest-posts" class="skip-link">Skip to latest posts</a>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">
+                    <i class="fas fa-home"></i>
+                    Premium Wooden Cabins
+                </a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                          <li><a href="blog.html" class="active">Blog</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content" role="main">
+        <!-- Breadcrumb Navigation -->
+        <nav class="breadcrumb-nav" aria-label="Breadcrumb" style="margin-top: -60px; z-index: -1;">
+            <div class="container">
+                <ol class="breadcrumb-list">
+                    <li class="breadcrumb-item">
+                        <a href="index.html"><i class="fas fa-home" aria-hidden="true"></i> Home</a>
+                    </li>
+                    <li class="breadcrumb-item active">Blog</li>
+                </ol>
+            </div>
+        </nav>
+
+        <!-- Blog Hero Section -->
+        <section class="hero" role="banner">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Wooden Cabin Expert Blog</h1>
+                    <p>Sharing cabin design insights, technical guides, sustainability trends, and industry news. Authoritative resources for B2B professionals and construction enthusiasts.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Categories -->
+        <section class="blog-categories" id="blog-categories">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Article Categories</h2>
+                    <p class="section-subtitle">Explore professional knowledge and insights across different domains</p>
+                </div>
+
+                <div class="categories-grid">
+                    <a href="#design" class="category-card" onclick="filterByCategory('design')">
+                        <div class="category-icon">
+                            <i class="fas fa-pencil-ruler"></i>
+                        </div>
+                        <h3>Design Insights</h3>
+                        <p>Cabin design inspiration and innovative concepts</p>
+                        <span class="category-count">12 Articles</span>
+                    </a>
+
+                    <a href="#technical" class="category-card" onclick="filterByCategory('technical')">
+                        <div class="category-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3>Technical Guides</h3>
+                        <p>Cabin construction techniques and detailed processes</p>
+                        <span class="category-count">18 Articles</span>
+                    </a>
+
+                    <a href="#sustainability" class="category-card" onclick="filterByCategory('sustainability')">
+                        <div class="category-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h3>Sustainability</h3>
+                        <p>Eco-friendly cabins and green building practices</p>
+                        <span class="category-count">8 Articles</span>
+                    </a>
+
+                    <a href="#industry" class="category-card" onclick="filterByCategory('industry')">
+                        <div class="category-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Industry News</h3>
+                        <p>Cabin industry updates and market trends</p>
+                        <span class="category-count">15 Articles</span>
+                    </a>
+
+                    <a href="#case-studies" class="category-card" onclick="filterByCategory('case-studies')">
+                        <div class="category-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <h3>Case Studies</h3>
+                        <p>Success stories and project experiences</p>
+                        <span class="category-count">10 Articles</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Posts -->
+        <section class="blog-posts" id="latest-posts">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Latest Articles</h2>
+                    <p class="section-subtitle">Get the latest cabin industry insights and professional expertise</p>
+                </div>
+
+                <!-- Featured Post -->
+                <article class="featured-post">
+                    <div class="featured-content">
+                        <div>
+                            <span class="featured-badge">Featured Article</span>
+                            <h1 class="featured-title">2024 Cabin Design Trends: The Perfect Fusion of Sustainability and Smart Technology</h1>
+                            <p class="featured-excerpt">
+                                Explore the latest cabin design trends for 2024, from eco-friendly materials to smart home technology integration. Learn how to create modern cabin spaces that are both beautiful and functional.
+                            </p>
+                            <div class="featured-meta">
+                                <span><i class="fas fa-user"></i> Design Team</span>
+                                <span><i class="fas fa-calendar"></i> October 1, 2024</span>
+                                <span><i class="fas fa-clock"></i> 8 min read</span>
+                            </div>
+                        </div>
+                        <div>
+                            <img loading="lazy" src="assets/images/products/luxury-modern-cabin-minimalist-01.png" alt="Modern cabin design with contemporary minimalist architecture and premium sustainable materials" class="featured-image" loading="lazy">
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Blog Posts Grid -->
+                <div class="posts-grid" id="posts-container">
+                    <article class="blog-card" data-category="design">
+                        <a href="blog/small-space-optimization-design.html" class="blog-card-link">
+                            <img loading="lazy" src="assets/images/interior/backyard-office-interior-medium.png" alt="Compact cabin interior design showing space optimization and smart storage solutions for small living spaces" class="blog-image" loading="lazy" width="800" height="600">
+                            <div class="blog-content">
+                                <div class="blog-meta">
+                                    <span class="blog-category">Design Insights</span>
+                                    <span class="blog-date">
+                                        <i class="fas fa-calendar"></i> September 28, 2024
+                                    </span>
+                                </div>
+                                <h3 class="blog-title">Small Space, Big Ideas: Space Optimization Design for Compact Cabins</h3>
+                                <p class="blog-excerpt">
+                                    Creating limitless possibilities in limited spaces. Explore design strategies for compact cabins, from multifunctional furniture to smart storage solutions.
+                                </p>
+                                <div class="blog-author">
+                                    <div class="author-avatar">L</div>
+                                    <div class="author-info">
+                                        <div class="author-name">Lisa Architect</div>
+                                        <div class="read-time">5 min read</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <article class="blog-card" data-category="technical">
+                        <a href="blog/modern-cabin-construction-prefabrication.html" class="blog-card-link">
+                            <img loading="lazy" src="assets/images/process/craftsman_woodworking.jpg" alt="Cabin construction technology showcasing precision manufacturing and traditional woodworking techniques" class="blog-image" loading="lazy">
+                            <div class="blog-content">
+                                <div class="blog-meta">
+                                    <span class="blog-category">Technical Guides</span>
+                                    <span class="blog-date">
+                                        <i class="fas fa-calendar"></i> September 25, 2024
+                                    </span>
+                                </div>
+                                <h3 class="blog-title">Modern Cabin Construction: Advantages and Applications of Prefabrication Technology</h3>
+                                <p class="blog-excerpt">
+                                    Deep dive into cabin prefabrication technology, from factory production to on-site installation, analyzing how this modern construction method improves efficiency and quality.
+                                </p>
+                                <div class="blog-author">
+                                    <div class="author-avatar">W</div>
+                                    <div class="author-info">
+                                        <div class="author-name">Wang Engineer</div>
+                                        <div class="read-time">7 min read</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <article class="blog-card" data-category="sustainability">
+                        <a href="blog/sustainable-cabin-materials-techniques.html" class="blog-card-link">
+                            <img loading="lazy" src="assets/images/products/resort-luxury-eco-premium-01.png" alt="Sustainable cabin with eco-friendly materials and green building technology" class="blog-image" loading="lazy">
+                            <div class="blog-content">
+                                <div class="blog-meta">
+                                    <span class="blog-category">Sustainability</span>
+                                    <span class="blog-date">
+                                        <i class="fas fa-calendar"></i> September 22, 2024
+                                    </span>
+                                </div>
+                                <h3 class="blog-title">The Future of Green Building: Sustainable Cabin Materials and Techniques</h3>
+                                <p class="blog-excerpt">
+                                    Explore the application of eco-friendly materials in cabin construction, from sustainably harvested timber to energy-efficient technology integration.
+                                </p>
+                                <div class="blog-author">
+                                    <div class="author-avatar">C</div>
+                                    <div class="author-info">
+                                        <div class="author-name">Chen Environmental Expert</div>
+                                        <div class="read-time">6 min read</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <article class="blog-card" data-category="case-studies">
+                        <a href="blog/resort-cabin-project-analysis.html" class="blog-card-link">
+                            <img loading="lazy" src="assets/images/products/moganshan-resort-main.jpg" alt="Resort cabin case study showcasing luxury hospitality design and implementation" class="blog-image" loading="lazy">
+                            <div class="blog-content">
+                                <div class="blog-meta">
+                                    <span class="blog-category">Case Studies</span>
+                                    <span class="blog-date">
+                                        <i class="fas fa-calendar"></i> September 20, 2024
+                                    </span>
+                                </div>
+                                <h3 class="blog-title">From Design to Reality: Complete Analysis of a Premium Resort Cabin Project</h3>
+                                <p class="blog-excerpt">
+                                    Detailed analysis of a successful resort cabin project, from concept design to final construction, sharing challenges and solutions encountered.
+                                </p>
+                                <div class="blog-author">
+                                    <div class="author-avatar">Z</div>
+                                    <div class="author-info">
+                                        <div class="author-name">Zhao Project Manager</div>
+                                        <div class="read-time">10 min read</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <article class="blog-card" data-category="innovation">
+                        <a href="blog/ai-powered-cabin-design.html" class="blog-card-link">
+                            <img loading="lazy" src="assets/images/products/architecture-design-evolution-showcase-01.png" alt="AI cabin design demonstrating innovative computational design and customized architecture" class="blog-image" loading="lazy">
+                            <div class="blog-content">
+                                <div class="blog-meta">
+                                    <span class="blog-category">Innovation</span>
+                                    <span class="blog-date">
+                                        <i class="fas fa-calendar"></i> September 18, 2024
+                                    </span>
+                                </div>
+                                <h3 class="blog-title">AI-Powered Cabin Design: Applications and Future of Intelligent Design Tools</h3>
+                                <p class="blog-excerpt">
+                                    Explore AI applications in cabin design, from automated design generation to virtual reality previews, and how AI technology is revolutionizing traditional design workflows.
+                                </p>
+                                <div class="blog-author">
+                                    <div class="author-avatar">L</div>
+                                    <div class="author-info">
+                                        <div class="author-name">Liu Tech Expert</div>
+                                        <div class="read-time">8 min read</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <article class="blog-card" data-category="industry">
+                        <a href="blog/2024-global-cabin-market-trends.html" class="blog-card-link">
+                            <img loading="lazy" src="assets/images/showcase/residential-family-cabin-medium.png" alt="2024 cabin market trends showing modern residential wooden cabins and global housing market developments" class="blog-image" loading="lazy" width="800" height="600">
+                            <div class="blog-content">
+                                <div class="blog-meta">
+                                    <span class="blog-category">Industry News</span>
+                                    <span class="blog-date">
+                                        <i class="fas fa-calendar"></i> September 15, 2024
+                                    </span>
+                                </div>
+                                <h3 class="blog-title">2024 Global Cabin Market Trends Report</h3>
+                                <p class="blog-excerpt">
+                                    Analysis of 2024 global cabin market trends, including market size, changing consumer preferences, and technological development directions.
+                                </p>
+                                <div class="blog-author">
+                                    <div class="author-avatar">S</div>
+                                    <div class="author-info">
+                                        <div class="author-name">Sun Market Analyst</div>
+                                        <div class="read-time">9 min read</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+
+                <!-- Load More Button -->
+                <div style="text-align: center; margin-top: 3rem;">
+                    <button class="btn btn-primary btn-large" onclick="loadMorePosts()">
+                        <i class="fas fa-plus"></i> Load More Articles
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter Section -->
+        <section class="newsletter-section">
+            <div class="container">
+                <div class="newsletter-content">
+                    <h2>Subscribe to Our Blog</h2>
+                    <p>Get the latest cabin design insights, technical guides, and industry news delivered directly to your inbox</p>
+                    <form class="newsletter-form" onsubmit="subscribeNewsletter(event)">
+                        <input type="email" class="newsletter-input" placeholder="Enter your email address" required>
+                        <button type="submit" class="newsletter-button">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Floating Contact Buttons -->
+    <div class="floating-contact">
+        <a href="mailto:info@woodencabin.com" class="floating-contact-btn floating-email" aria-label="Send Email">
+            <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://wa.me/8619932411993" class="floating-contact-btn floating-whatsapp" target="_blank" aria-label="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p>Phone: +86-199-3241-1993</p>
+                    <p>Email: info@woodencabin.com</p>
+                    <p>Address: Hangzhou, Zhejiang Province</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <p>Professional wooden cabin design and construction team with 15 years of industry experience, exporting to 25+ countries worldwide.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Premium Wooden Cabins. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Category filtering functionality
+        function filterByCategory(category) {
+            const posts = document.querySelectorAll('.blog-card');
+            const allCards = document.querySelectorAll('.category-card');
+
+            // Update category card states
+            allCards.forEach(card => {
+                card.classList.remove('active');
+                if (card.getAttribute('href') === '#' + category) {
+                    card.classList.add('active');
+                }
+            });
+
+            // Filter articles
+            posts.forEach(post => {
+                if (category === 'all' || post.dataset.category === category) {
+                    post.style.display = 'block';
+                    setTimeout(() => {
+                        post.style.opacity = '1';
+                        post.style.transform = 'translateY(0)';
+                    }, 100);
+                } else {
+                    post.style.opacity = '0';
+                    post.style.transform = 'translateY(20px)';
+                    setTimeout(() => {
+                        post.style.display = 'none';
+                    }, 300);
+                }
+            });
+
+            // Scroll to articles section
+            document.getElementById('latest-posts').scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+
+        // Load more articles
+        function loadMorePosts() {
+            const container = document.getElementById('posts-container');
+            const button = event.target;
+
+            // Show loading state
+            button.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Loading...';
+            button.disabled = true;
+
+            // Simulate loading more articles
+            setTimeout(() => {
+                // Add real article loading logic here
+                button.innerHTML = '<i class="fas fa-check"></i> All Articles Loaded';
+                button.classList.remove('btn-primary');
+                button.classList.add('btn-secondary');
+
+                // Show notification
+                showNotification('All articles loaded');
+            }, 1500);
+        }
+
+        // Subscribe functionality
+        function subscribeNewsletter(event) {
+            event.preventDefault();
+            const email = event.target.querySelector('input[type="email"]').value;
+            const button = event.target.querySelector('button');
+
+            // Show subscription status
+            button.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Subscribing...';
+            button.disabled = true;
+
+            setTimeout(() => {
+                button.innerHTML = '<i class="fas fa-check"></i> Success!';
+                showNotification('Subscription successful! Thank you for your interest.');
+
+                // Reset form
+                setTimeout(() => {
+                    event.target.reset();
+                    button.innerHTML = 'Subscribe';
+                    button.disabled = false;
+                }, 2000);
+            }, 1500);
+        }
+
+        // Show notification
+        function showNotification(message) {
+            const notification = document.createElement('div');
+            notification.style.cssText = `
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                background: var(--success-color);
+                color: white;
+                padding: 15px 20px;
+                border-radius: 8px;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+                z-index: 10000;
+                animation: slideIn 0.3s ease;
+                max-width: 300px;
+            `;
+            notification.textContent = message;
+            document.body.appendChild(notification);
+
+            setTimeout(() => {
+                notification.style.animation = 'slideOut 0.3s ease';
+                setTimeout(() => {
+                    notification.remove();
+                }, 300);
+            }, 3000);
+        }
+
+        // Add CSS animations
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes slideIn {
+                from {
+                    transform: translateX(100%);
+                    opacity: 0;
+                }
+                to {
+                    transform: translateX(0);
+                    opacity: 1;
+                }
+            }
+
+            @keyframes slideOut {
+                from {
+                    transform: translateX(0);
+                    opacity: 1;
+                }
+                to {
+                    transform: translateX(100%);
+                    opacity: 0;
+                }
+            }
+
+            .blog-card {
+                transition: all 0.3s ease;
+            }
+
+            .category-card.active {
+                border-color: var(--accent-gold);
+                transform: translateY(-3px);
+                box-shadow: var(--shadow-medium);
+            }
+        `;
+        document.head.appendChild(style);
+
+        // Page loading animation
+        document.addEventListener('DOMContentLoaded', function() {
+            const cards = document.querySelectorAll('.blog-card');
+            cards.forEach((card, index) => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(30px)';
+                setTimeout(() => {
+                    card.style.transition = 'all 0.6s ease';
+                    card.style.opacity = '1';
+                    card.style.transform = 'translateY(0)';
+                }, index * 100);
+            });
+        });
+    </script>
+    <!-- V9 Wooden Cabin Website JavaScript Modules -->
+    <script src="assets/js/core/navigation.js"></script>
+    <script src="assets/js/core/accessibility.js"></script>
+    <script src="assets/js/core/form-handler.js"></script>
+    <script src="assets/js/core/seo-manager.js"></script>
+    <script src="assets/js/components/gallery.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

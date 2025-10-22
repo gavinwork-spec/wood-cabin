@@ -1,0 +1,59 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky background -->
+  <rect width="600" height="400" fill="#87CEEB"/>
+
+  <!-- Grass -->
+  <rect x="0" y="280" width="600" height="120" fill="#228B22"/>
+
+  <!-- Art Studio Cabin -->
+  <rect x="150" y="180" width="300" height="120" fill="#8B4513" stroke="#654321" stroke-width="3"/>
+
+  <!-- Roof -->
+  <polygon points="130,180 300,100 470,180" fill="#A0522D" stroke="#654321" stroke-width="3"/>
+
+  <!-- Door -->
+  <rect x="260" y="240" width="80" height="60" fill="#654321"/>
+  <circle cx="325" cy="270" r="3" fill="#FFD700"/>
+
+  <!-- Large Studio Window -->
+  <rect x="170" y="210" width="120" height="70" fill="#87CEEB" stroke="#654321" stroke-width="2"/>
+
+  <!-- Art setup visible -->
+  <rect x="190" y="240" width="80" height="20" fill="#654321" opacity="0.7"/>
+  <!-- Easels -->
+  <rect x="200" y="220" width="3" height="50" fill="#8B4513" opacity="0.7"/>
+  <rect x="220" y="220" width="3" height="50" fill="#8B4513" opacity="0.7"/>
+  <rect x="250" y="220" width="3" height="50" fill="#8B4513" opacity="0.7"/>
+  <!-- Canvases -->
+  <rect x="195" y="225" width="15" height="20" fill="#FFFFFF" opacity="0.7"/>
+  <rect x="215" y="225" width="15" height="20" fill="#FF6347" opacity="0.7"/>
+  <rect x="245" y="225" width="15" height="20" fill="#4169E1" opacity="0.7"/>
+
+  <!-- Path -->
+  <rect x="290" y="300" width="20" height="80" fill="#D2691E"/>
+
+  <!-- Paint splatters on ground -->
+  <circle cx="180" cy="320" r="8" fill="#FF6347" opacity="0.6"/>
+  <circle cx="250" cy="330" r="6" fill="#4169E1" opacity="0.6"/>
+  <circle cx="200" cy="340" r="5" fill="#FFD700" opacity="0.6"/>
+
+  <!-- Artist figure -->
+  <circle cx="300" cy="290" r="8" fill="#FFB6C1"/>
+  <rect x="295" y="298" width="10" height="20" fill="#9370DB"/>
+  <rect x="285" y="285" width="30" height="5" fill="#FF6347"/>
+  <rect x="313" y="318" width="4" height="15" fill="#000000"/>
+  <rect x="293" y="318" width="4" height="15" fill="#000000"/>
+
+  <!-- Trees -->
+  <circle cx="80" cy="250" r="40" fill="#228B22"/>
+  <rect x="70" y="290" width="20" height="50" fill="#8B4513"/>
+
+  <circle cx="520" cy="250" r="40" fill="#228B22"/>
+  <rect x="510" y="290" width="20" height="50" fill="#8B4513"/>
+
+  <!-- Sun -->
+  <circle cx="80" cy="60" r="30" fill="#FFD700"/>
+
+  <!-- Text -->
+  <text x="300" y="370" font-family="Arial, sans-serif" font-size="24" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Art Studio Use Case</text>
+</svg>

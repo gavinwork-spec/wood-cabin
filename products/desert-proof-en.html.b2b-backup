@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desert-Proof Cabin | Middle East Series | Chinese Modular Wooden Cabin Manufacturer</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Chinese modular wooden cabin manufacturer specializing in desert-proof cabins, specially designed for Middle East desert environments, ultra-sealing technology, sand and dust proof, smart air purification, ideal for desert living and office spaces.">
+    <meta name="keywords" content="desert-proof cabin, desert wooden cabin, Middle East wooden cabin, UAE wooden cabin, Saudi wooden cabin, modular wooden cabin manufacturer, desert environment cabin, sand sealing">
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://woodencabin.com/products/desert-proof-en.html">
+
+    <!-- Design Tokens -->
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    
+    
+    
+    <!-- Visual Enhancement System -->
+    <link rel="stylesheet" href="../assets/css/products.css">    <!-- Open Graph Tags -->
+    <meta property="og:type" content="product">
+    <meta property="og:title" content="Desert-Proof Cabin - Middle East Series">
+    <meta property="og:description" content="Specially designed for Middle East desert environments, ultra-sealing technology, sand and dust proof, smart air purification.">
+    <meta property="og:url" content="https://woodencabin.com/products/desert-proof-en.html">
+    <meta property="og:image" content="assets/images/desert-proof-detail.jpg">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Desert-Proof Cabin",
+      "description": "Specially designed for Middle East desert environments, ultra-sealing technology, sand and dust proof, smart air purification",
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Wooden Cabin Homes",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "CN",
+          "addressRegion": "Zhejiang"
+        }
+      },
+      "category": "Middle East Series",
+      "material": "Anti-corrosion wood + Special sealing materials",
+      "url": "https://woodencabin.com/products/desert-proof-en.html"
+    }
+    </script>
+</head>
+<body class="wood-texture">
+    <!-- Skip Links for Accessibility -->
+    <nav class="skip-links" role="navigation" aria-label="Skip navigation links">
+        <a href="#main-content" class="skip-link">Skip to main content</a>
+        <a href="#product-specifications" class="skip-link">Skip to product specifications</a>
+        <a href="#contact-section" class="skip-link">Skip to contact section</a>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="../index.html" class="logo">
+                    <i class="fas fa-home"></i>
+                    Premium Wooden Cabins
+                </a>
+                <ul class="nav-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../products.html">Products</a></li>
+                    <li><a href="../projects.html">Projects</a></li>
+                    <li><a href="../ai-3d-design.html">AI 3D Design</a></li>
+                    <li><a href="../blog.html">Blog</a></li>
+                    <li><a href="../about.html">About Us</a></li>
+                    <li><a href="../contact.html">Contact Us</a></li>
+                </ul>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content" role="main">
+        <!-- Breadcrumb Navigation -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <div class="container">
+                <ol class="breadcrumb__list">
+                    <li class="breadcrumb__item">
+                        <a href="../index.html" class="breadcrumb__link">
+                            <i class="fas fa-home"></i>
+                            Home
+                        </a>
+                    </li>
+                    <li class="breadcrumb__separator" aria-hidden="true">›</li>
+                    <li class="breadcrumb__item">
+                        <a href="../products.html" class="breadcrumb__link">Products</a>
+                    </li>
+                    <li class="breadcrumb__separator" aria-hidden="true">›</li>
+                    <li class="breadcrumb__item">
+                        <span class="breadcrumb__current">Desert-Proof Cabin</span>
+                    </li>
+                </ol>
+            </div>
+        </nav>
+
+        <!-- Product Hero Section -->
+        <section class="hero-section" data-hero-type="desert">
+            <div class="hero-content">
+                <div class="product-badges">
+                    <span class="badge badge-technical">Technical Leadership</span>
+                    <span class="badge badge-durable">Ultra-Durable</span>
+                    <span class="badge badge-factory">Factory Direct</span>
+                </div>
+                <h1 class="hero-title">
+                    Desert-Proof Cabin<br>
+                    <span class="text-accent">Specially Designed for Desert Environments</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Professional desert-proof cabin developed for harsh Middle East desert environments, featuring ultra-sealing technology and smart air purification system. Superior sand and dust protection ensures clean indoor air even during sandstorms, providing safe living and working space.
+                </p>
+                <div class="hero-features">
+                    <div class="feature-item">
+                        <div class="feature-icon">🌪️</div>
+                        <div class="feature-text">
+                            <strong>Ultra-Sealing</strong>
+                            <span>99.9% sand-proof efficiency</span>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">💨</div>
+                        <div class="feature-text">
+                            <strong>Air Purification</strong>
+                            <span>Triple filtration system</span>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">🔧</div>
+                        <div class="feature-text">
+                            <strong>Weather Resistance</strong>
+                            <span>Adapts to extreme climates</span>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">⏱️</div>
+                        <div class="feature-text">
+                            <strong>20-25 Days</strong>
+                            <span>Rapid construction</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-cta">
+                    <a href="#contact-section" class="btn btn-primary btn-large">Customize Now</a>
+                    <a href="mailto:sales@woodencabin.com?subject=Product Inquiry - Wooden Cabin<a href="tel:+86-199-3241-1993" class="btn btn-secondary btn-large">Business Consultation</a>body=I am interested in your wooden cabin products. Please provide more information and a quote." class="btn btn-secondary btn-large"><i class="fas fa-envelope"></i> Email Consultation</a>
+                </div>
+            </div>
+            <div class="hero-background">
+                <img src="../assets/images/desert-proof-hero.jpg" alt="Desert-proof cabin view" class="hero-bg-image" loading="eager">
+            </div>
+        </section>
+
+        <!-- Product Gallery -->
+        <section class="section section-light">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Product Gallery</h2>
+                    <p class="section-subtitle">360° view of desert-proof cabin technical details</p>
+                </div>
+
+                <div class="product-gallery">
+                    <div class="gallery-main">
+                        <img src="../assets/images/desert-proof-main.jpg" alt="Desert-proof cabin front view" id="main-gallery-image" loading="lazy">
+                    </div>
+                    <div class="gallery-thumbnails">
+                        <div class="thumbnail active" data-image="assets/images/desert-proof-main.jpg">
+                            <img src="../assets/images/desert-proof-thumb-1.jpg" alt="Front view" loading="lazy">
+                        </div>
+                        <div class="thumbnail" data-image="assets/images/desert-proof-sealing.jpg">
+                            <img src="../assets/images/desert-proof-thumb-2.jpg" alt="Sealing system" loading="lazy">
+                        </div>
+                        <div class="thumbnail" data-image="assets/images/desert-proof-air-system.jpg">
+                            <img src="../assets/images/desert-proof-thumb-3.jpg" alt="Air system" loading="lazy">
+                        </div>
+                        <div class="thumbnail" data-image="assets/images/desert-proof-storm.jpg">
+                            <img src="../assets/images/desert-proof-thumb-4.jpg" alt="Sandstorm testing" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Specifications -->
+        <section class="section" id="product-specifications">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Technical Specifications</h2>
+                    <p class="section-subtitle">Professional technology specially designed for desert environments</p>
+                </div>
+
+                <div class="product-specs">
+                    <div class="spec-category">
+                        <h3 class="spec-title">Sand & Dust Protection System</h3>
+                        <div class="spec-grid">
+                            <div class="spec-item">
+                                <span class="spec-label">Sealing Grade</span>
+                                <span class="spec-value">IP65 level sealing</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Sand Filtering Efficiency</span>
+                                <span class="spec-value">99.9% dust filtration</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Sealing Materials</span>
+                                <span class="spec-value">Special rubber + magnetic seals</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Wind Resistance</span>
+                                <span class="spec-value">Category 15 typhoon standard</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="spec-category">
+                        <h3 class="spec-title">Air Purification System</h3>
+                        <div class="spec-grid">
+                            <div class="spec-item">
+                                <span class="spec-label">Filtration Levels</span>
+                                <span class="spec-value">Triple filtration system</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">First Layer</span>
+                                <span class="spec-value">Coarse filter (PM10)</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Second Layer</span>
+                                <span class="spec-value">HEPA filter (PM2.5)</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Third Layer</span>
+                                <span class="spec-value">Activated carbon filter</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="spec-category">
+                        <h3 class="spec-title">Structural Design</h3>
+                        <div class="spec-grid">
+                            <div class="spec-item">
+                                <span class="spec-label">Wall Thickness</span>
+                                <span class="spec-value">150mm reinforced walls</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Insulation Layer</span>
+                                <span class="spec-value">200mm ultra-thick rock wool</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Window Design</span>
+                                <span class="spec-value">Double glazing + sealing strips</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Door & Window System</span>
+                                <span class="spec-value">Airtight sliding doors</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sealing Technology -->
+        <section class="section section-light">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Sealing Technology</h2>
+                    <p class="section-subtitle">Multi-layer protection ensuring absolute sealing</p>
+                </div>
+
+                <div class="sealing-technology">
+                    <div class="tech-card">
+                        <div class="tech-icon">🚪</div>
+                        <h3 class="tech-title">Smart Door Sealing</h3>
+                        <p class="tech-description">
+                            Using special rubber sealing strips and magnetic sealing technology to ensure absolute door gap sealing. Auto-lock design forms complete sealing barrier when closed.
+                        </p>
+                        <ul class="tech-features">
+                            <li>Magnetic sealing strips</li>
+                            <li>Auto-lock system</li>
+                            <li>Triple sealing design</li>
+                            <li>Sand backflow prevention</li>
+                        </ul>
+                    </div>
+
+                    <div class="tech-card">
+                        <div class="tech-icon">🪟</div>
+                        <h3 class="tech-title">Window Sealing System</h3>
+                        <p class="tech-description">
+                            Double glazing with special sealing strips forms triple sealing barrier. Window frames use special design to ensure sealing performance in strong winds.
+                        </p>
+                        <ul class="tech-features">
+                            <li>Double glazing</li>
+                            <li>Special sealing strips</li>
+                            <li>Pressure balance valves</li>
+                            <li>Anti-condensation design</li>
+                        </ul>
+                    </div>
+
+                    <div class="tech-card">
+                        <div class="tech-icon">🏠</div>
+                        <h3 class="tech-title">Wall Sealing</h3>
+                        <p class="tech-description">
+                            Wall connections use flexible sealing materials that can withstand temperature changes and structural displacement without affecting sealing performance. Air layer inside walls enhances insulation.
+                        </p>
+                        <ul class="tech-features">
+                            <li>Flexible sealing materials</li>
+                            <li>Air layer design</li>
+                            <li>Thermal expansion compensation</li>
+                            <li>Water penetration protection</li>
+                        </ul>
+                    </div>
+
+                    <div class="tech-card">
+                        <div class="tech-icon">💨</div>
+                        <h3 class="tech-title">Ventilation Sealing</h3>
+                        <p class="tech-description">
+                            Ventilation system equipped with sand-proof valves that automatically open when ventilation is needed and close during sandstorms, ensuring balance between air quality and sealing.
+                        </p>
+                        <ul class="tech-features">
+                            <li>Smart ventilation valves</li>
+                            <li>Air quality monitoring</li>
+                            <li>Auto on/off system</li>
+                            <li>Filtered ventilation function</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Smart Air System -->
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Smart Air System</h2>
+                    <p class="section-subtitle">Real-time monitoring, automatic purification</p>
+                </div>
+
+                <div class="air-system">
+                    <div class="system-component">
+                        <div class="component-icon">📊</div>
+                        <h3 class="component-title">Air Quality Monitoring</h3>
+                        <p class="component-description">
+                            Real-time monitoring of indoor air quality, including PM2.5, PM10, CO2, temperature, humidity and other parameters. Equipped with HD display for intuitive indicators.
+                        </p>
+                        <div class="component-specs">
+                            <div class="spec-item">
+                                <span class="spec-label">Monitoring Parameters</span>
+                                <span class="spec-value">8 air quality indicators</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Monitoring Accuracy</span>
+                                <span class="spec-value">±1% high precision</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Update Frequency</span>
+                                <span class="spec-value">Updated every second</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Alarm Function</span>
+                                <span class="spec-value">Automatic alarm for exceedance</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="system-component">
+                        <div class="component-icon">🔄</div>
+                        <h3 class="component-title">Smart Circulation System</h3>
+                        <p class="component-description">
+                            Automatically adjusts circulation intensity based on indoor air quality, enhancing internal circulation during sandstorms and introducing fresh air when air is clean, achieving smart air management.
+                        </p>
+                        <div class="component-specs">
+                            <div class="spec-item">
+                                <span class="spec-label">Circulation Modes</span>
+                                <span class="spec-value">3 smart modes</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Airflow Adjustment</span>
+                                <span class="spec-value">Stepless speed control</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Noise Control</span>
+                                <span class="spec-value">≤30dB silent operation</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Energy Control</span>
+                                <span class="spec-value">Energy-saving design</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="system-component">
+                        <div class="component-icon">🌡️</div>
+                        <h3 class="component-title">Temperature & Humidity Control</h3>
+                        <p class="component-description">
+                            Integrated temperature and humidity control system that adjusts indoor temperature and humidity while maintaining sealing, ensuring comfortable living environment.
+                        </p>
+                        <div class="component-specs">
+                            <div class="spec-item">
+                                <span class="spec-label">Temperature Range</span>
+                                <span class="spec-value">18-28°C precise control</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Humidity Range</span>
+                                <span class="spec-value">40-60% optimal humidity</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Dehumidification Function</span>
+                                <span class="spec-value">Smart dehumidification</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Humidification Function</span>
+                                <span class="spec-value">Ultrasonic humidification</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="system-component">
+                        <div class="component-icon">🔋</div>
+                        <h3 class="component-title">Backup Power System</h3>
+                        <p class="component-description">
+                            Equipped with backup power system to ensure air system continues operating during power outages, guaranteeing indoor air quality.
+                        </p>
+                        <div class="component-specs">
+                            <div class="spec-item">
+                                <span class="spec-label">Backup Power</span>
+                                <span class="spec-value">UPS uninterruptible power supply</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Runtime</span>
+                                <span class="spec-value">8 hours continuous operation</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Auto Switch</span>
+                                <span class="spec-value">0-second switching</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Charging Function</span>
+                                <span class="spec-value">Auto charging management</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testing and Certification -->
+        <section class="section section-light">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Testing & Certification</h2>
+                    <p class="section-subtitle">Rigorous testing, quality assurance</p>
+                </div>
+
+                <div class="testing-certification">
+                    <div class="test-item">
+                        <div class="test-icon">🌪️</div>
+                        <h3 class="test-title">Sandstorm Testing</h3>
+                        <p class="test-description">
+                            72-hour continuous testing in simulated sandstorm environment with wind speed reaching 120km/h and dust concentration reaching 3000μg/m³. Test results show perfect sealing performance.
+                        </p>
+                        <div class="test-results">
+                            <span class="result-pass">✓ Test Passed</span>
+                            <span class="result-data">99.9% sand filtering efficiency</span>
+                        </div>
+                    </div>
+
+                    <div class="test-item">
+                        <div class="test-icon">🌡️</div>
+                        <h3 class="test-title">High Temperature Testing</h3>
+                        <p class="test-description">
+                            168-hour continuous testing at 55°C high temperature environment, testing material stability and sealing performance. All indicators meet design standards.
+                        </p>
+                        <div class="test-results">
+                            <span class="result-pass">✓ Test Passed</span>
+                            <span class="result-data">Excellent temperature resistance</span>
+                        </div>
+                    </div>
+
+                    <div class="test-item">
+                        <div class="test-icon">💨</div>
+                        <h3 class="test-title">Airtightness Testing</h3>
+                        <p class="test-description">
+                            Airtightness testing according to international standards. At 50Pa pressure, air permeability less than 0.6 air changes per hour, achieving high-level sealing standard.
+                        </p>
+                        <div class="test-results">
+                            <span class="result-pass">✓ Test Passed</span>
+                            <span class="result-data">Airtightness Grade A+</span>
+                        </div>
+                    </div>
+
+                    <div class="test-item">
+                        <div class="test-icon">🏆</div>
+                        <h3 class="test-title">International Certification</h3>
+                        <p class="test-description">
+                            Multiple international certifications including ISO9001 quality system certification, CE certification, GCC certification, ensuring compliance with international standards.
+                        </p>
+                        <div class="test-results">
+                            <span class="result-pass">✓ Certified</span>
+                            <span class="result-data">8 international certifications</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Application Scenarios -->
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Application Scenarios</h2>
+                    <p class="section-subtitle">Suitable for various harsh environments</p>
+                </div>
+
+                <div class="application-scenarios">
+                    <div class="scenario-card">
+                        <div class="scenario-image">
+                            <img src="../assets/images/desert-residence.jpg" alt="Desert living" loading="lazy">
+                        </div>
+                        <div class="scenario-content">
+                            <h3 class="scenario-title">Desert Living</h3>
+                            <p class="scenario-description">
+                                As permanent living space in desert areas, providing safe and comfortable living environment, completely isolating sand and dust intrusion.
+                            </p>
+                            <div class="scenario-features">
+                                <span class="feature-tag">Family Residence</span>
+                                <span class="feature-tag">Long-term Living</span>
+                                <span class="feature-tag">Safety Protection</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="scenario-card">
+                        <div class="scenario-image">
+                            <img src="../assets/images/desert-office.jpg" alt="Desert office" loading="lazy">
+                        </div>
+                        <div class="scenario-content">
+                            <h3 class="scenario-title">Desert Office</h3>
+                            <p class="scenario-description">
+                                As office space in desert areas, providing clean and comfortable working environment for staff, improving work efficiency.
+                            </p>
+                            <div class="scenario-features">
+                                <span class="feature-tag">Business Office</span>
+                                <span class="feature-tag">Meeting Space</span>
+                                <span class="feature-tag">Efficient Work</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="scenario-card">
+                        <div class="scenario-image">
+                            <img src="../assets/images/desert-lab.jpg" alt="Desert laboratory" loading="lazy">
+                        </div>
+                        <div class="scenario-content">
+                            <h3 class="scenario-title">Research Facilities</h3>
+                            <p class="scenario-description">
+                                As supporting facilities for desert research, providing clean and stable working environment for researchers, supporting scientific research work.
+                            </p>
+                            <div class="scenario-features">
+                                <span class="feature-tag">Research Lab</span>
+                                <span class="feature-tag">Precision Equipment</span>
+                                <span class="feature-tag">Environmental Control</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="scenario-card">
+                        <div class="scenario-image">
+                            <img src="../assets/images/desert-tourism.jpg" alt="Desert tourism" loading="lazy">
+                        </div>
+                        <div class="scenario-content">
+                            <h3 class="scenario-title">Desert Tourism</h3>
+                            <p class="scenario-description">
+                                As service facilities for desert tourism, providing comfortable rest and entertainment space for tourists, enhancing tourism experience.
+                            </p>
+                            <div class="scenario-features">
+                                <span class="feature-tag">Tourism Service</span>
+                                <span class="feature-tag">Visitor Rest</span>
+                                <span class="feature-tag">Leisure Entertainment</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Related Products -->
+        <section class="section section-light">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Related Products</h2>
+                    <p class="section-subtitle">More Middle East wooden cabin choices</p>
+                </div>
+
+                <div class="related-products">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../assets/images/majlis-lounge.jpg" alt="Majlis lounge" loading="lazy">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">Majlis Lounge</h3>
+                            <p class="product-description">Lounge cabin blending tradition and modernity</p>
+                            <a href="majlis-lounge-en.html" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../assets/images/rooftop-luxury-suite.jpg" alt="Rooftop luxury suite" loading="lazy">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">Rooftop Luxury Suite</h3>
+                            <p class="product-description">Luxury living space on urban rooftops</p>
+                            <a href="rooftop-luxury-en.html" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../assets/images/poolside-villa.jpg" alt="Poolside villa" loading="lazy">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">Poolside Villa</h3>
+                            <p class="product-description">Luxury vacation wooden cabin by the pool</p>
+                            <a href="poolside-villa-en.html" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../assets/images/middle-east-series.jpg" alt="Middle East series" loading="lazy">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">View All Series</h3>
+                            <p class="product-description">More Middle East specialty products</p>
+                            <a href="middle-east-series-en.html" class="btn btn-secondary">Back to Series</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="section section-primary" id="contact-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2 class="cta-title">Customize Your Desert-Proof Cabin</h2>
+                    <p class="cta-subtitle">
+                        Professional engineers provide one-on-one consultation services, designing the most suitable sand-proof solution according to your environmental needs
+                    </p>
+                    <div class="cta-features">
+                        <div class="cta-feature">
+                            <span class="feature-icon">🆓</span>
+                            <span>Free Environmental Assessment</span>
+                        </div>
+                        <div class="cta-feature">
+                            <span class="feature-icon">🔧</span>
+                            <span>Customized Solutions</span>
+                        </div>
+                        <div class="cta-feature">
+                            <span class="feature-icon">⏱️</span>
+                            <span>Fast Delivery</span>
+                        </div>
+                        <div class="cta-feature">
+                            <span class="feature-icon">🌍</span>
+                            <span>Global Delivery</span>
+                        </div>
+                    </div>
+                    <div class="cta-buttons">
+                        <a href="tel:+86-199-3241-1993" class="btn btn-secondary btn-large">
+                            <i class="icon-phone"></i> Business Consultation
+                        </a>
+                        <a href="https://wa.me/+8619932411993?text=Hello, I am interested in your wooden cabin products. I would like to get a consultation and quote." class="btn btn-primary btn-large" target="_blank">
+                            <i class="icon-email"></i> Online Inquiry
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p>Phone: +86-199-3241-1993</p>
+                    <p>Email: info@woodencabin.com</p>
+                    <p>Address: Hangzhou, Zhejiang Province, China</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Product Series</h3>
+                    <ul>
+                        <li><a href="backyard-cabins-en.html">Backyard Cabins</a></li>
+                        <li><a href="middle-east-series-en.html">Middle East Series</a></li>
+                        <li><a href="resort-cabins-en.html">Resort Projects</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <p>Professional Chinese modular wooden cabin manufacturer with 15 years of industry experience, exporting to 25+ countries.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Wooden Cabin Homes. Chinese Modular Wooden Cabin Manufacturer - B2B Professional Customization Services</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../assets/js/components.js"></script>
+    <script src="../assets/js/accessibility-enhancer.js"></script>
+    <script src="../assets/js/technical-seo-manager.js"></script>
+    <script src="../assets/js/ux-interaction-manager.js"></script>
+    <script src="../assets/js/mobile-ux-optimizer.js"></script>
+    <script src="../assets/js/smart-form-interactions.js"></script>
+    <script src="../assets/js/user-guidance-system.js"></script>
+    <script src="../assets/js/content-optimizer.js"></script>
+    <script src="../assets/js/custom-design-showcase.js"></script>
+    <script src="../assets/js/deep-content-system.js"></script>
+    <script src="../assets/js/visual-conversion-optimizer.js"></script>
+
+    <!-- Product Gallery Script -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const thumbnails = document.querySelectorAll('.thumbnail');
+        const mainImage = document.getElementById('main-gallery-image');
+
+        thumbnails.forEach(thumbnail => {
+            thumbnail.addEventListener('click', function() {
+                // Remove active class from all thumbnails
+                thumbnails.forEach(t => t.classList.remove('active'));
+
+                // Add active class to clicked thumbnail
+                this.classList.add('active');
+
+                // Update main image
+                const newImage = this.dataset.image;
+                mainImage.src = newImage;
+                mainImage.alt = this.querySelector('img').alt;
+            });
+        });
+    });
+    </script>
+    <!-- V9 Wooden Cabin Website JavaScript Modules -->
+    <script src="../assets/js/core/navigation.js"></script>
+    <script src="../assets/js/core/accessibility.js"></script>
+    <script src="../assets/js/core/form-handler.js"></script>
+    <script src="../assets/js/core/seo-manager.js"></script>
+    <script src="../assets/js/components/gallery.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>

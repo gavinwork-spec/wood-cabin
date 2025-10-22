@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="wood-light" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4A574;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#E5C29F;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D4A574;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="sky-garden" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFE5B4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFF8DC;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="glass-studio" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F0F8FF;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#E6F3FF;stop-opacity:0.95" />
+    </linearGradient>
+    <radialGradient id="sun-light">
+      <stop offset="0%" style="stop-color:#FFFACD;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFD700;stop-opacity:0.3" />
+    </radialGradient>
+  </defs>
+
+  <!-- Garden sky background -->
+  <rect width="1200" height="400" fill="url(#sky-garden)"/>
+
+  <!-- Sun -->
+  <circle cx="1000" cy="120" r="60" fill="url(#sun-light)"/>
+
+  <!-- Main garden area -->
+  <rect y="400" width="1200" height="400" fill="#90EE90"/>
+
+  <!-- Garden beds -->
+  <rect x="0" y="420" width="300" height="60" fill="#8FBC8F" opacity="0.8"/>
+  <rect x="900" y="420" width="300" height="60" fill="#8FBC8F" opacity="0.8"/>
+  <rect x="0" y="500" width="200" height="40" fill="#8FBC8F" opacity="0.8"/>
+  <rect x="1000" y="500" width="200" height="40" fill="#8FBC8F" opacity="0.8"/>
+
+  <!-- Stone pathway -->
+  <path d="M 600 400 L 580 800 L 620 800 Z" fill="#A9A9A9" opacity="0.9"/>
+  <ellipse cx="600" cy="450" rx="25" ry="8" fill="#D3D3D3"/>
+  <ellipse cx="600" cy="550" rx="25" ry="8" fill="#D3D3D3"/>
+  <ellipse cx="600" cy="650" rx="25" ry="8" fill="#D3D3D3"/>
+
+  <!-- Main garden studio cabin -->
+  <g transform="translate(400, 200)">
+    <!-- Elevated platform -->
+    <rect x="-30" y="240" width="460" height="15" fill="#8B7355"/>
+
+    <!-- Main studio structure with light wood -->
+    <rect x="0" y="100" width="400" height="140" fill="url(#wood-light)" stroke="#A0826D" stroke-width="3"/>
+
+    <!-- Modern slanted roof for natural light -->
+    <polygon points="-30,100 200,50 430,100" fill="#D2691E" stroke="#A0522D" stroke-width="2"/>
+
+    <!-- Floor-to-ceiling glass windows -->
+    <rect x="20" y="120" width="160" height="100" fill="url(#glass-studio)" stroke="#D4A574" stroke-width="3"/>
+    <!-- Window dividers -->
+    <line x1="100" y1="120" x2="100" y2="220" stroke="#D4A574" stroke-width="2"/>
+    <line x1="20" y1="170" x2="180" y2="170" stroke="#D4A574" stroke-width="2"/>
+
+    <!-- Glass sliding door -->
+    <rect x="220" y="130" width="80" height="110" fill="url(#glass-studio)" stroke="#D4A574" stroke-width="3"/>
+    <rect x="240" y="130" width="5" height="110" fill="#D4A574" opacity="0.3"/>
+    <rect x="270" y="130" width="5" height="110" fill="#D4A574" opacity="0.3"/>
+
+    <!-- Skylight on roof -->
+    <rect x="150" y="70" width="100" height="25" fill="url(#glass-studio)" stroke="#D2691E" stroke-width="2" opacity="0.9"/>
+
+    <!-- Wooden deck -->
+    <rect x="-40" y="255" width="480" height="12" fill="#DEB887"/>
+    <!-- Deck boards -->
+    <line x1="-40" y1="259" x2="440" y2="259" stroke="#D2B48C" stroke-width="1"/>
+    <line x1="-40" y1="263" x2="440" y2="263" stroke="#D2B48C" stroke-width="1"/>
+
+    <!-- Potted plants on deck -->
+    <g transform="translate(-20, 220)">
+      <rect x="0" y="30" width="15" height="20" fill="#8B4513"/>
+      <circle cx="7.5" cy="25" r="12" fill="#228B22" opacity="0.9"/>
+    </g>
+    <g transform="translate(420, 220)">
+      <rect x="0" y="30" width="15" height="20" fill="#8B4513"/>
+      <circle cx="7.5" cy="25" r="12" fill="#228B22" opacity="0.9"/>
+    </g>
+
+    <!-- Hanging string lights -->
+    <line x1="-50" y1="90" x2="450" y2="90" stroke="#4A4A4A" stroke-width="1"/>
+    <circle cx="0" cy="90" r="4" fill="#FFFACD" opacity="0.9"/>
+    <circle cx="100" cy="90" r="4" fill="#FFFACD" opacity="0.9"/>
+    <circle cx="200" cy="90" r="4" fill="#FFFACD" opacity="0.9"/>
+    <circle cx="300" cy="90" r="4" fill="#FFFACD" opacity="0.9"/>
+    <circle cx="400" cy="90" r="4" fill="#FFFACD" opacity="0.9"/>
+  </g>
+
+  <!-- Garden elements -->
+  <!-- Flower beds -->
+  <g transform="translate(50, 430)">
+    <circle cx="20" cy="10" r="8" fill="#FF69B4" opacity="0.8"/>
+    <circle cx="40" cy="5" r="7" fill="#FFB6C1" opacity="0.8"/>
+    <circle cx="60" cy="12" r="9" fill="#FF1493" opacity="0.8"/>
+    <circle cx="80" cy="8" r="6" fill="#FFC0CB" opacity="0.8"/>
+  </g>
+
+  <g transform="translate(1050, 430)">
+    <circle cx="20" cy="10" r="8" fill="#FF69B4" opacity="0.8"/>
+    <circle cx="40" cy="5" r="7" fill="#FFB6C1" opacity="0.8"/>
+    <circle cx="60" cy="12" r="9" fill="#FF1493" opacity="0.8"/>
+    <circle cx="80" cy="8" r="6" fill="#FFC0CB" opacity="0.8"/>
+  </g>
+
+  <!-- Decorative trees -->
+  <g id="garden-tree">
+    <rect x="148" y="340" width="4" height="60" fill="#8B4513"/>
+    <circle cx="150" cy="330" r="20" fill="#90EE90" opacity="0.9"/>
+    <circle cx="142" cy="335" r="15" fill="#98FB98" opacity="0.8"/>
+    <circle cx="158" cy="335" r="15" fill="#98FB98" opacity="0.8"/>
+  </g>
+
+  <use href="#garden-tree" x="80" y="0"/>
+  <use href="#garden-tree" x="920" y="0"/>
+
+  <!-- Title text -->
+  <text x="600" y="650" font-family="Arial, sans-serif" font-size="42" font-weight="bold" text-anchor="middle" fill="#2C3E50">
+    Garden Studio Light
+  </text>
+  <text x="600" y="700" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#7F8C8D">
+    Bright & Airy Creative Space
+  </text>
+  <text x="600" y="730" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#95A5A6">
+    Perfect for Art Studio, Yoga Room or Reading Nook
+  </text>
+</svg>

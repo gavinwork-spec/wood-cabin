@@ -1,0 +1,220 @@
+<svg width="1000" height="700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1000" height="700" fill="#f8f9fa"/>
+
+  <!-- Title -->
+  <text x="500" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2E5A3E">
+    AI 木屋设计分视图展示
+  </text>
+
+  <!-- Define styles -->
+  <defs>
+    <style>
+      .dimension-text { font-family: Arial, sans-serif; font-size: 10px; fill: #666; }
+      .label-text { font-family: Arial, sans-serif; font-size: 11px; font-weight: bold; fill: #2E5A3E; }
+      .title-text { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #1a3d2e; }
+      .ai-highlight { fill: #4CAF50; stroke: #388E3C; stroke-width: 1; }
+      .traditional { fill: #E0E0E0; stroke: #999; stroke-width: 1; }
+    </style>
+  </defs>
+
+  <!-- Front View -->
+  <g>
+    <text x="200" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2E5A3E">
+      正视图 (Front View)
+    </text>
+
+    <!-- Cabin structure -->
+    <rect x="100" y="90" width="200" height="150" fill="#8D6E63" stroke="#5D4037" stroke-width="2"/>
+    <!-- Roof -->
+    <polygon points="80,90 200,40 320,90" fill="#6D4C41" stroke="#4E342E" stroke-width="2"/>
+    <!-- Windows -->
+    <rect x="130" y="120" width="40" height="30" fill="#E3F2FD" stroke="#1976D2" stroke-width="2"/>
+    <rect x="230" y="120" width="40" height="30" fill="#E3F2FD" stroke="#1976D2" stroke-width="2"/>
+    <!-- Door -->
+    <rect x="180" y="170" width="40" height="70" fill="#8D6E63" stroke="#5D4037" stroke-width="2"/>
+    <!-- AI Optimization Highlight -->
+    <rect x="125" y="115" width="50" height="40" class="ai-highlight" fill-opacity="0.3" rx="2"/>
+    <text x="150" y="140" text-anchor="middle" class="dimension-text">AI优化窗户</text>
+
+    <!-- Dimensions -->
+    <line x1="100" y1="250" x2="100" y2="270" stroke="#666" stroke-width="1"/>
+    <line x1="320" y1="250" x2="320" y2="270" stroke="#666" stroke-width="1"/>
+    <line x1="100" y1="260" x2="320" y2="260" stroke="#666" stroke-width="1"/>
+    <text x="210" y="275" text-anchor="middle" class="dimension-text">12m</text>
+
+    <line x1="90" y1="90" x2="70" y2="90" stroke="#666" stroke-width="1"/>
+    <line x1="90" y1="240" x2="70" y2="240" stroke="#666" stroke-width="1"/>
+    <line x1="80" y1="90" x2="80" y2="240" stroke="#666" stroke-width="1"/>
+    <text x="65" y="170" text-anchor="middle" class="dimension-text" transform="rotate(-90 65 170)">6m</text>
+  </g>
+
+  <!-- Side View -->
+  <g>
+    <text x="550" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2E5A3E">
+      侧视图 (Side View)
+    </text>
+
+    <!-- Cabin side structure -->
+    <rect x="450" y="120" width="200" height="120" fill="#8D6E63" stroke="#5D4037" stroke-width="2"/>
+    <!-- Roof slope -->
+    <polygon points="450,120 550,80 650,120" fill="#6D4C41" stroke="#4E342E" stroke-width="2"/>
+    <!-- Deck -->
+    <rect x="440" y="240" width="220" height="15" fill="#A1887F" stroke="#6D4C41" stroke-width="1"/>
+    <!-- AI solar panels -->
+    <rect x="480" y="85" width="140" height="8" class="ai-highlight" fill-opacity="0.5"/>
+    <text x="550" y="100" text-anchor="middle" class="dimension-text">AI太阳能板</text>
+
+    <!-- Dimensions -->
+    <line x1="450" y1="260" x2="450" y2="280" stroke="#666" stroke-width="1"/>
+    <line x1="650" y1="260" x2="650" y2="280" stroke="#666" stroke-width="1"/>
+    <line x1="450" y1="270" x2="650" y2="270" stroke="#666" stroke-width="1"/>
+    <text x="550" y="285" text-anchor="middle" class="dimension-text">12m</text>
+  </g>
+
+  <!-- Top View -->
+  <g>
+    <text x="850" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2E5A3E">
+      俯视图 (Top View)
+    </text>
+
+    <!-- Cabin top view -->
+    <rect x="780" y="90" width="140" height="180" fill="#8D6E63" stroke="#5D4037" stroke-width="2"/>
+    <!-- Roof overhang -->
+    <rect x="770" y="80" width="160" height="200" fill="none" stroke="#6D4C41" stroke-width="1" stroke-dasharray="5,5"/>
+
+    <!-- Room layout -->
+    <rect x="790" y="100" width="120" height="80" fill="none" stroke="#4E342E" stroke-width="1"/>
+    <text x="850" y="145" text-anchor="middle" class="dimension-text">客厅</text>
+
+    <rect x="790" y="190" width="60" height="70" fill="none" stroke="#4E342E" stroke-width="1"/>
+    <text x="820" y="230" text-anchor="middle" class="dimension-text">卧室</text>
+
+    <rect x="860" y="190" width="50" height="70" fill="none" stroke="#4E342E" stroke-width="1"/>
+    <text x="885" y="230" text-anchor="middle" class="dimension-text">浴室</text>
+
+    <!-- AI smart system indicators -->
+    <circle cx="850" cy="140" r="3" fill="#4CAF50"/>
+    <circle cx="820" cy="225" r="3" fill="#4CAF50"/>
+    <circle cx="885" cy="225" r="3" fill="#4CAF50"/>
+    <text x="850" y="300" text-anchor="middle" class="dimension-text">AI智能传感器</text>
+  </g>
+
+  <!-- Cross Section View -->
+  <g>
+    <text x="200" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2E5A3E">
+      横截面图 (Cross Section)
+    </text>
+
+    <!-- Foundation -->
+    <rect x="100" y="480" width="200" height="30" fill="#757575" stroke="#424242" stroke-width="2"/>
+    <text x="200" y="500" text-anchor="middle" class="dimension-text">AI优化地基</text>
+
+    <!-- Walls -->
+    <rect x="100" y="400" width="200" height="80" fill="#8D6E63" stroke="#5D4037" stroke-width="2"/>
+    <!-- Insulation -->
+    <rect x="110" y="410" width="180" height="60" fill="#FFF3E0" stroke="#FF9800" stroke-width="1"/>
+    <text x="200" y="445" text-anchor="middle" class="dimension-text">AI智能保温层</text>
+
+    <!-- Interior space -->
+    <rect x="120" y="350" width="160" height="50" fill="#F5F5F5" stroke="#999" stroke-width="1"/>
+
+    <!-- Roof structure -->
+    <polygon points="100,350 200,320 300,350" fill="#6D4C41" stroke="#4E342E" stroke-width="2"/>
+    <polygon points="100,350 200,330 300,350" fill="none" stroke="#4E342E" stroke-width="1"/>
+
+    <!-- AI features标注 -->
+    <line x1="320" y1="440" x2="340" y2="440" stroke="#4CAF50" stroke-width="2"/>
+    <text x="345" y="445" class="dimension-text">AI保温材料: 热效率提升40%</text>
+
+    <line x1="320" y1="495" x2="340" y2="495" stroke="#4CAF50" stroke-width="2"/>
+    <text x="345" y="500" class="dimension-text">AI地基设计: 稳定性提升60%</text>
+  </g>
+
+  <!-- AI Technology Integration -->
+  <g>
+    <text x="600" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2E5A3E">
+      AI 技术集成细节
+    </text>
+
+    <!-- Smart grid system -->
+    <rect x="450" y="350" width="300" height="180" rx="10" fill="#E8F5E8" stroke="#4CAF50" stroke-width="2"/>
+
+    <text x="600" y="375" text-anchor="middle" class="title-text">AI 智能系统配置</text>
+
+    <!-- System components -->
+    <rect x="470" y="390" width="120" height="30" rx="5" fill="#C8E6C9" stroke="#4CAF50" stroke-width="1"/>
+    <text x="530" y="410" text-anchor="middle" class="label-text">能源管理系统</text>
+    <text x="530" y="430" text-anchor="middle" class="dimension-text">太阳能优化 | 电网整合</text>
+
+    <rect x="610" y="390" width="120" height="30" rx="5" fill="#C8E6C9" stroke="#4CAF50" stroke-width="1"/>
+    <text x="670" y="410" text-anchor="middle" class="label-text">智能温控系统</text>
+    <text x="670" y="430" text-anchor="middle" class="dimension-text">地暖+空调 | 自动调节</text>
+
+    <rect x="470" y="440" width="120" height="30" rx="5" fill="#C8E6C9" stroke="#4CAF50" stroke-width="1"/>
+    <text x="530" y="460" text-anchor="middle" class="label-text">安防监控系统</text>
+    <text x="530" y="480" text-anchor="middle" class="dimension-text">运动检测 | 智能报警</text>
+
+    <rect x="610" y="440" width="120" height="30" rx="5" fill="#C8E6C9" stroke="#4CAF50" stroke-width="1"/>
+    <text x="670" y="460" text-anchor="middle" class="label-text">自动化照明</text>
+    <text x="670" y="480" text-anchor="middle" class="dimension-text">光感调节 | 场景模式</text>
+
+    <rect x="540" y="490" width="120" height="30" rx="5" fill="#C8E6C9" stroke="#4CAF50" stroke-width="1"/>
+    <text x="600" y="510" text-anchor="middle" class="label-text">中央控制系统</text>
+    <text x="600" y="530" text-anchor="middle" class="dimension-text">AI统一管理 | 远程控制</text>
+  </g>
+
+  <!-- Materials and Specifications -->
+  <g>
+    <text x="200" y="570" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2E5A3E">
+      AI 优化材料规格
+    </text>
+
+    <rect x="80" y="590" width="240" height="90" rx="8" fill="#FFF3E0" stroke="#FF9800" stroke-width="2"/>
+
+    <text x="200" y="610" text-anchor="middle" class="title-text">结构材料</text>
+
+    <circle cx="100" cy="630" r="3" fill="#FF9800"/>
+    <text x="110" y="635" class="dimension-text">主结构: AI优选北欧松木</text>
+    <text x="110" y="650" class="dimension-text">强度提升25% | 重量减轻15%</text>
+
+    <circle cx="100" cy="665" r="3" fill="#FF9800"/>
+    <text x="110" y="670" class="dimension-text">保温层: 纳米技术复合材料</text>
+    <text x="110" y="685" class="dimension-text">热阻值提升40% | 环保100%</text>
+  </g>
+
+  <!-- Performance Metrics -->
+  <g>
+    <text x="600" y="570" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2E5A3E">
+      AI 性能提升数据
+    </text>
+
+    <rect x="450" y="590" width="300" height="90" rx="8" fill="#E3F2FD" stroke="#2196F3" stroke-width="2"/>
+
+    <text x="600" y="610" text-anchor="middle" class="title-text">技术优势对比</text>
+
+    <text x="470" y="635" class="dimension-text">❌ 传统设计: 能源消耗高 | 维护成本大</text>
+    <text x="470" y="655" class="dimension-text">✅ AI优化: 节能35% | 维护成本降低40%</text>
+
+    <text x="470" y="680" class="dimension-text">❌ 传统设计: 施工周期长 | 质量不稳定</text>
+    <text x="470" y="700" class="dimension-text">✅ AI优化: 工期缩短30% | 质量精度提升50%</text>
+  </g>
+
+  <!-- Legend -->
+  <g>
+    <rect x="820" y="350" width="160" height="120" rx="8" fill="#F5F5F5" stroke="#999" stroke-width="1"/>
+    <text x="900" y="370" text-anchor="middle" class="title-text">图例说明</text>
+
+    <rect x="830" y="380" width="15" height="10" class="ai-highlight"/>
+    <text x="850" y="390" class="dimension-text">AI优化组件</text>
+
+    <rect x="830" y="400" width="15" height="10" class="traditional"/>
+    <text x="850" y="410" class="dimension-text">传统组件</text>
+
+    <circle cx="837" cy="425" r="3" fill="#4CAF50"/>
+    <text x="850" y="430" class="dimension-text">智能传感器</text>
+
+    <line x1="830" y1="445" x2="845" y2="445" stroke="#666" stroke-width="1"/>
+    <text x="850" y="450" class="dimension-text">尺寸标注</text>
+  </g>
+</svg>

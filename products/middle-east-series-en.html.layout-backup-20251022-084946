@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>Middle East Series | Wooden Cabin Homes - Desert-Proof & Climate-Adapted Cabins</title>
+    <meta name="description" content="Specialized wooden cabin series designed for Middle Eastern climates. Desert-proof, heat-resistant traditional and modern designs adapted for cultural preferences and extreme weather conditions.">
+    <meta name="keywords" content="Middle East wooden cabins, desert-proof cabins, heat-resistant cabins, Arabic style cabins, traditional majlis, desert homes, climate-adapted wooden structures, Middle Eastern architecture">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://woodencabin.com/products/middle-east-series-en.html">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Middle East Series | Wooden Cabin Homes - Desert-Proof & Climate-Adapted Cabins">
+    <meta property="og:description" content="Specialized wooden cabin series designed for Middle Eastern climates. Desert-proof, heat-resistant traditional and modern designs adapted for cultural preferences.">
+    <meta property="og:url" content="https://woodencabin.com/products/middle-east-series-en.html">
+    <meta property="og:image" content="../assets/images/products/middle-east-resort-medium.png">
+    <meta property="og:site_name" content="Wooden Cabin Homes">
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Middle East Series | Wooden Cabin Homes - Desert-Proof & Climate-Adapted Cabins">
+    <meta name="twitter:description" content="Specialized wooden cabin series designed for Middle Eastern climates. Desert-proof, heat-resistant traditional and modern designs.">
+    <meta name="twitter:image" content="../assets/images/products/middle-east-resort-medium.png">
+
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Icon Libraries -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Design Tokens & Components -->
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    
+    
+    
+    <!-- Visual Enhancement System -->
+    <link rel="stylesheet" href="../assets/css/products.css">
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://woodencabin.com/#website",
+          "name": "Wooden Cabin Export",
+          "url": "https://woodencabin.com",
+          "description": "Professional wooden cabin manufacturer in China specializing in B2B export of custom wooden cabins, garden houses, and prefabricated structures",
+          "inLanguage": "en-US",
+          "isAccessibleForFree": true
+        },
+        {
+          "@type": "CollectionPage",
+          "@id": "https://woodencabin.com/products/middle-east-series-en.html",
+          "name": "Middle East Wooden Cabin Series",
+          "description": "Specialized wooden cabin series designed for Middle Eastern climates with desert-proof and heat-resistant features",
+          "url": "https://woodencabin.com/products/middle-east-series-en.html",
+          "mainEntity": {
+            "@type": "ItemList",
+            "numberOfItems": 2,
+            "itemListElement": [
+              {
+                "@type": "Product",
+                "name": "Majlis Lounge Traditional",
+                "url": "https://woodencabin.com/products/majlis-lounge-en.html"
+              },
+              {
+                "@type": "Product",
+                "name": "Desert-Proof Modern Villa",
+                "url": "https://woodencabin.com/products/desert-proof-en.html"
+              }
+            ]
+          }
+        }
+      ]
+    }
+    </script>
+</head>
+<body class="wood-texture">
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header Navigation -->
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="../index.html" class="logo">
+                    <i class="fas fa-home"></i>
+                    Premium Wooden Cabins
+                </a>
+                <ul class="nav-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../products.html">Products</a></li>
+                    <li><a href="../projects.html">Projects</a></li>
+                    <li><a href="../ai-3d-design.html">AI 3D Design</a></li>
+                    <li><a href="../blog.html">Blog</a></li>
+                    <li><a href="../about.html">About Us</a></li>
+                    <li><a href="../contact.html">Contact Us</a></li>
+                </ul>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Breadcrumb Navigation -->
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+        <div class="container">
+            <ol class="breadcrumb__list">
+                <li class="breadcrumb__item">
+                    <a href="../index.html" class="breadcrumb__link">
+                        <i class="fas fa-home"></i>
+                        Home
+                    </a>
+                </li>
+                <li class="breadcrumb__separator" aria-hidden="true">›</li>
+                <li class="breadcrumb__item">
+                    <a href="../products.html" class="breadcrumb__link">Products</a>
+                </li>
+                <li class="breadcrumb__separator" aria-hidden="true">›</li>
+                <li class="breadcrumb__item">
+                    <span class="breadcrumb__current">Middle East Series</span>
+                </li>
+            </ol>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero hero--small">
+            <div class="hero__background">
+                <div class="hero__overlay"></div>
+                <img loading="lazy" src="../assets/images/products/middle-east-resort-medium.png" alt="Middle Eastern style wooden cabins in desert setting" class="hero__image" loading="eager">
+            </div>
+            <div class="container">
+                <div class="hero__content">
+                    <h1 class="hero__title">Middle East Series</h1>
+                    <p class="hero__subtitle">Specialized wooden cabins designed for Middle Eastern climates - desert-proof, heat-resistant, and culturally adapted</p>
+                    <div class="hero__actions">
+                        <a href="#product-showcase" class="btn btn-primary btn-large">View Products</a>
+                        <a href="mailto:sales@woodencabin.com?subject=B2B Inquiry - Middle East Series&body=Dear%20Sales%20Team,%0A%0AI%20am%20interested%20in%20the%20Middle%20East%20Series%20wooden%20cabin%20solution%20for%20our%20business.%20Could%20you%20please%20provide:%0A%0A%E2%80%A2%20Detailed%20product%20specifications%0A%E2%80%A2%20Pricing%20information%0A%E2%80%A2%20Installation%20timeline%0A%E2%80%A2%20Customization%20options%0A%E2%80%A2%20Shipping%20details%20to%20our%20location%0A%0AThank%20you%20for%20your%20professional%20assistance.%0A%0ABest%20regards" class="btn btn-outline btn-large">
+                    <i class="fas fa-envelope"></i> Email Sales Team
+                </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Series Overview -->
+        <section class="section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Engineered for Extreme Climates</h2>
+                    <p class="section-subtitle">Our Middle East Series combines traditional architectural elements with modern climate-adaptation technology</p>
+                </div>
+
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-sun"></i>
+                        </div>
+                        <h3 class="feature-title">Heat-Resistant Design</h3>
+                        <p class="feature-description">Advanced insulation and reflective materials keep interiors cool even in extreme desert temperatures.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3 class="feature-title">Desert-Proof Construction</h3>
+                        <p class="feature-description">Specialized materials and construction techniques protect against sand, wind, and harsh desert conditions.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-mosque"></i>
+                        </div>
+                        <h3 class="feature-title">Cultural Adaptation</h3>
+                        <p class="feature-description">Designs respect and incorporate Middle Eastern architectural traditions and cultural preferences.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-tint"></i>
+                        </div>
+                        <h3 class="feature-title">Water-Efficient</h3>
+                        <p class="feature-description">Integrated water conservation and management systems suitable for arid regions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Showcase -->
+        <section class="section section--bg-secondary" id="product-showcase">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Middle East Series Products</h2>
+                    <p class="section-subtitle">Specialized cabin models designed for Middle Eastern environments</p>
+                </div>
+
+                <div class="products-showcase">
+                    <!-- Majlis Lounge -->
+                    <article class="product-showcase-item">
+                        <div class="product-showcase-image">
+                            <img loading="lazy" src="../assets/images/products/majlis-lounge-large.png" alt="Traditional Majlis Lounge wooden cabin" loading="lazy">
+                            <div class="product-overlay">
+                                <span class="product-badge">Traditional</span>
+                            </div>
+                        </div>
+                        <div class="product-showcase-content">
+                            <h3 class="product-title">Majlis Lounge Traditional</h3>
+                            <p class="product-description">
+                                Authentic Middle Eastern majlis design featuring traditional seating arrangements, ornate woodwork, and climate-adapted interiors perfect for social gatherings and family entertainment.
+                            </p>
+                            <div class="product-highlights">
+                                <div class="highlight-item">
+                                    <i class="fas fa-expand"></i>
+                                    <span>60-120m²</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <i class="fas fa-users"></i>
+                                    <span>15-30 Guests</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <i class="fas fa-thermometer-half"></i>
+                                    <span>Climate Controlled</span>
+                                </div>
+                            </div>
+                            <ul class="product-features">
+                                <li>Traditional Arabic architectural elements</li>
+                                <li>Central courtyard design option</li>
+                                <li>Advanced cooling systems</li>
+                                <li>Ornate woodwork and detailing</li>
+                            </ul>
+                            <div class="product-actions">
+                                <a href="majlis-lounge-en.html" class="btn btn-primary">View Details</a>
+                                <a href="mailto:sales@woodencabin.com?subject=B2B Inquiry - Middle East Series&body=Dear%20Sales%20Team,%0A%0AI%20am%20interested%20in%20the%20Middle%20East%20Series%20wooden%20cabin%20solution%20for%20our%20business.%20Could%20you%20please%20provide:%0A%0A%E2%80%A2%20Detailed%20product%20specifications%0A%E2%80%A2%20Pricing%20information%0A%E2%80%A2%20Installation%20timeline%0A%E2%80%A2%20Customization%20options%0A%E2%80%A2%20Shipping%20details%20to%20our%20location%0A%0AThank%20you%20for%20your%20professional%20assistance.%0A%0ABest%20regards" class="btn btn-outline">Get Quote</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Desert-Proof Modern -->
+                    <article class="product-showcase-item">
+                        <div class="product-showcase-image">
+                            <img loading="lazy" src="../assets/images/products/desert-proof-cabin-medium.png" alt="Desert-proof modern wooden villa" loading="lazy">
+                            <div class="product-overlay">
+                                <span class="product-badge">Modern</span>
+                            </div>
+                        </div>
+                        <div class="product-showcase-content">
+                            <h3 class="product-title">Desert-Proof Modern Villa</h3>
+                            <p class="product-description">
+                                Contemporary villa design engineered for extreme desert conditions, featuring cutting-edge insulation, smart climate control, and modern amenities while maintaining cultural sensitivity.
+                            </p>
+                            <div class="product-highlights">
+                                <div class="highlight-item">
+                                    <i class="fas fa-expand"></i>
+                                    <span>150-300m²</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <i class="fas fa-bed"></i>
+                                    <span>3-5 Bedrooms</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <i class="fas fa-solar-panel"></i>
+                                    <span>Solar Ready</span>
+                                </div>
+                            </div>
+                            <ul class="product-features">
+                                <li>Advanced thermal insulation</li>
+                                <li>Smart home climate management</li>
+                                <li>Sand-resistant exterior finishes</li>
+                                <li>Energy-efficient design</li>
+                            </ul>
+                            <div class="product-actions">
+                                <a href="desert-proof-en.html" class="btn btn-primary">View Details</a>
+                                <a href="mailto:sales@woodencabin.com?subject=B2B Inquiry - Middle East Series&body=Dear%20Sales%20Team,%0A%0AI%20am%20interested%20in%20the%20Middle%20East%20Series%20wooden%20cabin%20solution%20for%20our%20business.%20Could%20you%20please%20provide:%0A%0A%E2%80%A2%20Detailed%20product%20specifications%0A%E2%80%A2%20Pricing%20information%0A%E2%80%A2%20Installation%20timeline%0A%E2%80%A2%20Customization%20options%0A%E2%80%A2%20Shipping%20details%20to%20our%20location%0A%0AThank%20you%20for%20your%20professional%20assistance.%0A%0ABest%20regards" class="btn btn-outline">Get Quote</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Specifications -->
+        <section class="section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Climate Adaptation Features</h2>
+                    <p class="section-subtitle">Engineering solutions for Middle Eastern environmental challenges</p>
+                </div>
+
+                <div class="specifications-grid">
+                    <div class="spec-category">
+                        <h3 class="spec-category-title">Thermal Management</h3>
+                        <div class="spec-items">
+                            <div class="spec-item">
+                                <h4>Advanced Insulation</h4>
+                                <p>R-40 wall insulation with reflective barriers</p>
+                            </div>
+                            <div class="spec-item">
+                                <h4>Cool Roof System</h4>
+                                <p>Reflective roofing materials reducing heat absorption</p>
+                            </div>
+                            <div class="spec-item">
+                                <h4>Thermal Mass Design</h4>
+                                <p>Strategic thermal mass for temperature regulation</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="spec-category">
+                        <h3 class="spec-category-title">Weather Protection</h3>
+                        <div class="spec-items">
+                            <div class="spec-item">
+                                <h4>Sand-Resistant Materials</h4>
+                                <p>Specialized coatings and sealing systems</p>
+                            </div>
+                            <div class="spec-item">
+                                <h4>Wind Engineering</h4>
+                                <p>Aerodynamic design for desert storm conditions</p>
+                            </div>
+                            <div class="spec-item">
+                                <h4>UV Protection</h4>
+                                <p>UV-resistant materials and finishes</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="spec-category">
+                        <h3 class="spec-category-title">Cultural Integration</h3>
+                        <div class="spec-items">
+                            <div class="spec-item">
+                                <h4>Privacy Design</h4>
+                                <p>Traditional privacy screens and layout principles</p>
+                            </div>
+                            <div class="spec-item">
+                                <h4>Social Spaces</h4>
+                                <p>Dedicated areas for family and guest entertainment</p>
+                            </div>
+                            <div class="spec-item">
+                                <h4>Aesthetic Harmony</h4>
+                                <p>Integration with regional architectural styles</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Applications Section -->
+        <section class="section section--bg-accent">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Ideal Applications</h2>
+                    <p class="section-subtitle">Perfect solutions for various Middle Eastern projects</p>
+                </div>
+
+                <div class="applications-grid">
+                    <div class="application-card">
+                        <div class="application-icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <h3 class="application-title">Residential Villas</h3>
+                        <p class="application-description">Primary residences and guest houses designed for family living in desert climates.</p>
+                    </div>
+
+                    <div class="application-card">
+                        <div class="application-icon">
+                            <i class="fas fa-hotel"></i>
+                        </div>
+                        <h3 class="application-title">Resort Accommodations</h3>
+                        <p class="application-description">Luxury resort units combining comfort with traditional Middle Eastern hospitality.</p>
+                    </div>
+
+                    <div class="application-card">
+                        <div class="application-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3 class="application-title">Community Centers</h3>
+                        <p class="application-description">Majlis and community spaces for social gatherings and cultural events.</p>
+                    </div>
+
+                    <div class="application-card">
+                        <div class="application-icon">
+                            <i class="fas fa-umbrella-beach"></i>
+                        </div>
+                        <h3 class="application-title">Desert Retreats</h3>
+                        <p class="application-description">Eco-lodges and retreat centers in desert and oasis locations.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Related Series -->
+        <section class="section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Explore Other Series</h2>
+                    <p class="section-subtitle">Discover specialized solutions for different needs</p>
+                </div>
+
+                <div class="related-series">
+                    <a href="office-series-en.html" class="related-series-card">
+                        <div class="series-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <h3 class="series-title">Office Series</h3>
+                        <p class="series-description">Professional workspace solutions</p>
+                        <span class="series-link">Explore Series →</span>
+                    </a>
+
+                    <a href="guest-series-en.html" class="related-series-card">
+                        <div class="series-icon">
+                            <i class="fas fa-bed"></i>
+                        </div>
+                        <h3 class="series-title">Guest Series</h3>
+                        <p class="series-description">Comfortable accommodation solutions</p>
+                        <span class="series-link">Explore Series →</span>
+                    </a>
+
+                    <a href="entertainment-series-en.html" class="related-series-card">
+                        <div class="series-icon">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <h3 class="series-title">Entertainment Series</h3>
+                        <p class="series-description">Recreation and hobby spaces</p>
+                        <span class="series-link">Explore Series →</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-section__content">
+                    <h2 class="cta-section__title">Ready for Your Middle East Project?</h2>
+                    <p class="cta-section__description">Contact our specialized team for climate-adapted wooden cabin solutions tailored to your Middle Eastern project requirements.</p>
+                    <div class="cta-section__actions">
+                        <a href="https://wa.me/+8619932411993?text=Hello%20Wooden%20Cabin%20Team,%0A%0AI%20am%20interested%20in%20your%20Middle%20East%20Series%20wooden%20cabin%20for%20our%20business%20needs.%20Could%20you%20please%20provide%20a%20professional%20consultation%20and%20quote%3F%0A%0AThank%20you!" class="btn btn-primary btn-large" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                            WhatsApp Business
+                        </a>
+                        <a href="mailto:sales@woodencabin.com?subject=B2B Inquiry - Middle East Series&body=Dear%20Sales%20Team,%0A%0AI%20am%20interested%20in%20the%20Middle%20East%20Series%20wooden%20cabin%20solution%20for%20our%20business.%20Could%20you%20please%20provide:%0A%0A%E2%80%A2%20Detailed%20product%20specifications%0A%E2%80%A2%20Pricing%20information%0A%E2%80%A2%20Installation%20timeline%0A%E2%80%A2%20Customization%20options%0A%E2%80%A2%20Shipping%20details%20to%20our%20location%0A%0AThank%20you%20for%20your%20professional%20assistance.%0A%0ABest%20regards" class="btn btn-outline btn-large">
+                            <i class="fas fa-envelope"></i>
+                            Email Sales Team
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3 class="footer__heading">Product Series</h3>
+                    <nav class="footer__nav">
+                        <a href="middle-east-series-en.html" class="footer__link">Middle East Series</a>
+                        <a href="office-series-en.html" class="footer__link">Office Series</a>
+                        <a href="guest-series-en.html" class="footer__link">Guest Series</a>
+                        <a href="entertainment-series-en.html" class="footer__link">Entertainment Series</a>
+                    </nav>
+                </div>
+                <div class="footer__section">
+                    <h3 class="footer__heading">Products</h3>
+                    <nav class="footer__nav">
+                        <a href="../backyard-cabins-en.html" class="footer__link">Backyard Cabins</a>
+                    </nav>
+                </div>
+                <div class="footer__section">
+                    <h3 class="footer__heading">Resources</h3>
+                    <nav class="footer__nav">
+                        <a href="../blog.html" class="footer__link">Blog</a>
+                    </nav>
+                </div>
+                <div class="footer__section">
+                    <h3 class="footer__heading">Contact Info</h3>
+                    <div class="footer__contact">
+                        <div class="footer__contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Linhai, Zhejiang, China</span>
+                        </div>
+                        <div class="footer__contact-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <a href="https://wa.me/+8619932411993?text=Hello%20Wooden%20Cabin%20Team,%0A%0AI%20am%20interested%20in%20your%20Middle%20East%20Series%20wooden%20cabin%20for%20our%20business%20needs.%20Could%20you%20please%20provide%20a%20professional%20consultation%20and%20quote%3F%0A%0AThank%20you!">+86-199-3241-1993</a>
+                        </div>
+                        <div class="footer__contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:sales@woodencabin.com">sales@woodencabin.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__copyright">
+                    <p>&copy; 2024 Wooden Cabin Export. All rights reserved.</p>
+                </div>
+                <div class="footer__links">
+                    <a href="../privacy.html" class="footer__link">Privacy Policy</a>
+                    <a href="../terms.html" class="footer__link">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating CTA Button -->
+    <button class="floating-cta" onclick="window.location.href='mailto:sales@woodencabin.com?subject=B2B Inquiry - Middle East Series&body=Dear%20Sales%20Team,%0A%0AI%20am%20interested%20in%20the%20Middle%20East%20Series%20wooden%20cabin%20solution%20for%20our%20business.%20Could%20you%20please%20provide:%0A%0A%E2%80%A2%20Detailed%20product%20specifications%0A%E2%80%A2%20Pricing%20information%0A%E2%80%A2%20Installation%20timeline%0A%E2%80%A2%20Customization%20options%0A%E2%80%A2%20Shipping%20details%20to%20our%20location%0A%0AThank%20you%20for%20your%20professional%20assistance.%0A%0ABest%20regards'" aria-label="Email for quote">
+        <i class="fas fa-comment-dots"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="../assets/js/visual-enhancement-controller.js"></script>    <script src="../assets/js/navigation.js"></script>
+    <script src="../assets/js/cta-tracking.js"></script>
+    <script src="../assets/js/accessibility.js"></script>
+
+    <!-- Analytics (if needed) -->
+    <script>
+        // V8 Website - Version Tracking
+        console.log('Wooden Cabin Homes Website - V8 Architecture');
+        document.documentElement.setAttribute('data-version', 'v8-unified');
+    </script>
+    <!-- V9 Wooden Cabin Website JavaScript Modules -->
+    <script src="../assets/js/core/navigation.js"></script>
+    <script src="../assets/js/core/accessibility.js"></script>
+    <script src="../assets/js/core/form-handler.js"></script>
+    <script src="../assets/js/core/seo-manager.js"></script>
+    <script src="../assets/js/components/gallery.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>

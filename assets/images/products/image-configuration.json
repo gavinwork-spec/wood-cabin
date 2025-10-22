@@ -1,0 +1,362 @@
+{
+  "factoryImageStructure": {
+    "categories": {
+      "factory": {
+        "name": "Factory Environment",
+        "description": "Exterior and interior views of our boutique manufacturing facility in Linhai, Taizhou",
+        "keywords": ["wooden cabin factory", "manufacturing workshop", "linhai factory", "taizhou china", "production facility"],
+        "images": [
+          {
+            "filename": "factory-exterior-main",
+            "alt": "Premium Wooden Cabins Factory exterior view in Linhai Taizhou China - boutique manufacturing facility",
+            "title": "Our Wooden Cabin Manufacturing Facility | Linhai Taizhou China",
+            "caption": "Our specialized factory where master craftsmen create custom wooden cabins for international export",
+            "category": "factory",
+            "priority": "high",
+            "context": {
+              "equipment": "specialized woodworking equipment",
+              "activity": "precision manufacturing"
+            }
+          },
+          {
+            "filename": "factory-workshop-interior",
+            "alt": "Interior workshop view of Premium Wooden Cabins factory showing advanced woodworking machinery",
+            "title": "Advanced Woodworking Workshop | Custom Cabin Manufacturing",
+            "caption": "State-of-the-art equipment combined with traditional craftsmanship techniques",
+            "category": "factory",
+            "priority": "high",
+            "context": {
+              "equipment": "modern woodworking machinery",
+              "activity": "precision cutting and assembly"
+            }
+          },
+          {
+            "filename": "factory-quality-control-area",
+            "alt": "Quality control inspection area at Premium Wooden Cabins factory with detailed craftsmanship checks",
+            "title": "Quality Control Process | Premium Wooden Cabin Manufacturing",
+            "caption": "Every cabin undergoes rigorous quality inspection before export",
+            "category": "factory",
+            "priority": "medium",
+            "context": {
+              "process": "quality inspection",
+              "technique": "detailed craftsmanship verification"
+            }
+          }
+        ]
+      },
+      "craftsmanship": {
+        "name": "Craftsmanship",
+        "description": "Skilled craftsmen demonstrating traditional woodworking techniques",
+        "keywords": ["woodworking", "carpentry", "skilled craftsmen", "traditional techniques", "handcrafted"],
+        "images": [
+          {
+            "filename": "craftsman-woodworking-detail",
+            "alt": "Experienced craftsman performing detailed woodworking on custom wooden cabin components",
+            "title": "Master Craftsman at Work | Traditional Woodworking Techniques",
+            "caption": "15+ years of experience in fine woodworking and cabinetry",
+            "category": "craftsmanship",
+            "priority": "high",
+            "context": {
+              "craftsman": "master woodworker",
+              "technique": "precision joinery",
+              "experience": "15+ years"
+            }
+          },
+          {
+            "filename": "traditional-joinery-technique",
+            "alt": "Traditional mortise and tenon joinery technique demonstration by skilled carpenter",
+            "title": "Traditional Joinery Techniques | Timeless Woodworking Methods",
+            "caption": "Authentic craftsmanship ensuring structural integrity and durability",
+            "category": "craftsmanship",
+            "priority": "high",
+            "context": {
+              "technique": "mortise and tenon joinery",
+              "skill": "traditional carpentry",
+              "detail": "structural woodworking"
+            }
+          },
+          {
+            "filename": "hand-finishing-wood-surface",
+            "alt": "Hand finishing process on premium timber surfaces for custom wooden cabins",
+            "title": "Hand Finishing Process | Premium Surface Treatment",
+            "caption": "Meticulous hand finishing for superior quality and durability",
+            "category": "craftsmanship",
+            "priority": "medium",
+            "context": {
+              "process": "hand finishing",
+              "technique": "surface treatment",
+              "quality": "premium finish"
+            }
+          }
+        ]
+      },
+      "products": {
+        "name": "Wooden Cabin Products",
+        "description": "Completed custom wooden cabin projects ready for export",
+        "keywords": ["custom wooden cabins", "prefabricated cabins", "log homes", "wooden houses", "modular cabins"],
+        "images": [
+          {
+            "filename": "modern-garden-office-cabin",
+            "alt": "Modern garden office wooden cabin with large windows and contemporary design",
+            "title": "Modern Garden Office Cabin | Contemporary Wooden Design",
+            "caption": "Prefabricated office cabin with modern aesthetics and functionality",
+            "category": "products",
+            "priority": "high",
+            "context": {
+              "productType": "garden office cabin",
+              "style": "modern contemporary",
+              "feature": "large windows",
+              "destination": "European markets"
+            }
+          },
+          {
+            "filename": "traditional-log-cabin-home",
+            "alt": "Traditional log cabin home with classic design and premium timber construction",
+            "title": "Traditional Log Cabin Home | Classic Timber Construction",
+            "caption": "Authentic log cabin design combining traditional aesthetics with modern comfort",
+            "category": "products",
+            "priority": "high",
+            "context": {
+              "productType": "log cabin home",
+              "style": "traditional classic",
+              "material": "premium pine logs",
+              "destination": "North American markets"
+            }
+          },
+          {
+            "filename": "studio-cabin-workspace",
+            "alt": "Compact studio cabin perfect for creative workspace or home office",
+            "title": "Studio Cabin | Compact Creative Workspace Solution",
+            "caption": "Efficiently designed studio cabin for modern living and working",
+            "category": "products",
+            "priority": "medium",
+            "context": {
+              "productType": "studio cabin",
+              "feature": "compact design",
+              "style": "functional modern",
+              "destination": "urban residential areas"
+            }
+          }
+        ]
+      },
+      "manufacturing": {
+        "name": "Manufacturing Process",
+        "description": "Step-by-step manufacturing process of wooden cabin production",
+        "keywords": ["cabin manufacturing", "wood processing", "assembly", "construction", "production line"],
+        "images": [
+          {
+            "filename": "timber-selection-preparation",
+            "alt": "Premium timber selection and preparation process for wooden cabin manufacturing",
+            "title": "Timber Selection Process | Premium Quality Wood Preparation",
+            "caption": "Careful selection of sustainable timber for optimal cabin construction",
+            "category": "manufacturing",
+            "priority": "high",
+            "context": {
+              "process": "timber selection",
+              "material": "premium pine",
+              "quality": "sustainable sourcing",
+              "stage": "material preparation"
+            }
+          },
+          {
+            "filename": "cabin-wall-assembly-line",
+            "alt": "Wooden cabin wall panel assembly in our specialized manufacturing facility",
+            "title": "Wall Panel Assembly | Precision Manufacturing Process",
+            "caption": "Modular wall panel construction ensuring quality and efficiency",
+            "category": "manufacturing",
+            "priority": "high",
+            "context": {
+              "process": "wall panel assembly",
+              "equipment": "precision assembly tools",
+              "production": "modular construction",
+              "technique": "prefabricated panels"
+            }
+          },
+          {
+            "filename": "cabin-final-inspection",
+            "alt": "Final inspection and quality testing of completed wooden cabin before export",
+            "title": "Final Quality Inspection | Pre-Export Quality Assurance",
+            "caption": "Comprehensive inspection ensuring export-ready quality standards",
+            "category": "manufacturing",
+            "priority": "medium",
+            "context": {
+              "process": "final inspection",
+              "stage": "quality assurance",
+              "activity": "export preparation",
+              "quality": "international standards"
+            }
+          }
+        ]
+      },
+      "export": {
+        "name": "Export & Shipping",
+        "description": "Export packaging and shipping preparation for international delivery",
+        "keywords": ["international export", "shipping containers", "global delivery", "overseas projects", "export packaging"],
+        "images": [
+          {
+            "filename": "export-packaging-preparation",
+            "alt": "Professional export packaging preparation for wooden cabin international shipping",
+            "title": "Export Packaging Preparation | International Shipping Standards",
+            "caption": "Secure packaging ensuring safe delivery to global destinations",
+            "category": "export",
+            "priority": "high",
+            "context": {
+              "packaging": "professional export packaging",
+              "destination": "international markets",
+              "container": "shipping container",
+              "process": "export preparation"
+            }
+          },
+          {
+            "filename": "shipping-container-loading",
+            "alt": "Loading wooden cabin components into shipping container for export to overseas client",
+            "title": "Container Loading Process | Export Logistics Management",
+            "caption": "Efficient container loading for international cabin export",
+            "category": "export",
+            "priority": "high",
+            "context": {
+              "container": "40ft shipping container",
+              "quantity": "multiple cabins",
+              "destination": "European client",
+              "action": "professional loading"
+            }
+          },
+          {
+            "filename": "export-documentation-preparation",
+            "alt": "Export documentation and customs paperwork preparation for international cabin delivery",
+            "title": "Export Documentation | International Trade Compliance",
+            "caption": "Complete export documentation ensuring smooth customs clearance",
+            "category": "export",
+            "priority": "medium",
+            "context": {
+              "process": "documentation preparation",
+              "activity": "customs paperwork",
+              "destination": "global markets",
+              "compliance": "international trade"
+            }
+          }
+        ]
+      },
+      "materials": {
+        "name": "Materials & Resources",
+        "description": "High-quality materials and sustainable resources used in cabin manufacturing",
+        "keywords": ["quality timber", "sustainable wood", "premium materials", "lumber", "wood resources"],
+        "images": [
+          {
+            "filename": "premium-timber-storage",
+            "alt": "Premium timber storage facility showing quality lumber for cabin manufacturing",
+            "title": "Premium Timber Storage | Quality Wood Resources",
+            "caption": "Carefully stored premium timber awaiting cabin production",
+            "category": "materials",
+            "priority": "high",
+            "context": {
+              "material": "premium pine timber",
+              "quality": "grade-A lumber",
+              "storage": "climate-controlled facility",
+              "woodType": "sustainable pine"
+            }
+          },
+          {
+            "filename": "sustainable-wood-sourcing",
+            "alt": "Sustainable wood sourcing demonstration with certified forestry management",
+            "title": "Sustainable Wood Sourcing | Environmentally Responsible Materials",
+            "caption": "Certified sustainable forestry ensuring environmental responsibility",
+            "category": "materials",
+            "priority": "high",
+            "context": {
+              "quality": "sustainable certification",
+              "woodType": "responsibly sourced timber",
+              "environmental": "eco-friendly manufacturing",
+              "certification": "FSC certified"
+            }
+          },
+          {
+            "filename": "natural-wood-finishes",
+            "alt": "Natural wood finishes and treatments for premium wooden cabin protection",
+            "title": "Natural Wood Finishes | Eco-Friendly Surface Protection",
+            "caption": "Environmentally friendly finishes enhancing wood durability and beauty",
+            "category": "materials",
+            "priority": "medium",
+            "context": {
+              "material": "natural wood finishes",
+              "quality": "eco-friendly treatment",
+              "protection": "weather resistance",
+              "feature": "enhanced durability"
+            }
+          }
+        ]
+      }
+    },
+    "responsiveSizes": {
+      "mobile": {
+        "width": 480,
+        "height": 320,
+        "suffix": "-sm",
+        "description": "Mobile optimized images for smartphones"
+      },
+      "tablet": {
+        "width": 768,
+        "height": 512,
+        "suffix": "-md",
+        "description": "Tablet optimized images for tablets and small laptops"
+      },
+      "desktop": {
+        "width": 1024,
+        "height": 683,
+        "suffix": "-lg",
+        "description": "Desktop optimized images for standard desktop displays"
+      },
+      "large": {
+        "width": 1440,
+        "height": 960,
+        "suffix": "-xl",
+        "description": "Large screen optimized images for high-resolution displays"
+      },
+      "ultra": {
+        "width": 1920,
+        "height": 1280,
+        "suffix": "-xxl",
+        "description": "Ultra high-resolution images for 4K displays and hero sections"
+      }
+    },
+    "seoOptimization": {
+      "fileNamingConvention": "{category}-{description-detail}-{unique-id}",
+      "altTextPattern": "{businessName} {category} {description} in {location} - {additional-details}",
+      "titlePattern": "{category} | {businessName} - {location} | {keywords}",
+      "captionPattern": "{description} showcasing {feature} from our {location} factory",
+      "keywords": [
+        "wooden cabin factory China",
+        "custom cabin manufacturer",
+        "Linhai Taizhou export",
+        "prefabricated wooden cabins",
+        "international cabin export",
+        "quality timber construction",
+        "sustainable wood manufacturing",
+        "Chinese craftsmanship export",
+        "custom wooden homes",
+        "log cabin manufacturer"
+      ]
+    },
+    "webOptimization": {
+      "compression": {
+        "jpeg": {
+          "quality": 85,
+          "progressive": true
+        },
+        "webp": {
+          "quality": 85,
+          "lossless": false
+        }
+      },
+      "lazyLoading": {
+        "enabled": true,
+        "threshold": 0.1,
+        "rootMargin": "50px"
+      },
+      "caching": {
+        "browserCache": "1 year",
+        "cdnCache": "30 days"
+      }
+    }
+  }
+}

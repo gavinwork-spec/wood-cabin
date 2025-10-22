@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="commercialSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4682B4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#87CEEB;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="commercialWood" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#C19A6B;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#D4A574;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B8956A;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="commercialRoof" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B4513;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A0522D;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="600" fill="url(#commercialSky)"/>
+
+  <!-- Sun -->
+  <circle cx="650" cy="100" r="40" fill="#FFD700" opacity="0.8"/>
+
+  <!-- Clouds -->
+  <g opacity="0.5">
+    <ellipse cx="150" cy="80" rx="35" ry="18" fill="#FFFFFF"/>
+    <ellipse cx="175" cy="80" rx="45" ry="22" fill="#FFFFFF"/>
+    <ellipse cx="200" cy="80" rx="35" ry="18" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Commercial Building Complex -->
+  <g transform="translate(150, 150)">
+    <!-- Main Commercial Building -->
+    <rect x="0" y="100" width="400" height="300" fill="url(#commercialWood)" stroke="#8B6F47" stroke-width="2"/>
+
+    <!-- Commercial Roof -->
+    <polygon points="-20,100 200,50 420,100" fill="url(#commercialRoof)"/>
+
+    <!-- Large Glass Windows -->
+    <rect x="50" y="120" width="80" height="80" fill="#87CEEB" stroke="#5B8FAF" stroke-width="2" rx="2"/>
+    <rect x="150" y="120" width="80" height="80" fill="#87CEEB" stroke="#5B8FAF" stroke-width="2" rx="2"/>
+    <rect x="250" y="120" width="80" height="80" fill="#87CEEB" stroke="#5B8FAF" stroke-width="2" rx="2"/>
+
+    <!-- Window Panes -->
+    <line x1="90" y1="120" x2="90" y2="200" stroke="#5B8FAF" stroke-width="1"/>
+    <line x1="50" y1="160" x2="130" y2="160" stroke="#5B8FAF" stroke-width="1"/>
+    <line x1="190" y1="120" x2="190" y2="200" stroke="#5B8FAF" stroke-width="1"/>
+    <line x1="150" y1="160" x2="230" y2="160" stroke="#5B8FAF" stroke-width="1"/>
+    <line x1="290" y1="120" x2="290" y2="200" stroke="#5B8FAF" stroke-width="1"/>
+    <line x1="250" y1="160" x2="330" y2="160" stroke="#5B8FAF" stroke-width="1"/>
+
+    <!-- Main Entrance -->
+    <rect x="180" y="250" width="40" height="150" fill="#2E5A3E"/>
+    <rect x="185" y="260" width="30" height="130" fill="#3498DB" opacity="0.3"/>
+
+    <!-- Business Sign -->
+    <rect x="100" y="60" width="200" height="30" fill="#2E5A3E" rx="5"/>
+    <text x="200" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">BUSINESS CENTER</text>
+
+    <!-- Professional Lighting -->
+    <circle cx="100" cy="200" r="8" fill="#FFFF99"/>
+    <circle cx="300" cy="200" r="8" fill="#FFFF99"/>
+    <circle cx="200" cy="200" r="8" fill="#FFFF99"/>
+
+    <!-- Parking Area -->
+    <rect x="0" y="400" width="400" height="100" fill="#696969"/>
+
+    <!-- Parking Lines -->
+    <line x1="50" y1="420" x2="50" y2="480" stroke="#FFFFFF" stroke-width="2"/>
+    <line x1="100" y1="420" x2="100" y2="480" stroke="#FFFFFF" stroke-width="2"/>
+    <line x1="150" y1="420" x2="150" y2="480" stroke="#FFFFFF" stroke-width="2"/>
+    <line x1="200" y1="420" x2="200" y2="480" stroke="#FFFFFF" stroke-width="2"/>
+    <line x1="250" y1="420" x2="250" y2="480" stroke="#FFFFFF" stroke-width="2"/>
+    <line x1="300" y1="420" x2="300" y2="480" stroke="#FFFFFF" stroke-width="2"/>
+    <line x1="350" y1="420" x2="350" y2="480" stroke="#FFFFFF" stroke-width="2"/>
+  </g>
+
+  <!-- Professional Vehicles -->
+  <g transform="translate(580, 350)">
+    <rect x="0" y="0" width="60" height="25" fill="#2E5A3E" rx="3"/>
+    <rect x="5" y="-8" width="50" height="10" fill="#87CEEB" rx="2"/>
+    <circle cx="15" cy="25" r="6" fill="#2F4F4F"/>
+    <circle cx="45" cy="25" r="6" fill="#2F4F4F"/>
+  </g>
+
+  <!-- Ground -->
+  <rect x="0" y="580" width="800" height="20" fill="#4A7C59"/>
+
+  <!-- Professional Trees -->
+  <g id="commercialTree">
+    <rect x="45" y="280" width="10" height="80" fill="#8B4513"/>
+    <circle cx="50" cy="270" r="25" fill="#228B22"/>
+    <circle cx="45" cy="260" r="20" fill="#32CD32"/>
+    <circle cx="55" cy="260" r="20" fill="#32CD32"/>
+  </g>
+
+  <use href="#commercialTree" transform="translate(50, 100)"/>
+  <use href="#commercialTree" transform="translate(700, 120)"/>
+  <use href="#commercialTree" transform="translate(20, 80)"/>
+
+  <!-- Path -->
+  <path d="M600 600 Q650 500 600 350" fill="none" stroke="#D2B48C" stroke-width="15"/>
+</svg>

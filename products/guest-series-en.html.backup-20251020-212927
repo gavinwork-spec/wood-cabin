@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>Guest Series Wooden Cabins | Luxury Guest House Solutions | Premium Cabin Accommodations</title>
+    <meta name="description" content="Wooden guest cabin series designed for comfortable visitor accommodation. Perfect for guest houses, vacation rentals, resort rooms, and additional family living spaces with hotel-quality amenities.">
+    <meta name="keywords" content="guest cabin, guest house, visitor accommodation, vacation rental cabin, resort guest rooms, wooden guest suite, backyard guest house, granny flat, auxiliary dwelling unit">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://woodencabin.com/products/guest-series-en.html">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Guest Series | Wooden Cabin Homes - Comfortable Accommodation Solutions">
+    <meta property="og:description" content="Wooden guest cabin series designed for comfortable visitor accommodation. Perfect for guest houses, vacation rentals, and resort rooms.">
+    <meta property="og:url" content="https://woodencabin.com/products/guest-series-en.html">
+    <meta property="og:image" content="../assets/images/products/backyard-guest-house-medium.png">
+    <meta property="og:site_name" content="Wooden Cabin Homes">
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Guest Series | Wooden Cabin Homes - Comfortable Accommodation Solutions">
+    <meta name="twitter:description" content="Wooden guest cabin series designed for comfortable visitor accommodation. Perfect for guest houses and vacation rentals.">
+    <meta name="twitter:image" content="../assets/images/products/backyard-guest-house-medium.png">
+
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Icon Libraries -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Design Tokens & Components -->
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    
+    
+    
+    <!-- Visual Enhancement System -->
+    <link rel="stylesheet" href="../assets/css/products.css">
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://woodencabin.com/#website",
+          "name": "Wooden Cabin Export",
+          "url": "https://woodencabin.com",
+          "description": "Professional wooden cabin manufacturer in China specializing in B2B export of custom wooden cabins, garden houses, and prefabricated structures",
+          "inLanguage": "en-US",
+          "isAccessibleForFree": true
+        },
+        {
+          "@type": "CollectionPage",
+          "@id": "https://woodencabin.com/products/guest-series-en.html",
+          "name": "Wooden Guest Cabin Series",
+          "description": "Wooden guest cabin series designed for comfortable visitor accommodation for guest houses, vacation rentals, and resort rooms",
+          "url": "https://woodencabin.com/products/guest-series-en.html",
+          "mainEntity": {
+            "@type": "ItemList",
+            "numberOfItems": 1,
+            "itemListElement": [
+              {
+                "@type": "Product",
+                "name": "Backyard Guest Medium",
+                "url": "https://woodencabin.com/products/backyard-guest-medium-en.html"
+              }
+            ]
+          }
+        }
+      ]
+    }
+    </script>
+</head>
+<body class="wood-texture">
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header Navigation -->
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="../index.html" class="logo">
+                    <i class="fas fa-home"></i>
+                    Premium Wooden Cabins
+                </a>
+                <ul class="nav-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../products.html">Products</a></li>
+                    <li><a href="../projects.html">Projects</a></li>
+                    <li><a href="../ai-3d-design.html">AI 3D Design</a></li>
+                    <li><a href="../blog.html">Blog</a></li>
+                    <li><a href="../about.html">About Us</a></li>
+                    <li><a href="../contact.html">Contact Us</a></li>
+                </ul>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Breadcrumb Navigation -->
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+        <div class="container">
+            <ol class="breadcrumb__list">
+                <li class="breadcrumb__item">
+                    <a href="../index.html" class="breadcrumb__link">
+                        <i class="fas fa-home"></i>
+                        Home
+                    </a>
+                </li>
+                <li class="breadcrumb__separator" aria-hidden="true">›</li>
+                <li class="breadcrumb__item">
+                    <a href="../products.html" class="breadcrumb__link">Products</a>
+                </li>
+                <li class="breadcrumb__separator" aria-hidden="true">›</li>
+                <li class="breadcrumb__item">
+                    <span class="breadcrumb__current">Guest Series</span>
+                </li>
+            </ol>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero hero--small">
+            <div class="hero__background">
+                <div class="hero__overlay"></div>
+                <img src="../assets/images/products/backyard-guest-house-medium.png" alt="Comfortable wooden guest cabin with modern amenities" class="hero__image" loading="eager">
+            </div>
+            <div class="container">
+                <div class="hero__content">
+                    <h1 class="hero__title">Guest Series</h1>
+                    <p class="hero__subtitle">Comfortable wooden accommodation solutions designed for visitors - from guest houses to resort rooms and vacation rentals</p>
+                    <div class="hero__actions">
+                        <a href="#product-showcase" class="btn btn-primary btn-large">View Guest Accommodations</a>
+                        <a href="mailto:sales@woodencabin.com?subject=B2B Inquiry - Guest Series&body=Dear%20Sales%20Team,%0A%0AI%20am%20interested%20in%20the%20Guest%20Series%20wooden%20cabin%20solution%20for%20our%20business.%20Could%20you%20please%20provide:%0A%0A%E2%80%A2%20Detailed%20product%20specifications%0A%E2%80%A2%20Pricing%20information%0A%E2%80%A2%20Installation%20timeline%0A%E2%80%A2%20Customization%20options%0A%E2%80%A2%20Shipping%20details%20to%20our%20location%0A%0AThank%20you%20for%20your%20professional%20assistance.%0A%0ABest%20regards" class="btn btn-outline btn-large">
+                      <i class="fas fa-envelope"></i> Email Sales Team
+                  </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Series Overview -->
+        <section class="section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Hospitality Reimagined in Wood</h2>
+                    <p class="section-subtitle">Our Guest Series combines natural comfort with modern hospitality standards</p>
+                </div>
+
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-bed"></i>
+                        </div>
+                        <h3 class="feature-title">Hotel-Quality Comfort</h3>
+                        <p class="feature-description">Professional-grade amenities and furnishings that ensure guest comfort and satisfaction.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-door-open"></i>
+                        </div>
+                        <h3 class="feature-title">Privacy & Independence</h3>
+                        <p class="feature-description">Self-contained units with private entrances, giving guests complete independence.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h3 class="feature-title">Natural Wellness</h3>
+                        <p class="feature-description">Wood construction creates a calming, natural environment that enhances guest wellbeing.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3 class="feature-title">Complete Amenities</h3>
+                        <p class="feature-description">Full bathroom, kitchenette, and living areas for a complete guest experience.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Showcase -->
+        <section class="section section--bg-secondary" id="product-showcase">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Guest Series Solutions</h2>
+                    <p class="section-subtitle">Specialized accommodation models for different guest scenarios</p>
+                </div>
+
+                <div class="products-showcase">
+                    <!-- Backyard Guest Medium -->
+                    <article class="product-showcase-item">
+                        <div class="product-showcase-image">
+                            <img src="../assets/images/products/backyard-guest-house-medium.png" alt="Medium-sized backyard guest cabin" loading="lazy">
+                            <div class="product-overlay">
+                                <span class="product-badge">Complete Living</span>
+                            </div>
+                        </div>
+                        <div class="product-showcase-content">
+                            <h3 class="product-title">Backyard Guest Medium</h3>
+                            <p class="product-description">
+                                Perfect guest accommodation featuring a complete living space with bedroom, bathroom, and kitchenette. Ideal for long-term visitors, family members, or vacation rentals.
+                            </p>
+                            <div class="product-highlights">
+                                <div class="highlight-item">
+                                    <i class="fas fa-expand"></i>
+                                    <span>40-60m²</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <i class="fas fa-users"></i>
+                                    <span>2-4 Guests</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <i class="fas fa-home"></i>
+                                    <span>Full Amenities</span>
+                                </div>
+                            </div>
+                            <ul class="product-features">
+                                <li>Private bedroom with quality furnishings</li>
+                                <li>Complete bathroom with shower</li>
+                                <li>Kitchenette with appliances</li>
+                                <li>Living area with entertainment system</li>
+                            </ul>
+                            <div class="product-actions">
+                                <a href="backyard-guest-medium-en.html" class="btn btn-primary">View Details</a>
+                                <a href="mailto:sales@woodencabin.com?subject=B2B Inquiry - Guest Series&body=Dear%20Sales%20Team,%0A%0AI%20am%20interested%20in%20the%20Guest%20Series%20wooden%20cabin%20solution%20for%20our%20business.%20Could%20you%20please%20provide:%0A%0A%E2%80%A2%20Detailed%20product%20specifications%0A%E2%80%A2%20Pricing%20information%0A%E2%80%A2%20Installation%20timeline%0A%E2%80%A2%20Customization%20options%0A%E2%80%A2%20Shipping%20details%20to%20our%20location%0A%0AThank%20you%20for%20your%20professional%20assistance.%0A%0ABest%20regards" class="btn btn-outline">Get Quote</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Guest Series Features -->
+                    <div class="series-features-showcase">
+                        <h3 class="series-features-title">All Guest Series Include</h3>
+                        <div class="series-features-grid">
+                            <div class="series-feature-item">
+                                <div class="feature-icon-large">
+                                    <i class="fas fa-bath"></i>
+                                </div>
+                                <h4 class="feature-item-title">Private Bathrooms</h4>
+                                <p class="feature-item-description">Full bathroom facilities with modern fixtures and premium finishes</p>
+                            </div>
+                            <div class="series-feature-item">
+                                <div class="feature-icon-large">
+                                    <i class="fas fa-utensils"></i>
+                                </div>
+                                <h4 class="feature-item-title">Kitchen Facilities</h4>
+                                <p class="feature-item-description">Kitchenette or full kitchen depending on model size and requirements</p>
+                            </div>
+                            <div class="series-feature-item">
+                                <div class="feature-icon-large">
+                                    <i class="fas fa-wifi"></i>
+                                </div>
+                                <h4 class="feature-item-title">Modern Connectivity</h4>
+                                <p class="feature-item-description">High-speed internet, entertainment systems, and smart home features</p>
+                            </div>
+                            <div class="series-feature-item">
+                                <div class="feature-icon-large">
+                                    <i class="fas fa-lock"></i>
+                                </div>
+                                <h4 class="feature-item-title">Security & Privacy</h4>
+                                <p class="feature-item-description">Secure locks, private entrances, and sound-insulated construction</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Guest Applications -->
+        <section class="section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Perfect Guest Scenarios</h2>
+                    <p class="section-subtitle">Discover how our guest cabins serve different accommodation needs</p>
+                </div>
+
+                <div class="applications-grid">
+                    <div class="application-card">
+                        <div class="application-icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <h3 class="application-title">Family Guest Houses</h3>
+                        <p class="application-description">Comfortable space for visiting family members, providing privacy while keeping loved ones close.</p>
+                    </div>
+
+                    <div class="application-card">
+                        <div class="application-icon">
+                            <i class="fas fa-key"></i>
+                        </div>
+                        <h3 class="application-title">Vacation Rentals</h3>
+                        <p class="application-description">Turn your property into income with premium guest accommodation for short-term rentals.</p>
+                    </div>
+
+                    <div class="application-card">
+                        <div class="application-icon">
+                            <i class="fas fa-hotel"></i>
+                        </div>
+                        <h3 class="application-title">Resort Accommodations</h3>
+                        <p class="application-description">Individual guest units for resorts, retreats, and hospitality developments.</p>
+                    </div>
+
+                    <div class="application-card">
+                        <div class="application-icon">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <h3 class="application-title">Staff Housing</h3>
+                        <p class="application-description">Quality accommodation for estate staff, caretakers, or seasonal workers.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hospitality Features -->
+        <section class="section section--bg-accent">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Hospitality-Grade Features</h2>
+                    <p class="section-subtitle">Professional amenities for exceptional guest experiences</p>
+                </div>
+
+                <div class="hospitality-features">
+                    <div class="hospitality-feature-row">
+                        <div class="hospitality-feature">
+                            <div class="feature-icon-large">
+                                <i class="fas fa-temperature-high"></i>
+                            </div>
+                            <h3 class="feature-title">Climate Control</h3>
+                            <p class="feature-description">Individual heating and cooling systems for year-round guest comfort</p>
+                        </div>
+                        <div class="hospitality-feature">
+                            <div class="feature-icon-large">
+                                <i class="fas fa-tv"></i>
+                            </div>
+                            <h3 class="feature-title">Entertainment Systems</h3>
+                            <p class="feature-description">Smart TVs, sound systems, and high-speed internet connectivity</p>
+                        </div>
+                    </div>
+                    <div class="hospitality-feature-row">
+                        <div class="hospitality-feature">
+                            <div class="feature-icon-large">
+                                <i class="fas fa-coffee"></i>
+                            </div>
+                            <h3 class="feature-title">Kitchen Amenities</h3>
+                            <p class="feature-description">From coffee stations to full kitchens, depending on guest needs</p>
+                        </div>
+                        <div class="hospitality-feature">
+                            <div class="feature-icon-large">
+                                <i class="fas fa-archive"></i>
+                            </div>
+                            <h3 class="feature-title">Ample Storage</h3>
+                            <p class="feature-description">Closets, drawers, and storage spaces for extended stays</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Size Options -->
+        <section class="section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Size & Configuration Options</h2>
+                    <p class="section-subtitle">Choose the perfect size for your guest accommodation needs</p>
+                </div>
+
+                <div class="size-options">
+                    <div class="size-option">
+                        <div class="size-header">
+                            <h3 class="size-title">Compact Guest Studio</h3>
+                            <span class="size-range">25-35m²</span>
+                        </div>
+                        <p class="size-description">Perfect for short-term stays, featuring a combined living/sleeping area with kitchenette and private bathroom.</p>
+                        <ul class="size-features">
+                            <li>1-2 guests capacity</li>
+                            <li>Studio layout</li>
+                            <li>Efficient use of space</li>
+                            <li>Ideal for vacation rentals</li>
+                        </ul>
+                    </div>
+
+                    <div class="size-option">
+                        <div class="size-header">
+                            <h3 class="size-title">Medium Guest Suite</h3>
+                            <span class="size-range">40-60m²</span>
+                        </div>
+                        <p class="size-description">Spacious one-bedroom suite with separate living area, full kitchenette, and complete bathroom facilities.</p>
+                        <ul class="size-features">
+                            <li>2-4 guests capacity</li>
+                            <li>Separate bedroom</li>
+                            <li>Living area</li>
+                            <li>Full amenities</li>
+                        </ul>
+                    </div>
+
+                    <div class="size-option">
+                        <div class="size-header">
+                            <h3 class="size-title">Large Guest House</h3>
+                            <span class="size-range">70-100m²</span>
+                        </div>
+                        <p class="size-description">Two-bedroom guest house with multiple living areas, full kitchen, and luxurious amenities for extended stays.</p>
+                        <ul class="size-features">
+                            <li>4-6 guests capacity</li>
+                            <li>Multiple bedrooms</li>
+                            <li>Full kitchen</li>
+                            <li>Resort-quality amenities</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Related Series -->
+        <section class="section section--bg-secondary">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Explore Other Series</h2>
+                    <p class="section-subtitle">Discover specialized solutions for different needs</p>
+                </div>
+
+                <div class="related-series">
+                    <a href="middle-east-series-en.html" class="related-series-card">
+                        <div class="series-icon">
+                            <i class="fas fa-mosque"></i>
+                        </div>
+                        <h3 class="series-title">Middle East Series</h3>
+                        <p class="series-description">Climate-adapted desert solutions</p>
+                        <span class="series-link">Explore Series →</span>
+                    </a>
+
+                    <a href="office-series-en.html" class="related-series-card">
+                        <div class="series-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <h3 class="series-title">Office Series</h3>
+                        <p class="series-description">Professional workspace solutions</p>
+                        <span class="series-link">Explore Series →</span>
+                    </a>
+
+                    <a href="entertainment-series-en.html" class="related-series-card">
+                        <div class="series-icon">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <h3 class="series-title">Entertainment Series</h3>
+                        <p class="series-description">Recreation and hobby spaces</p>
+                        <span class="series-link">Explore Series →</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-section__content">
+                    <h2 class="cta-section__title">Create Exceptional Guest Experiences</h2>
+                    <p class="cta-section__description">Transform your property with premium wooden guest accommodations that combine comfort, privacy, and natural beauty.</p>
+                    <div class="cta-section__actions">
+                        <a href="https://wa.me/+8619932411993?text=Hello%20Wooden%20Cabin%20Team,%0A%0AI%20am%20interested%20in%20your%20Guest%20Series%20wooden%20cabin%20for%20our%20business%20needs.%20Could%20you%20please%20provide%20a%20professional%20consultation%20and%20quote%3F%0A%0AThank%20you!" class="btn btn-primary btn-large" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                            WhatsApp Business
+                        </a>
+                        <a href="mailto:sales@woodencabin.com?subject=B2B Inquiry - Guest Series&body=Dear%20Sales%20Team,%0A%0AI%20am%20interested%20in%20the%20Guest%20Series%20wooden%20cabin%20solution%20for%20our%20business.%20Could%20you%20please%20provide:%0A%0A%E2%80%A2%20Detailed%20product%20specifications%0A%E2%80%A2%20Pricing%20information%0A%E2%80%A2%20Installation%20timeline%0A%E2%80%A2%20Customization%20options%0A%E2%80%A2%20Shipping%20details%20to%20our%20location%0A%0AThank%20you%20for%20your%20professional%20assistance.%0A%0ABest%20regards" class="btn btn-outline btn-large">
+                            <i class="fas fa-envelope"></i>
+                            Email Sales Team
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3 class="footer__heading">Product Series</h3>
+                    <nav class="footer__nav">
+                        <a href="middle-east-series-en.html" class="footer__link">Middle East Series</a>
+                        <a href="office-series-en.html" class="footer__link">Office Series</a>
+                        <a href="guest-series-en.html" class="footer__link">Guest Series</a>
+                        <a href="entertainment-series-en.html" class="footer__link">Entertainment Series</a>
+                    </nav>
+                </div>
+                <div class="footer__section">
+                    <h3 class="footer__heading">Products</h3>
+                    <nav class="footer__nav">
+                        <a href="../backyard-cabins-en.html" class="footer__link">Backyard Cabins</a>
+                    </nav>
+                </div>
+                <div class="footer__section">
+                    <h3 class="footer__heading">Resources</h3>
+                    <nav class="footer__nav">
+                        <a href="../blog.html" class="footer__link">Blog</a>
+                    </nav>
+                </div>
+                <div class="footer__section">
+                    <h3 class="footer__heading">Contact Info</h3>
+                    <div class="footer__contact">
+                        <div class="footer__contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Linhai, Zhejiang, China</span>
+                        </div>
+                        <div class="footer__contact-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <a href="https://wa.me/+8619932411993?text=Hello%20Wooden%20Cabin%20Team,%0A%0AI%20am%20interested%20in%20your%20Guest%20Series%20wooden%20cabin%20for%20our%20business%20needs.%20Could%20you%20please%20provide%20a%20professional%20consultation%20and%20quote%3F%0A%0AThank%20you!">+86-199-3241-1993</a>
+                        </div>
+                        <div class="footer__contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:sales@woodencabin.com">sales@woodencabin.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__copyright">
+                    <p>&copy; 2024 Wooden Cabin Export. All rights reserved.</p>
+                </div>
+                <div class="footer__links">
+                    <a href="../privacy.html" class="footer__link">Privacy Policy</a>
+                    <a href="../terms.html" class="footer__link">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating CTA Button -->
+    <button class="floating-cta" onclick="window.location.href='mailto:sales@woodencabin.com?subject=B2B Inquiry - Guest Series&body=Dear%20Sales%20Team,%0A%0AI%20am%20interested%20in%20the%20Guest%20Series%20wooden%20cabin%20solution%20for%20our%20business.%20Could%20you%20please%20provide:%0A%0A%E2%80%A2%20Detailed%20product%20specifications%0A%E2%80%A2%20Pricing%20information%0A%E2%80%A2%20Installation%20timeline%0A%E2%80%A2%20Customization%20options%0A%E2%80%A2%20Shipping%20details%20to%20our%20location%0A%0AThank%20you%20for%20your%20professional%20assistance.%0A%0ABest%20regards'" aria-label="Email for quote">
+        <i class="fas fa-comment-dots"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="../assets/js/visual-enhancement-controller.js"></script>    <script src="../assets/js/navigation.js"></script>
+    <script src="../assets/js/cta-tracking.js"></script>
+    <script src="../assets/js/accessibility.js"></script>
+
+    <!-- Analytics (if needed) -->
+    <script>
+        // V8 Website - Version Tracking
+        console.log('Wooden Cabin Homes Website - V8 Architecture');
+        document.documentElement.setAttribute('data-version', 'v8-unified');
+    </script>
+    <!-- V9 Wooden Cabin Website JavaScript Modules -->
+    <script src="../assets/js/core/navigation.js"></script>
+    <script src="../assets/js/core/accessibility.js"></script>
+    <script src="../assets/js/core/form-handler.js"></script>
+    <script src="../assets/js/core/seo-manager.js"></script>
+    <script src="../assets/js/components/gallery.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="avatarGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4682B4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E5A3E;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Circle -->
+  <circle cx="50" cy="50" r="48" fill="url(#avatarGradient)" stroke="#FFFFFF" stroke-width="2"/>
+
+  <!-- Head -->
+  <circle cx="50" cy="35" r="15" fill="#FDBCB4"/>
+
+  <!-- Hair -->
+  <path d="M35 25 Q50 15 65 25 Q65 35 60 40 L40 40 Q35 35 35 25" fill="#8B4513"/>
+
+  <!-- Face Features -->
+  <circle cx="44" cy="33" r="1.5" fill="#000000"/>
+  <circle cx="56" cy="33" r="1.5" fill="#000000"/>
+
+  <!-- Smile -->
+  <path d="M45 40 Q50 43 55 40" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="round"/>
+
+  <!-- Body -->
+  <path d="M35 50 Q50 45 65 50 L65 65 Q50 70 35 65 Z" fill="#C19A6B"/>
+
+  <!-- Suit Tie -->
+  <rect x="47" y="50" width="6" height="15" fill="#2E5A3E"/>
+
+  <!-- Suit Collar -->
+  <path d="M40 50 L50 55 L60 50" stroke="#FFFFFF" stroke-width="1" fill="none"/>
+
+  <!-- Professional Badge -->
+  <circle cx="70" cy="30" r="8" fill="#FFD700"/>
+  <text x="70" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#FFFFFF">✓</text>
+</svg>
